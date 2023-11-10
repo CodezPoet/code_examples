@@ -1,6 +1,6 @@
 <?php
 
-namespace models;
+namespace example;
 
 //  code example of data manipulation for arrays and output
 class CodeExampleTwo
