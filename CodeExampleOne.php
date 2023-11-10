@@ -2,8 +2,13 @@
 
 namespace example;
 
-// code examples for database record operations
-class CodeExampleOne
+/*
+* Code examples for database record operations.
+* Please note: These are put in one class in the example namespace for demonstration purposes
+* In MVC they could be put in a seperate class depending on the CRUD operation in Models for example
+*/
+
+    class CodeExampleOne
 {
 
     // database connection 
