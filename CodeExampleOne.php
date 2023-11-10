@@ -1,6 +1,6 @@
 <?php
 
-namespace models;
+namespace example;
 
 // code examples for database record operations
 class CodeExampleOne
