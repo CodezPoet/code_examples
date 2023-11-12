@@ -46,7 +46,7 @@ namespace example;
             $stmt->execute();
         } catch (\PDOException $e) {
             $obj_message = new Messages();
-            return $obj_message->mtd_query_error($e);;
+            return $obj_message->mtd_query_error($e);
         }
     }
 
