@@ -27,7 +27,7 @@ class CodeExampleThree
             require_once $fullPath;
         });
         $obj_connect = new DbConnect();
-        //   $obj_add_records = new AddRecords();
+        $obj_add_records = new AddRecords();
         $obj_delete_records = new DeleteRecords();
         $obj_update_records = new UpdateRecords();
         $obj_retrieve_records = new RetrieveRecords();
@@ -37,10 +37,6 @@ class CodeExampleThree
         $obj_messages = new Messages();
         $obj_output_adjustment = new OutputAdjustment();
         $obj_sanitize = new Sanitize();
-        $obj_build_array_youtube = new BuildArrayYoutube();
-        $obj_source_youtube = new SourceYoutube();
-        $obj_source_parse_xml = new ParseYoutube();
-        $obj_query_retrieve_records_router = new \controllers\DbResultsRouter();
-        $obj_fashion_search_engine = new \models\FashionSearchEngine();
+        $obj_query_retrieve_records_router = new DbResultsRouter();
     }
 }
