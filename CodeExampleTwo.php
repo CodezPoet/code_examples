@@ -39,7 +39,7 @@ class CodeExampleTwo
         }
     }
 
-    // resultaat uit database voor familie onderhoud in array voor output 
+    // take result from database for family records and organize the data in an array
     function mtd_familie_onderhoud($records)
     {
         $obj_sanitize = new Sanitize();
