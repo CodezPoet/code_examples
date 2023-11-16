@@ -1,10 +1,10 @@
 <?php
 /*
-* Example of a HTML View to show, add, modify, or delete records for family members of a family for an user. Records are grouped by family, with relevant information like adres. 
+* Example of a HTML View to show, add, modify, or delete records for family members of a family for an user. Records are grouped by family, with relevant information like adres
 */
 ?>
-<div class="family-wrapper">
-    <div class="family-list-wrapper">
+<div id="family-wrapper">
+    <div id="family-list-wrapper">
         <?php
         $html = '<div class="familie-container">';
         foreach ($records_list as $adres => $familieinfo) {
