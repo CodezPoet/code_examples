@@ -5,6 +5,7 @@
 * The CSS classes allow for multiple instances on the same page while styling the content (instead of id which allows only one instance on the same page).
 * Adding, modifying, or deleting a record will take the user to a form view, with the data automatically filled from the database if a record exists, otherwise a new unique record can be created
 * The header and footer and other HTML are in other views, where those and this view is loaded in through the Controller depending on the request the user made in the browser.
+* The data in the view comes from the database through the Model, and preparing the data for the view is done in the Controller.
 */
 ?>
 <div class="family-wrapper">
