@@ -19,7 +19,7 @@
             $html .= '<p>' . $adres . '</p>';
             $html .= '</div>';
             unset($familieinfo['familienaam']);
-            $html .= '<h3>Familieleden</h3>';
+            $html .= '<h4>Familieleden</h4>';
             $html .= '<p><a href="' . $url_base_path . '?sectie=familieleden&familie-id=' . $familieinfo['familie_id'] . '&type=toevoegen">Voeg familielid toe</a></p>';
             unset($familieinfo['familie_id']);
             foreach ($familieinfo as $familie) {
