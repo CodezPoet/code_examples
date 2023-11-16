@@ -3,7 +3,7 @@
 * Example of a HTML View to show, add, modify, or delete records for family members of a family by an user. Records are grouped by family with relevant information like adres
 * Clicking on a link to add, edit, or delete loads a relevant form view, where the user can add, delete, or edit the data. 
 * The view is loaded through a controller, and it works with a model to provide the data from the database
-* The view is part of a HTML page content section,in a compilation of Views to build a complete HTML page with proper heading structure for example
+* The view is part of a HTML page content section,in a compilation of Views to build a complete HTML page with proper heading structure, menus, etc, 
 * The HTML of the view passes W3C and WCAG 2.0 Accessibility online validation.
 * The view uses CSS classes and ids as applicable with HTML elements so it can be styled with CSS
 */
