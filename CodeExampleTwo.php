@@ -7,7 +7,7 @@ class CodeExampleTwo
 {
 
     // take information from xml request, sanitize the data, and put it in an array
-    function mtd_xml($xml, $category)
+    function mtd_xml($xml)
     {
         $obj_sanitize = new Sanitize();
         $obj_output_adjustment = new OutputAdjustment();
@@ -26,9 +26,7 @@ class CodeExampleTwo
                 $list[$c]['source_url'] = $source_url;
                 $list[$c]['video_title'] = $video_title;
                 $list[$c]['published'] = $video_published_date;
-                $list[$c]['video_link_original'] = $video_link;
-                $list[$c]['video_link_no_cookie'] = str_replace("https://www.youtube.com/watch?v=", "https://www.youtube-nocookie.com/embed/", $video_link . '?feature=oembed');
-                $list[$c]['category'] = $category;
+                $list[$c]['video_link'] = $video_link;
                 $list[$c]['tags'] = $tags;
             }
         }
