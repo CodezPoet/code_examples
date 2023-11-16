@@ -2,7 +2,6 @@
 /*
 * Example of a HTML View to show, add, modify, or delete records for family members of a family for an user. Records are grouped by family, with relevant information like adres. 
 * The CSS classes(class="") allow for multiple instances on the same page while styling the content (instead of id(id="") which allows only one instance on the same page.
-* Adding, modifying, or deleting a record will take the user to a form view, with the data automatically filled from the database if a record exists, otherwise a new unique record can be created
 */
 ?>
 <div class="family-wrapper">
