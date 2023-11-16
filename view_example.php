@@ -15,7 +15,7 @@
             $html .= '<p>' . $familieinfo['familienaam'] . '</p>';
             $html .= '</div>';
             $html .= '<div class="familie-adres">';
-            $html .= '<h3>Adres</h3>';
+            $html .= '<h4>Familie Adres</h4>';
             $html .= '<p>' . $adres . '</p>';
             $html .= '</div>';
             unset($familieinfo['familienaam']);
@@ -36,8 +36,8 @@
                     $html .= '<td>' . $familielid['persoonsnaam'] . '</td>';
                     $html .= '<td>' . $familielid['geboortedatum'] . '</td>';
                     $html .= ' <td>' .  $familielid['soort_lid'] . '</td>';
-                    $html .= '<td><a href="' . $url_base_path . '?sectie=familieleden&type=aanpassen&id= ' . $familielid['id'] . '">Aanpassen</a></td>';
-                    $html .= '<td><a href="' . $url_base_path . '?sectie=familieleden&type=verwijderen&id=' .  $familielid['id'] . '">Verwijderen</a></td>';
+                    $html .= '<td><a href="' . $url_base_path . '?sectie=familieleden&type=aanpassen&id= ' . $familielid['id'] . '">Familielid Aanpassen</a></td>';
+                    $html .= '<td><a href="' . $url_base_path . '?sectie=familieleden&type=verwijderen&id=' .  $familielid['id'] . '">Familielid Verwijderen</a></td>';
                     $html .= '</tr>';
                 }
                 $html .= '</table>';
