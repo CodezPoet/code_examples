@@ -1,7 +1,6 @@
 <?php
 /*
 * Example of a HTML View to show, add, modify, or delete records for family members of a family for an user. Records are grouped by family, with relevant information like adres. 
-* The CSS classes(class="") allow for multiple instances on the same page while styling the content (instead of id(id="") which allows only one instance on the same page.
 */
 ?>
 <div class="family-wrapper">
