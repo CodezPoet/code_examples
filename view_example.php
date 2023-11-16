@@ -1,11 +1,8 @@
 <?php
 /*
-* Example of a HTML View to show, add, modify, or delete records for family members of a family for an user. 
-* Records are grouped by family, with relevant information like adres. 
+* Example of a HTML View to show, add, modify, or delete records for family members of a family for an user. Records are grouped by family, with relevant information like adres. 
 * The CSS classes(class="") allow for multiple instances on the same page while styling the content (instead of id(id="") which allows only one instance on the same page.
 * Adding, modifying, or deleting a record will take the user to a form view, with the data automatically filled from the database if a record exists, otherwise a new unique record can be created
-* The other HTML like header and footer are in other Views, where those and this View are loaded in through the Controller depending on the request the user made in the browser.
-* The HTML Views can be put in an HTML folder in Views. This to allow for other formats like XML view types, which can use a XML folder in the Views folder
 */
 ?>
 <div class="family-wrapper">
