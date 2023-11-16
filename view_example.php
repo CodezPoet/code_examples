@@ -1,6 +1,7 @@
 <?php
 /*
 * Example of a HTML View to show, add, modify, or delete records for family members of a family for an user. Records are grouped by family, with relevant information like adres
+* The view is part of a HTML page content section, and part of a compilation of Views to build a complete HTML page. 
 * The view passes W3C and WCAG 2.0 Accessibility validation.
 */
 ?>
