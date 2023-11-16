@@ -7,8 +7,7 @@ namespace example;
 * Please note: These are put in one class in the example namespace for demonstration purposes
 * In MVC they could be put in seperate classes depending on the CRUD operation in Models for example
 */
-
-    class CodeExampleOne
+class CodeExampleOne
 {
 
     // database connection 
