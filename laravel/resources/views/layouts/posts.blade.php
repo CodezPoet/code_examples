@@ -1,12 +1,14 @@
 @extends('layouts.master')
 
-@section('title', 'Page Title')
+@section('title', 'Posts')
 
 @section('content')
+
 <div id="data-wrapper">
+   <h2>Posts</h2>
    @foreach ($posts as $post)
    <div class="post">
-      <h2>{{ $post['title']['rendered'] }}</h2>
+      <h3>{{ $post['title']['rendered'] }}</h3>
       {!! $post['content']['rendered'] !!}
    </div>
    @endforeach
