@@ -10,9 +10,7 @@ This to create a headless WordPress where the frontend can be designed in Larave
 .env needs the following information: 
 
 WP_SITE=location website
-
 WP_USERNAME=user name
-
 WP_PASSWORD=user password
 
 
