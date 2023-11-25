@@ -1,3 +1,5 @@
+<?php
+
 **
 * Some websites have stopped using cookies.  
 * With this code the WordPress blog doesn't use cookies for non logged in visitors.
@@ -7,7 +9,6 @@ add_action('init', 'remove_blog_cookies');
 
 function remove_blog_cookies()
 {
-
     if (!is_user_logged_in() && $GLOBALS['pagenow'] != 'wp-login.php') {
         if (!empty($_COOKIE)) {
             foreach ($_COOKIE as $cookie_name => $cookie) {
