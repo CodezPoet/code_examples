@@ -2,8 +2,8 @@
 
 ## Laravel and Headless WordPress Example
 
-The code in this folder is a Laravel code example for interacting with the WordPress REST API. 
-This to create a headless WordPress where the frontend can be designed in Laravel, while the backend keeps using WordPress. 
+The code in this folder is a basiv Laravel code example for interacting with the WordPress REST API. 
+This to create a headless WordPress where the frontend can be designed in Laravel, while the backend keeps using WordPress. It uses Blade templates to display the HTML output.
 
 ## .env
 
