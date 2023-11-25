@@ -2,7 +2,7 @@
 
 ## Under Construction
 
-In this repository there are code examples for Laravel.
+In this directory there are code examples for Laravel.
 
 ## Stack
 
