@@ -1,6 +1,6 @@
 # Laravel Code Example
 
-# Under Construction
+Under Construction
 
 In this repository there are code examples for Laravel.
 
