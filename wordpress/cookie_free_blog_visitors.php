@@ -7,7 +7,7 @@
  */
 add_action('init', 'remove_blog_cookies');
 
-// function for add action to remove blog cookies
+// function for add_action to remove blog cookies
 function remove_blog_cookies()
 {
     if (!is_user_logged_in() && $GLOBALS['pagenow'] != 'wp-login.php') {
