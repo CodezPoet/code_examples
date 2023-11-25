@@ -14,4 +14,3 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('posts', [App\Http\Controllers\PostController::class, 'index'])->name('posts.index');
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
