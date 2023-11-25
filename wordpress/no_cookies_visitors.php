@@ -2,7 +2,7 @@
 * Remove all blog cookies for non logged in visitors
 * While the “cookie law” by the EU was a good idea in theory: in practice
 * it leads to a lot of complicated annoying forms when you visit a website.
-* Some websites have stopped using cookies. 
+* Some websites have stopped using cookies.  
 * With this code the WordPress blog shouldn't use cookies for visitors.
 */
 
