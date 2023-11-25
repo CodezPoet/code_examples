@@ -1,8 +1,8 @@
 # Laravel Code Example
 
-## Laravel WordPress REST API Example
+## Laravel and Headless WordPress REST API Example
 
-The code in this folder is an Laravel code example for interacting with the WordPress REST API. 
+The code in this folder is a basic Laravel code example for interacting with the WordPress REST API. 
 This to create a headless WordPress where the frontend can be designed in Laravel, while the backend keeps using WordPress
 
 ## Stack
