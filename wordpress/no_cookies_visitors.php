@@ -5,7 +5,6 @@
 * Some websites have stopped using cookies.  
 * With this code the WordPress blog shouldn't use cookies for visitors.
 */
-
 add_action('init', 'remove_blog_cookies');
 
 function remove_blog_cookies()
