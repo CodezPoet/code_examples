@@ -4,6 +4,7 @@
  * Some websites have stopped using cookies.  
  * With this code the WordPress blog doesn't use cookies for non logged in visitors.
  * Keep in mind third party content providers like YouTube may still set cookies in embedded content.
+ * Add action to remove blog cookies
  */
 add_action('init', 'remove_blog_cookies');
 
