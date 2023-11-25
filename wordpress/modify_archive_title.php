@@ -1,6 +1,4 @@
-/*
- * Modify archive title for selected categories
- */
+// Modify archive title for selected categories
 add_filter('get_the_archive_title', 'modify_archive_title', 10, 1);
 
 function modify_archive_title($title = '') {
