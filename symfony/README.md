@@ -2,7 +2,7 @@
 
 ## Under Construction
 
-In this repository there are code examples for Symfony.
+In this directory there are code examples for Symfony.
 
 ## Stack
 
