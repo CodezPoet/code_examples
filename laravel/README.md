@@ -5,6 +5,14 @@
 The code in this folder is a basic Laravel code example for interacting with the WordPress REST API. 
 This to create a headless WordPress where the frontend can be designed in Laravel, while the backend keeps using WordPress
 
+## .env
+
+.env needs the following information: 
+
+WP_SITE=location website
+WP_USERNAME=user name
+WP_PASSWORD=user password
+
 ## Stack
 
 In the example Laravel 10 is running on an Apache2 and MySQL in WSL Ubuntu 22 LTS in Windows 10. 
