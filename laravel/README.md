@@ -6,7 +6,7 @@ The code in this folder is a  Laravel code example for interacting with the Word
 This to create a headless WordPress where the frontend can be designed in Laravel, while the backend keeps using WordPress. 
 It uses Blade templates to display the HTML output.
 
-Please note there is no real reason to use Laravel as a frontend for WordPress. It is merely meant as code example and proof of concept. If anything I would advise against it with the exception of certain use cases (if only because the maintenance of keeping both Laravel and WordPress up to date). 
+Please note there is no real reason to use Laravel as a frontend for WordPress in a lot of cases. It is merely meant as code example and proof of concept. If anything I would advise against it with the exception of certain use cases (if only because the maintenance of keeping both Laravel and WordPress up to date). 
 
 ## .env
 
