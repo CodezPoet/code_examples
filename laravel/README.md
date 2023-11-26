@@ -1,4 +1,4 @@
-# Laravel Code Example
+# Laravel 10 Code Example
 
 ## Laravel and Headless WordPress using REST API
 
