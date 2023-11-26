@@ -35,9 +35,3 @@ To compile and build the CSS with Vite run:
 ```
 nvm run build
 ```
-
-## Stack
-WSL Ubuntu 22.04 LTS, Apache2, MySQL, Visual Studio Code, Windows 10
-Please note depending on the stack how to install nvm, Node.js, etc and set it up may vary.
-It is beyond the scope of this code example go into detail of that.
-
