@@ -9,7 +9,8 @@ class WordPress
 
     /**
      * GET posts from WordPress API
-     * Using Mews + HTML Purifier to sanitize HTML 
+     * Using Mews + HTML Purifier to sanitize HTML
+     * 
      */
     function get_posts()
     {
