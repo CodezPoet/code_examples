@@ -14,10 +14,7 @@ class PostController extends Controller
    */
   public function index(Request $request)
   {
-    $response = Http::withBasicAuth(env('WP_USERNAME'), env('WP_PASSWORD'))
-      ->withOptions([
-        'verify' => false,
-      ])->get(env('WP_SITE') . '/wp-json/wp/v2/posts');
+    $response = Http::get(env('WP_SITE') . '/wp-json/wp/v2/posts');
     $posts = $response->json();
     return view('layouts/posts', compact('posts'));
   }
