@@ -36,6 +36,8 @@ nvm run build
 
 **WordPress:** 6.4.1
 
-**Stack:** Please note depending on the stack how to install nvm, Node.js, etc and set it up may vary.
-It is beyond the scope of this code example to list all the different options.
+## Stack
+WSL Ubuntu 22.04 LTS, Apache2, MySQL, Visual Studio Code, Windows 10
+Please note depending on the stack how to install nvm, Node.js, etc and set it up may vary.
+It is beyond the scope of this code example go into detail of that.
 
