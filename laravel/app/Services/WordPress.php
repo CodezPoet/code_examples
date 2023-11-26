@@ -6,7 +6,6 @@ use Illuminate\Support\Facades\Http;
 
 class WordPress
 {
-
     /**
      * GET posts from WordPress API
      * Using Mews + HTML Purifier to sanitize HTML
