@@ -12,7 +12,7 @@
 <body>
     <div id="app">
         <div class="container">
-            <h1>Laravel and WordPress REST API Example</h1>
+            <h1>Laravel and Headless WordPress REST API Example</h1>
             <div class="content">
                 @yield('content')
             </div>
