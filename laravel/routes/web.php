@@ -13,4 +13,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('posts', [App\Http\Controllers\PostController::class, 'index'])->name('posts.index');
+Route::get('archive', [App\Http\Controllers\PostController::class, 'list_posts'])->name('archive.list_posts');
