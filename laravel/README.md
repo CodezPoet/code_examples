@@ -35,3 +35,7 @@ To compile and build the CSS with Vite run:
 ```
 nvm run build
 ```
+
+## Screenshot
+
+![alt text](https://github.com/CodezPoet/code_examples/blob/main/laravel/screenshot_result.png)
