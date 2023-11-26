@@ -6,5 +6,5 @@ These include code snippets to demonstrate various things.
 
 ## Under Construction
 
-Symfony and Microsoft (.NET Core, C#, en ASP) code examples are under construction
+Symfony and Microsoft (.NET Core, C#, en ASP) code examples are under construction, and are scheduled for the common weeks.
 
