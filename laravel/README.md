@@ -7,7 +7,7 @@ This to create a Headless WordPress where the frontend can be designed in Larave
 
 Since HTML output from WordPress can contain HTML, and Laravel does not have a way to deal with allowing this safely out of the box, the package Mews with HTML Purifier is used to purify the output of  HTML.
 
-This code example is proof of concept. It is not an opinion on whether one should use Laravel as frontend for WordPress. There are pros and cons to that. 
+This code example is proof of concept. It is not an opinion on whether one should use Laravel as frontend for WordPress, and in which cases.
 
 ## .env
 
