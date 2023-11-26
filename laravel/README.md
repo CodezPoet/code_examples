@@ -9,21 +9,6 @@ Since HTML output from WordPress can contain HTML, and Laravel does not have a w
 
 This code is a proof of concept which intended use is as a code example to demonstrate Laravel, WordPress, and REST API. It is not an opinion on whether one should use Laravel as frontend for WordPress.
 
-## Versions
-**Laravel:** 10
-
-**WordPress:** 6.4.1
-
-**Stack:** Please note depending on the stack how to install nvm, nodejs, etc and set it up may vary. 
-
-## Build CSS
-
-To compile and build the CSS with Vite run:
-
-```
-nvm run build
-```
-
 ## .env
 
 .env needs the following information: 
@@ -38,4 +23,18 @@ WP_SITE=location website
 :~$ composer require mews/purifier
 ```
 
+## Build CSS
+
+To compile and build the CSS with Vite run:
+
+```
+nvm run build
+```
+
+## Versions
+**Laravel:** 10
+
+**WordPress:** 6.4.1
+
+**Stack:** Please note depending on the stack how to install nvm, nodejs, etc and set it up may vary. 
 
