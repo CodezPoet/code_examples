@@ -19,7 +19,7 @@ This code is a proof of concept which intended use is as a code example to demon
 .env needs the following information: 
 
 ```
-WP_SITE=location website
+WP_SITE=location WordPress Blog
 ```
 
 ## Composer for Mews HTML Purifier
