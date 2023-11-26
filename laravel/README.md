@@ -1,5 +1,7 @@
 # Laravel Code Example
 
+Laravel version: 10
+
 ## Laravel and Headless WordPress using REST API
 
 The code in this folder is a Laravel code example for interacting with the WordPress REST API. 
