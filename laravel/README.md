@@ -13,4 +13,9 @@ This to create Headless WordPress where the frontend can be designed in Laravel,
 WP_SITE=location website
 ```
 
+## composer for Mews HTML Purifier
+
+```
+:~$ composer require mews/purifier
+```
 
