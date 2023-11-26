@@ -25,9 +25,9 @@ WP_SITE=location website
 :~$ composer require mews/purifier
 ```
 
-## Laravel 10
+## Build CSS
 
-To build the CSS with Vite run:
+To compile and build the CSS with Vite run:
 
 ```
 nvm run build
