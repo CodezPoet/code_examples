@@ -1,5 +1,10 @@
 # Laravel Code Example
 
+## Versions
+**Laravel:** 10
+
+**WordPress:** 6.4.1
+
 ## Laravel and Headless WordPress using REST API
 
 The code in this folder is a Laravel code example for interacting with the WordPress REST API. 
@@ -30,11 +35,6 @@ To compile and build the CSS with Vite run:
 ```
 nvm run build
 ```
-
-## Versions
-**Laravel:** 10
-
-**WordPress:** 6.4.1
 
 ## Stack
 WSL Ubuntu 22.04 LTS, Apache2, MySQL, Visual Studio Code, Windows 10
