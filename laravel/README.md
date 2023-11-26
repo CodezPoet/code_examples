@@ -38,4 +38,4 @@ nvm run build
 
 ## Screenshot Result in Browser
 
-![alt text](https://github.com/CodezPoet/code_examples/blob/main/laravel/screenshot_result.png)
+![alt text](https://github.com/CodezPoet/code_examples/blob/main/laravel/screenshot.png)
