@@ -13,5 +13,5 @@ This to create Headless WordPress where the frontend can be designed in Laravel,
 WP_SITE=location website
 ```
 
-**Please note**: this is a code example and as such should not be assumed safe to use in a production environment.
+**Disclaimer**: this is a code example and as such should not be assumed automatically safe to use in a random production environment.
 
