@@ -20,13 +20,15 @@ Besides the Symfony standard installation the Component HTML Sanitizer and Asset
 
 This code is a proof of concept which intended use is as a code example. 
 
-## Composer for Assets
+## Composer 
+
+### Assets
 
 ```
 ~$ composer require symfony/asset
 ```
 
-## Composer for HTML Sanitizer
+### HTML Sanitizer
 
 ```
 :~$ composer require symfony/html-sanitizer
