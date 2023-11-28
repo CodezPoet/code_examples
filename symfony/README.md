@@ -2,7 +2,7 @@
 
 ## Versions
 
-** Symfony: ** 6
+**Symfony:** 6
 
 ## Symfony and Google Search API
 
