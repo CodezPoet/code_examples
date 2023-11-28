@@ -19,6 +19,7 @@ This code is a proof of concept which intended use is as a code example.
 
 ### Screenshot Result in Browser
 
+
 ![screenshot of app result](screenshot_code_example_symfony.png)
 
 
