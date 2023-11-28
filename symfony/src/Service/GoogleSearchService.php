@@ -76,16 +76,16 @@ class GoogleSearchService
             $count = 0;
             foreach ($searchResult['items'] as $items) {
                 $count++;
-                if (isset($items['title']) && !empty($items['title'])) {
+                if (!empty($items['title'])) {
                     $title = $items['title'];
                 }
-                if (isset($items['snippet']) && !empty($items['snippet'])) {
+                if (!empty($items['snippet'])) {
                     $excerpt = $items['snippet'];
                 }
-                if (isset($items['image']['contextLink']) && !empty($items['image']['contextLink'])) {
+                if (!empty($items['image']['contextLink'])) {
                     $link = $items['image']['contextLink'];
                 }
-                if (isset($items['image']['thumbnailLink']) && !empty($items['image']['thumbnailLink'])) {
+                if (!empty($items['image']['thumbnailLink'])) {
                     $image = $items['image']['thumbnailLink'];
                 }
                 if (isset($title) && isset($excerpt) && isset($link) && isset($image)) {
