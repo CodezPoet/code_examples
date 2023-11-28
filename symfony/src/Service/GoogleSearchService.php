@@ -66,7 +66,7 @@ class GoogleSearchService
         }
     }
 
-    // transfer the json output from Google into local array, sanitize it, and select specific data for the application
+    // transfer the json output from Google into local array, and select specific data for the application
     public function resultOutput($logger)
     {
         $searchResult = $this->getSearchResult($logger);
