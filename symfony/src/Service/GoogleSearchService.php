@@ -8,12 +8,13 @@ class GoogleSearchService
     // private variables for the Google API keys
     private $paramGoogleApiKey;
     private $paramGoogleCxKey;
-    
+
     /*
     * __construct the Google API keys. See config/services.yaml for more information
     * about things like configuration and how to set different keys
     */
-    public function __construct(string $googleApiKey, string $googleCxKey) {
+    public function __construct(string $googleApiKey, string $googleCxKey)
+    {
         $this->paramGoogleApiKey = $googleApiKey;
         $this->paramGoogleCxKey = $googleCxKey;
     }
@@ -73,27 +74,25 @@ class GoogleSearchService
         if (false !== $searchResult) {
             $searchResult = json_decode($searchResult, true);
             $count = 0;
-            if (isset($searchResult['items']) && !empty($searchResult['items'])) {
-                foreach ($searchResult['items'] as $items) {
-                    $count++;
-                    if (isset($items['title']) && !empty($items['title'])) {
-                        $title = $items['title'];
-                    }
-                    if (isset($items['snippet']) && !empty($items['snippet'])) {
-                        $excerpt = $items['snippet'];
-                    }
-                    if (isset($items['image']['contextLink']) && !empty($items['image']['contextLink'])) {
-                        $link = $items['image']['contextLink'];
-                    }
-                    if (isset($items['image']['thumbnailLink']) && !empty($items['image']['thumbnailLink'])) {
-                        $image = $items['image']['thumbnailLink'];
-                    }
-                    if (isset($title) && isset($excerpt) && isset($link) && isset($image)) {
-                        $results[$count]['title'] = $title;
-                        $results[$count]['excerpt'] = $excerpt;
-                        $results[$count]['link'] = $link;
-                        $results[$count]['image'] = $image;
-                    }
+            foreach ($searchResult['items'] as $items) {
+                $count++;
+                if (isset($items['title']) && !empty($items['title'])) {
+                    $title = $items['title'];
+                }
+                if (isset($items['snippet']) && !empty($items['snippet'])) {
+                    $excerpt = $items['snippet'];
+                }
+                if (isset($items['image']['contextLink']) && !empty($items['image']['contextLink'])) {
+                    $link = $items['image']['contextLink'];
+                }
+                if (isset($items['image']['thumbnailLink']) && !empty($items['image']['thumbnailLink'])) {
+                    $image = $items['image']['thumbnailLink'];
+                }
+                if (isset($title) && isset($excerpt) && isset($link) && isset($image)) {
+                    $results[$count]['title'] = $title;
+                    $results[$count]['excerpt'] = $excerpt;
+                    $results[$count]['link'] = $link;
+                    $results[$count]['image'] = $image;
                 }
             }
         }
