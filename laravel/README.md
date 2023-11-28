@@ -7,6 +7,11 @@
 
 ## Laravel and Headless WordPress using REST API
 
+### Screenshot Result in Browser
+
+![alt text](https://github.com/CodezPoet/code_examples/blob/main/laravel/screenshot.png)
+
+### Summary
 The code in this folder is a basic Laravel code example for interacting with the WordPress REST API. 
 This to create a Headless WordPress where the frontend can be designed in Laravel, while the backend keeps using WordPress. The output is in HTML with Blade templates.
 
@@ -36,6 +41,3 @@ To compile and build the CSS with Vite run:
 nvm run build
 ```
 
-## Screenshot Result in Browser
-
-![alt text](https://github.com/CodezPoet/code_examples/blob/main/laravel/screenshot.png)
