@@ -12,7 +12,7 @@ It searches with the Google Search Engine for data for a set value (in this case
 
 The Google API Key, and search engine ID are stored seperate from the code, through Symfony Secrets and services.yaml
 The HTML output is checked before output using the Symfony HTML purifier, since dealing with third party data coming from the outside.
- 
+
 This code is a proof of concept which intended use is as a code example. 
 
 ## Screenshot Result in Browser
