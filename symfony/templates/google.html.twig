@@ -2,6 +2,7 @@
 
 {% block title %}Blue Formal Dresses at Macy's{% endblock %}
 {% block body %}
+<h1>Google Search API Result</h1>
     <h2>Blue Formal Dresses at Macy's</h2>
     <div class="search-result-container">
     {% for result in results %}
@@ -12,7 +13,7 @@
             <div class="image">
                 <img src="{{ result.image }}">
             </div>
-            <a href="{{ result.link }}">Check Availability</a>
+            <a rel="nofollow" href="{{ result.link }}">Check Availability</a>
         </div>
     {% endfor %}
     </div>
