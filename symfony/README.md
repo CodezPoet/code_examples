@@ -23,7 +23,7 @@ This code is a proof of concept which intended use is as a code example.
 ## Composer for Assets
 
 ```
-:~$ ~$ composer require symfony/asset
+~$ composer require symfony/asset
 ```
 
 ## Composer for HTML Sanitizer
