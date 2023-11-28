@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Services\WordPressService;
 
-class PostController extends Controller
+class WordPressController extends Controller
 {
   /**
    * List Posts from WordPress
