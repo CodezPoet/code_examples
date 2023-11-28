@@ -59,7 +59,7 @@ class GoogleSearchService
         } else {
             $feedXml = file_get_contents($fileName);
         }
-        if ((is_file($fileName)) && (0 !== filesize($fileName))) {
+        if (is_file($fileName) && 0 !== filesize($fileName)) {
             return $feedXml;
         } else {
             $logger->error('Google Search API error with: method getSearchResult in class GoogleSearchService');
