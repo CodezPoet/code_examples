@@ -4,13 +4,13 @@ namespace App\Services;
 
 use Illuminate\Support\Facades\Http;
 
-class WordPress
+class WordPressService
 {
     /**
      * GET posts from WordPress API
      * Using Mews + HTML Purifier to sanitize HTML
      */
-    function getPosts()
+    function getWordPressPosts()
     {
         $response = Http::get(env('WP_SITE') . '/wp-json/wp/v2/posts');
         $posts = $response->json();
