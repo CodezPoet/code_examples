@@ -6,10 +6,6 @@
 
 ## Symfony and Google Search API
 
-### Screenshot Result in Browser
-
-![screenshot of app result](screenshot_code_example_symfony.png)
-
 ### Summary 
 
 This is a Symfony code example for interacting with the Google Search API with REST and Json. 
@@ -19,6 +15,12 @@ Besides the Symfony standard installation the Component HTML Sanitizer and Asset
 
 
 This code is a proof of concept which intended use is as a code example. 
+
+
+### Screenshot Result in Browser
+
+![screenshot of app result](screenshot_code_example_symfony.png)
+
 
 ## Composer 
 
