@@ -56,7 +56,7 @@ class CodeExampleTwo
                     }
                 }
             }
-            if (false !== $records['familienaam'] && false !== $records['familie_id'] && isset($familieleden)) {
+            if (!empty($records['familienaam']) && !empty($records['familie_id']) && isset($familieleden)) {
                 $familie_overzicht[$records['adres']]['familienaam'] = $records['familienaam'];
                 $familie_overzicht[$records['adres']]['familie_id'] = $records['familie_id'];
                 $familie_overzicht[$records['adres']]['familieleden'][] = $familieleden;
