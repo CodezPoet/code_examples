@@ -49,7 +49,7 @@ class GoogleSearchService
     public function getSearchResult($logger)
     {
         $searchQuery = $this->searchQuery();
-        $searchRunTimer = $this->searchRunTimer();
+        $searchCacheTimer = $this->searchCacheTimer();
         $fileName = '/var/www/html/files/feed_temp.xml';
         $cacheOverride = 0;
         if (14 > $searchCacheTimer || 1 === $cacheOverride) {
