@@ -61,7 +61,7 @@ class GoogleSearchService
         if ((is_file($fileName)) && (0 !== filesize($fileName))) {
             return $feedXml;
         } else {
-            $logger->error('An error occurred with the Google Search API: @getSearchResult');
+            $logger->error('Google Search API error with: method getSearchResult in class GoogleSearchService');
             return false;
         }
     }
@@ -100,7 +100,7 @@ class GoogleSearchService
         if (isset($results)) {
             return $results;
         } else {
-            $logger->error('An error occurred with the Google Search API: @resultOutput');
+            $logger->error('Google Search API error with: method resultOutput in class GoogleSearchService');
             return false;
         }
     }
