@@ -4,7 +4,7 @@
 
 In this repository there are code examples for job applications.
 
-If you have any questions or feedback feel free to contact me.
+If you have any questions or feedback please feel free to contact me here.
 
 
 
