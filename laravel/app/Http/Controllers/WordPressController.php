@@ -15,7 +15,7 @@ class WordPressController extends Controller
     if (false !== ($htmlPurifiedPosts)) {
       return view('layouts/wordpress/archive', compact('htmlPurifiedPosts'));
     } else {
-      return abort('404');
+      return view('layouts/wordpress/error');
     }
   }
 }
