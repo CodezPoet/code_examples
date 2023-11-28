@@ -1,9 +1,5 @@
 # Symfony Code Example
 
-## Version
-
-**Symfony:** 6
-
 ## Symfony and Google Search API
 
 ### Screenshot Result in Browser
@@ -33,4 +29,8 @@ This code is a proof of concept which intended use is as a code example.
 ```
 :~$ composer require symfony/html-sanitizer
 ```
+
+## Version
+
+**Symfony:** 6
 
