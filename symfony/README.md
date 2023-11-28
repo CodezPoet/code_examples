@@ -8,7 +8,7 @@
 
 ### Screenshot Result in Browser
 
-![alt text](screenshot_code_example_symfony.png)
+![screenshot of app result](screenshot_code_example_symfony.png)
 
 ### Summary 
 
