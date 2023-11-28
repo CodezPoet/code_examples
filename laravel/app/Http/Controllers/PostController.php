@@ -2,19 +2,18 @@
 
 namespace App\Http\Controllers;
 
-use App\Services\WordPress;
+use App\Services\WordPressService;
 
 class PostController extends Controller
-{  
+{
   /**
    * List Posts from WordPress
    */
-  function list_posts()
+  function listPosts(WordPressService $objWordpress)
   {
-    $obj_wordpress = new WordPress();
-    $html_purified_posts = $obj_wordpress->get_posts();
-    if (false !== ($html_purified_posts)) {
-      return view('layouts/posts', compact('html_purified_posts'));
+    $htmlPurifiedPosts = $objWordpress->getWordPressPosts();
+    if (false !== ($htmlPurifiedPosts)) {
+      return view('layouts/posts', compact('htmlPurifiedPosts'));
     } else {
       return abort('404');
     }
