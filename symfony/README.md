@@ -1,6 +1,6 @@
 # Symfony Code Example
 
-## Versions
+## Version
 
 **Symfony:** 6
 
