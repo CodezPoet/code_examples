@@ -1,9 +1,10 @@
 /* 
-{lease note: since this is meant as PHP and Symfony code example, 
-just using some simple CSS for screenshot purposes
+Please note: this is meant as Symfony code example, 
+just using some simple CSS for screenshot purposes.
+To design a complete theme is beyond the scope of the example
 
 For a production site for example would do things like responsive CSS 
-or leave it to the frontend developer
+or leave CSS for the design to the frontend developer
 */
 
 body {
