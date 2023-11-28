@@ -37,7 +37,7 @@ class GoogleSearchService
     }
 
     // Set the timer for the cache
-    public function searchRunTimer()
+    public function searchCacheTimer()
     {
         $startTime = strtotime('08:00:00');
         $endTime = strtotime('22:00:00');
@@ -52,7 +52,7 @@ class GoogleSearchService
         $searchRunTimer = $this->searchRunTimer();
         $fileName = '/var/www/html/files/feed_temp.xml';
         $cacheOverride = 0;
-        if (14 > $searchRunTimer || 1 === $cacheOverride) {
+        if (14 > $searchCacheTimer || 1 === $cacheOverride) {
             $feedLink = 'https://www.googleapis.com/customsearch/v1?' . http_build_query($searchQuery);
             $feedXml = file_get_contents($feedLink);
             file_put_contents($fileName, $feedXml);
