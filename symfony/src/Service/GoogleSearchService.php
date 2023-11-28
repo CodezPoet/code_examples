@@ -5,12 +5,25 @@ namespace App\Service;
 
 class GoogleSearchService
 {
+    // private variables for the Google API keys
+    private $paramGoogleApiKey;
+    private $paramGoogleCxKey;
+    
+    /*
+    * __construct the Google API keys. See config/services.yaml for more information
+    * about things like configuration and how to set different keys
+    */
+    public function __construct(string $googleApiKey, string $googleCxKey) {
+        $this->paramGoogleApiKey = $googleApiKey;
+        $this->paramGoogleCxKey = $googleCxKey;
+    }
+
     // Parameters for the search Query for the code example, in a more extensive application would seperate this
-    function searchQuery()
+    public function searchQuery()
     {
         $searchQuery = array(
-            'key' => 'enter API key here',
-            'cx' => 'enter cx key here',
+            'key' => $this->paramGoogleApiKey,
+            'cx' => $this->paramGoogleCxKey,
             'q' => 'blue+dress+clothes+women+store',
             'filter' => 1,
             'gl' => 'countryUS',
@@ -23,7 +36,7 @@ class GoogleSearchService
     }
 
     // Set the timer for the cache
-    function searchRunTimer()
+    public function searchRunTimer()
     {
         $startTime = strtotime('08:00:00');
         $endTime = strtotime('22:00:00');
@@ -32,7 +45,7 @@ class GoogleSearchService
     }
 
     // get the search result from Google through the Google Search API
-    function getSearchResult($logger)
+    public function getSearchResult($logger)
     {
         $searchQuery = $this->searchQuery();
         $searchRunTimer = $this->searchRunTimer();
@@ -54,7 +67,7 @@ class GoogleSearchService
     }
 
     // transfer the json output from Google into local array, sanitize it, and select specific data for the application
-    function resultOutput($logger)
+    public function resultOutput($logger)
     {
         $searchResult = $this->getSearchResult($logger);
         if (false !== $searchResult) {
