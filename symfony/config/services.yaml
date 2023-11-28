@@ -20,8 +20,8 @@ services:
             - '../src/Entity/'
             - '../src/Kernel.php'
 
-    # Add the keys needed for Google API
-    # these were set with Symfony secrets, see:
+    # Add the keys to service.yaml needed for the Google API
+    # The keys were set with Symfony secrets, see:
     # https://symfony.com/doc/current/configuration/secrets.html
     App\Service\GoogleSearchService\:
         resource: '../src/Service'
