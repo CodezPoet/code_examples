@@ -14,3 +14,8 @@ This code is a proof of concept which intended use is as a code example.
 ## Screenshot Result in Browser
 
 ![alt text](screenshot_code_example_symfony.png)
+
+## Links:
+
+** Symfony: https://symfony.com/ **
+** Google Search API: ** https://developers.google.com/custom-search
