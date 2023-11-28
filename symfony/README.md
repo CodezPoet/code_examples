@@ -14,6 +14,8 @@ The App is build according to guidelines and best practices such as Symfony Docu
 
 This code is a proof of concept which intended use is as a code example. 
 
+**Please note:** It is not advised to just copy and paste code into Symfony from here. You may accidentally override your own services.yaml if it is configured differently for example.
+
 ## Screenshot Result in Browser
 
 ![alt text](screenshot_code_example_symfony.png)
