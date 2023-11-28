@@ -21,7 +21,7 @@ class GoogleSearchController extends AbstractController
                 'results' => $results,
             ]);
         } else {
-            $logger->error('An error occurred with the Google Search API: @displayResult');
+            $logger->error('Google Search API error with: method displayResult in class GoogleSearchController');
             return $this->render('search/search_error.html.twig');
         }
     }
