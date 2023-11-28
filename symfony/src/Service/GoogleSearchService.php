@@ -9,8 +9,8 @@ class GoogleSearchService
     function searchQuery()
     {
         $searchQuery = array(
-            'key' => 'AIzaSyAzj8EJi0N-DtQd9JiXDvobKywpQHQtEEs',
-            'cx' => '2551ace5635dd4573',
+            'key' => 'enter API key here',
+            'cx' => 'enter cx key here',
             'q' => 'blue+dress+clothes+women+store',
             'filter' => 1,
             'gl' => 'countryUS',
