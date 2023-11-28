@@ -13,7 +13,7 @@ class WordPressController extends Controller
   {
     $htmlPurifiedPosts = $objWordpress->getWordPressPosts();
     if (false !== ($htmlPurifiedPosts)) {
-      return view('layouts/posts', compact('htmlPurifiedPosts'));
+      return view('layouts/wordpress/archive', compact('htmlPurifiedPosts'));
     } else {
       return abort('404');
     }
