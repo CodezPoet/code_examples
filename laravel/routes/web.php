@@ -13,4 +13,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('archive', [App\Http\Controllers\PostController::class, 'list_posts'])->name('archive.list_posts');
+Route::get('archive', [App\Http\Controllers\WordPressController::class, 'listPosts'])->name('archive.listPosts');
