@@ -5,7 +5,6 @@ namespace example;
 /* 
 * Code example of data manipulation for arrays and output
 * The data is coming from a multiple join query in SQL and needs to be prepared for the wished HTML output
-* The data is sanitized through a seperate method, and if safe is processed and returned. 
 */
 class CodeExampleTwo
 {
