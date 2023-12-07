@@ -16,7 +16,7 @@ class CodeExampleTwo
                 $row = $obj_sanitize->mtd_sfi($row);
                 if (false !== $key && false !== $row) {
                     $records[$key] = $row;
-                    if ('id' == $key || 'persoonsnaam' == $key || 'soort_lid' == $key || 'geboortedatum' == $key) {
+                    if ('id' === $key || 'persoonsnaam' === $key || 'soort_lid' === $key || 'geboortedatum' === $key) {
                         if ('geboortedatum' == $key) {
                             $row = $obj_output_adjustment->mtd_human_readable_date($row);
                         }
