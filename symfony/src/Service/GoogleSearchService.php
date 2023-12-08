@@ -5,7 +5,6 @@ namespace App\Service;
 
 class GoogleSearchService
 {
-
     // @var private variable for the Google API key
     private $paramGoogleApiKey;
     // @var private variable for the Google Search Engine Key
