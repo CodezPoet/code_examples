@@ -1,12 +1,10 @@
 <?php
+namespace Vendor\Path\Examples;
 
-// Path/To/Example/CodeExampleTwo.php
-namespace Path\To\Example;
+use Vendor\Path\Sanitize;
+use Vendor\Path\OutputAdjustment;
 
-use Path\To\Sanitize;
-use Path\To\OutputAdjustment;
-
-class CodeExampleTwo
+class CodeExampleOne
 {
     /*
     * The data is coming from a multiple join query in SQL and needs to be prepared for the wished HTML output
