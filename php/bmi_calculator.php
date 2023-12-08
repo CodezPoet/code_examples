@@ -31,7 +31,7 @@ function bmiCategory($bmi)
 }
 
 // Output as HTML block
-function displayBmiResult($bmi, $bmiCategory, $metricHeight, $metricWeight)
+function bmiResultHtmlBlock($bmi, $bmiCategory, $metricHeight, $metricWeight)
 {
     $html = '<div class="bmi-result">';
     $html .= '<h2>BMI Result</h2>';
