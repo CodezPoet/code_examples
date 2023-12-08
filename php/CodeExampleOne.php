@@ -1,7 +1,9 @@
 <?php
 
-namespace example;
+namespace Path\To\Example;
 
+use Path\To\Messages;
+    
 /*
 * Code examples for database record operations.
 * Please note: These are put in one class in the example namespace for demonstration purposes
