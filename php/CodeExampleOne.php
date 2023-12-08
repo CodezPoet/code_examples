@@ -9,7 +9,7 @@ class CodeExampleOne
 {
     /*
     * The data is coming from a multiple join query in SQL and needs to be prepared for the wished HTML output
-    * Check if the data is safe and if is organize the data in an array for the HTML, else return false 
+    * Check if the data is safe and if is organize the data in an array, else return false 
     */
     public function mtdFamilieOverview($records)
     {
