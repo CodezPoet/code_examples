@@ -18,7 +18,7 @@ class GoogleSearchService
         $this->paramGoogleCxKey = $googleCxKey;
     }
 
-     // Parameters for the search Query for the code example, in a more extensive application would seperate this
+    // Parameters for the search Query for the code example, in a more extensive application would seperate this
     public function searchQuery()
     {
         $searchQuery = array(
