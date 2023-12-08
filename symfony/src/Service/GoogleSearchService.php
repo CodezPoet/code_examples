@@ -62,7 +62,7 @@ class GoogleSearchService
      * 
      * @param mixed $logger
      * 
-     *  @return string|false The search result XML or false on error.
+     * @return string|false The search result XML or false on error.
      */
     public function getSearchResult($logger)
     {
