@@ -6,6 +6,7 @@ use Path\To\Messages;
     
 /*
 * Code examples for database record operations.
+* The error messages are written to a log
 */
 class CodeExampleOne
 {
