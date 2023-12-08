@@ -34,7 +34,6 @@ class CodeExampleOne
             $familieOverzicht[$records['adres']]['familie_id'] = $records['familie_id'];
             $familieOverzicht[$records['adres']]['familieleden'][] = $familieleden;
         }
-
         return $familieOverzicht;
     }
 }
