@@ -3,6 +3,7 @@
 namespace Path\To\Example;
 
 use Path\To\Messages;
+use Path\To\DbConnect;
     
 /*
 * Code examples for database record operations.
