@@ -5,17 +5,12 @@ namespace App\Service;
 
 class GoogleSearchService
 {
-    // @var private variable for the Google API key
     private $paramGoogleApiKey;
-    // @var private variable for the Google Search Engine Key
     private $paramGoogleCxKey;
 
-    /**
+    /*
      * __construct the Google API keys. See config/services.yaml for more information
      * about things like configuration and how to set different keys
-     *
-     * @param string $googleApiKey
-     * @param string $googleCxKey
      */
     public function __construct(string $googleApiKey, string $googleCxKey)
     {
@@ -23,11 +18,7 @@ class GoogleSearchService
         $this->paramGoogleCxKey = $googleCxKey;
     }
 
-    /**
-     * Parameters for the search Query for the code example, in a more extensive application would seperate this
-     * 
-     * @return array The search query parameters.
-     */
+     // Parameters for the search Query for the code example, in a more extensive application would seperate this
     public function searchQuery()
     {
         $searchQuery = array(
@@ -44,11 +35,7 @@ class GoogleSearchService
         return $searchQuery;
     }
 
-    /**
-     * Set the timer for the cache
-     * 
-     * @return int how many hours as result of the times equation
-     */
+    // Set the timer for the cache
     public function searchCacheTimer()
     {
         $startTime = strtotime('08:00:00');
@@ -57,13 +44,7 @@ class GoogleSearchService
         return $totalHours;
     }
 
-    /**
-     * Request the search result from Google through the Google Search API
-     * 
-     * @param mixed $logger
-     * 
-     * @return string|false The search result XML or false on error.
-     */
+    // Request the search result from Google through the Google Search API
     public function getSearchResult($logger)
     {
         $searchQuery = $this->searchQuery();
@@ -85,13 +66,7 @@ class GoogleSearchService
         }
     }
 
-    /**
-     * Transfer the json output from Google into local array, and select specific data for the application
-     * 
-     * @param mixed $logger
-     * 
-     * @return array|false The selected search results or false on error.
-     */
+    // Transfer the json output from Google into local array, and select specific data for the application
     public function resultOutput($logger)
     {
         $searchResult = $this->getSearchResult($logger);
