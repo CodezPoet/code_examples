@@ -24,7 +24,7 @@ function bmiCategory($bmi)
             $bmiCategory =  'Overweight';
             break;
         case ($bmi > 30):
-            $bmiCategory =  'ObeseW';
+            $bmiCategory =  'Obese';
             break;
     }
     return $bmiCategory;
