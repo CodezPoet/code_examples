@@ -9,7 +9,7 @@ class GoogleSearchService
     private $paramGoogleApiKey;
     private $paramGoogleCxKey;
 
-    /*
+    /**
     * __construct the Google API keys. See config/services.yaml for more information
     * about things like configuration and how to set different keys
     */
