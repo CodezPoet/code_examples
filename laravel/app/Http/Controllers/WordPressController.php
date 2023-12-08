@@ -6,9 +6,7 @@ use App\Services\WordPressService;
 
 class WordPressController extends Controller
 {
-  /**
-   * List Posts from WordPress
-   */
+  // List Posts from WordPress   
   function listPosts(WordPressService $objWordpress)
   {
     $htmlPurifiedPosts = $objWordpress->getWordPressPosts();
