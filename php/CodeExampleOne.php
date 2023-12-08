@@ -21,7 +21,7 @@ class CodeExampleOne
             foreach ($record as $key => $row) {
                 $key = $obj_sanitize->mtd_sfi($key);
                 $row = $obj_sanitize->mtd_sfi($row);
-                if (false === $key && false === $row) {
+                if (false === $key || false === $row) {
                     return false;
                 }
                 $records[$key] = $row;
