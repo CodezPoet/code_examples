@@ -8,14 +8,10 @@ use Vendor\Path\OutputAdjustment;
 // Code Example of a Class with a Method
 class CodeExampleOne
 {
-    /**
+    /*
      * Prepare data from a multiple join SQL query for safe HTML output.
-     * 
-     * @see for a screenshot of the HTML output that this prepares: https://github.com/CodezPoet/code_examples/blob/main/php/familieleden_overzicht_screenshot.png
-     * 
-     * @param mixed $records The data from the SQL query.
-     * 
-     * @return array|false If safe for HTML output, returns an array; otherwise, returns false.
+     * If safe for HTML output, returns an array; otherwise, returns false.
+     * For a screenshot of the HTML output that this prepares: https://github.com/CodezPoet/code_examples/blob/main/php/familieleden_overzicht_screenshot.png
      */
     public function mtd_familie_onderhoud($records)
     {
