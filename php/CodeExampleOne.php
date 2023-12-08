@@ -7,7 +7,7 @@ use Path\To\Messages;
 /*
 * Code examples for database record operations.
 * Please note: These are put in one class in the example namespace for demonstration purposes
-* In MVC they could be put in seperate classes depending on the CRUD operation in Models for example
+* In MVC they could be put in seperate classes depending on the CRUD operations for example
 */
 class CodeExampleOne
 {
