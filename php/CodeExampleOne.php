@@ -11,7 +11,7 @@ class CodeExampleOne
     /**
      * Prepare data from a multiple join SQL query for safe HTML output.
      * 
-     *  @see for a screenshot of the HTML output that this prepares: https://github.com/CodezPoet/code_examples/blob/main/php/familieleden_overzicht_screenshot.png
+     * @see for a screenshot of the HTML output that this prepares: https://github.com/CodezPoet/code_examples/blob/main/php/familieleden_overzicht_screenshot.png
      * 
      * @param mixed $records The data from the SQL query.
      * 
