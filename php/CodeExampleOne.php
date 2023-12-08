@@ -5,35 +5,41 @@ namespace Vendor\Path\Examples;
 use Vendor\Path\Sanitize;
 use Vendor\Path\OutputAdjustment;
 
+/**
+ * Code Example of a Class with a Method
+ */
 class CodeExampleOne
 {
-    /*
-    * The data is coming from a multiple join query in SQL and needs to be prepared for the wished HTML output
-    * Check if the data is safe for HTML output and if is organize the data in an array, else return false 
-    */
-    public function mtdFamilieOverview($records)
+    /**
+     * Prepare data from a multiple join SQL query for HTML output.
+     * 
+     * @param mixed $records The data from the SQL query.
+     * 
+     * @return array|false If safe for HTML output, returns an array; otherwise, returns false.
+     */
+    public function mtd_familie_onderhoud($records)
     {
-        $objSanitize = new Sanitize();
-        $objOutputAdjustment = new OutputAdjustment;
+        $obj_sanitize = new Sanitize();
+        $obj_output_adjustment = new OutputAdjustment;
         foreach ($records as $record) {
             foreach ($record as $key => $row) {
-                $key = $objSanitize->mtdSanitizeData($key);
-                $row = $objSanitize->mtdSanitizeData($row);
+                $key = $obj_sanitize->mtd_sfi($key);
+                $row = $obj_sanitize->mtd_sfi($row);
                 if (false === $key && false === $row) {
                     return false;
                 }
                 $records[$key] = $row;
                 if ('id' === $key || 'persoonsnaam' === $key || 'soort_lid' === $key || 'geboortedatum' === $key) {
                     if ('geboortedatum' == $key) {
-                        $row = $objOutputAdjustment->mtdHumanReadableDate($row);
+                        $row = $obj_output_adjustment->mtd_human_readable_date($row);
                     }
                     $familieleden[$key] = $row;
                 }
             }
-            $familieOverzicht[$records['adres']]['familienaam'] = $records['familienaam'];
-            $familieOverzicht[$records['adres']]['familie_id'] = $records['familie_id'];
-            $familieOverzicht[$records['adres']]['familieleden'][] = $familieleden;
+            $familie_overzicht[$records['adres']]['familienaam'] = $records['familienaam'];
+            $familie_overzicht[$records['adres']]['familie_id'] = $records['familie_id'];
+            $familie_overzicht[$records['adres']]['familieleden'][] = $familieleden;
         }
-        return $familieOverzicht;
+        return $familie_overzicht;
     }
 }
