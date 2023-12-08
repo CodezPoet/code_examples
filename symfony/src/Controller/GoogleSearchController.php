@@ -12,16 +12,9 @@ use Symfony\Component\Routing\Annotation\Route;
 // Controller for the Google Search API handling
 class GoogleSearchController extends AbstractController
 {
-    /**
-     * return the search result to the view
-     * 
-     * @param GoogleSearchService $googleSearchService
-     * @param LoggerInterface $logger
-     * 
-     * @return Response
-     */
+    // return the search result to the view
     #[Route('/search/results/google')]
-     function displayResult(GoogleSearchService $googleSearchService, LoggerInterface $logger): Response
+    function displayResult(GoogleSearchService $googleSearchService, LoggerInterface $logger): Response
     {
         $results =  $googleSearchService->resultOutput($logger);
         if (false !== $results) {
