@@ -20,7 +20,7 @@ This code is a proof of concept which intended use is as a code example.
 ### Screenshot Result in Browser
 
 
-![screenshot of app result](screenshot_code_example_symfony.png)
+![screenshot_code_example_symfony.png](https://github.com/CodezPoet/code_examples/blob/main/screenshots/screenshot_code_example_symfony.png)
 
 
 ## Composer 
