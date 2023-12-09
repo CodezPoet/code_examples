@@ -16,7 +16,7 @@ Since HTML output from WordPress can contain HTML, and Laravel does not have a w
 This code is a proof of concept which intended use is as a code example. It is not an opinion on whether one should use Laravel as frontend for WordPress.
 ### Screenshot Result in Browser
 
-![alt text](https://github.com/CodezPoet/code_examples/blob/main/laravel/screenshot.png)
+![screenshot of Laravel code example]((https://github.com/CodezPoet/code_examples/blob/main/screenshots/screenshot_result.png)
 
 
 
