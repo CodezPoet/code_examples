@@ -6,7 +6,7 @@ use Vendor\Path\Sanitize;
 use Vendor\Path\OutputAdjustment;
 
 // Code Example of a Class with a Method
-class ClassExample
+class ClassMethodExample
 {
     /*
      * Prepare data from a multiple join SQL query for safe HTML output.
