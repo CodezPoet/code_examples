@@ -1,7 +1,7 @@
 
 # PHP Code Example
 
-In this directory there are code examples for pure PHP.
+In this directory there are code examples for PHP.
 
 There are code examples for things such as classes, methods, functions, PDO, queries, algorithms, and switches. 
 
