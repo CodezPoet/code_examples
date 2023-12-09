@@ -1,5 +1,5 @@
 
-# PHP Code Example
+# PHP Code Examples
 
 In this directory there are code examples for PHP.
 
