@@ -1,5 +1,6 @@
-<?php
+<?php 
 
+// file with height and weight
 require_once('measurements.php');
 
 // Function to calculate BMI
@@ -36,13 +37,13 @@ function bmiResultMetric($heightMetric = '', $weightMetric = '')
     if (0 < $heightMetric && 4 > $heightMetric && 0 < $weightMetric && 1000 > $weightMetric) {
         $bmi = calculateBMI($weightMetric, $heightMetric);
         $bmiCategory = bmiCategory($bmi);
-        $bmiMetricResult = array(
+        $bmiResult = array(
             'weight_metric' => $weightMetric,
             'height_metric' => $heightMetric,
             'bmi'           => $bmi,
             'bmi_category'  => $bmiCategory,
         );
-        return $bmiMetricResult;
+        return $bmiResult;
     } else {
         return false;
     }
