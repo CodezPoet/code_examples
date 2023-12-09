@@ -3,9 +3,9 @@
 require_once('measurements.php');
 
 // Function to calculate BMI
-function calculateBMI($metricWeight, $metricHeight)
+function calculateBMI($weightMetric, $heightMetric)
 {
-    $bmi = $metricWeight / ($metricHeight * $metricHeight);
+    $bmi = $weightMetric / ($heightMetric * $heightMetric);
     $bmi = number_format($bmi, 2);
     return $bmi;
 }
@@ -15,35 +15,35 @@ function bmiCategory($bmi)
 {
     switch (true) {
         case ($bmi < 18.5):
-            $bmiCategory =  'Underweight';
+            $bmiCategory = 'Underweight';
             break;
         case ($bmi >= 18.5 && $bmi < 25):
-            $bmiCategory =  'Normal weightE';
+            $bmiCategory = 'Normal Weight';
             break;
         case ($bmi >= 25 && $bmi < 30):
-            $bmiCategory =  'Overweight';
+            $bmiCategory = 'Overweight';
             break;
         case ($bmi > 30):
-            $bmiCategory =  'Obese';
+            $bmiCategory = 'Obese';
             break;
     }
     return $bmiCategory;
 }
 
-// Output as HTML block
-function bmiResultHtmlBlock($bmi, $bmiCategory, $metricHeight, $metricWeight)
+// BMI result
+function bmiResultMetric($heightMetric = '', $weightMetric = '')
 {
-    $html = '<div class="bmi-result">';
-    $html .= '<h2>BMI Result</h2>';
-    $html .= '<dl>';
-    $html .= '<dt>Weight:</dt>';
-    $html .= '<dd>' . $metricWeight . 'kg</dd>';
-    $html .= '<dt>Height:</dt>';
-    $html .= '<dd>' . $metricHeight . 'cm</dd>';
-    $html .= '<dt>BMI:</dt>';
-    $html .= '<dd>' . $bmi . '</dd>';
-    $html .= '<dt>BMI Category:</dt>';
-    $html .= '<dd>' . $bmiCategory . '</dd>';
-    $html .= '</div>';
-    return $html;
+    if (0 < $heightMetric && 4 > $heightMetric && 0 < $weightMetric && 1000 > $weightMetric) {
+        $bmi = calculateBMI($weightMetric, $heightMetric);
+        $bmiCategory = bmiCategory($bmi);
+        $bmiMetricResult = array(
+            'weight_metric' => $weightMetric,
+            'height_metric' => $heightMetric,
+            'bmi'           => $bmi,
+            'bmi_category'  => $bmiCategory,
+        );
+        return $bmiMetricResult;
+    } else {
+        return false;
+    }
 }
