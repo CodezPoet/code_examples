@@ -2,7 +2,6 @@
 
 /*
  * Reads from YouTube XML and converts it to array for the fields chosen
- *
  */
 function youtube_interpret_xml($api_url_list, $department_choice)
 {
