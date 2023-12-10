@@ -15,6 +15,7 @@ namespace BloodPressureMeasurements
 
             } while (AskToRunAgain());
         }
+        
         // Input and Output to console
         static (int systolicPressure, int diastolicPressure) GetUserInput()
         {
