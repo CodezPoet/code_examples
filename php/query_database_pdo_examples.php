@@ -6,9 +6,20 @@ require_once('connection.php');
 // show the results for a join on multiple tables
 function show_familie_contributies_records($dbh)
 {
-    $stmt = $dbh->query("SELECT familie.familienaam, contributie.bedrag, contributie.boekjaar FROM familie JOIN familielid ON familielid.familie_id = familie.id JOIN  contributie ON contributie.soort_lid = familielid.soort_lid ORDER BY contributie.boekjaar DESC");
+    $stmt = $dbh->query("
+        SELECT 
+            familie.familienaam, 
+            contributie.bedrag, 
+            contributie.boekjaar 
+        FROM 
+            familie 
+            JOIN familielid ON familielid.familie_id = familie.id 
+            JOIN  contributie ON contributie.soort_lid = familielid.soort_lid 
+        ORDER BY 
+            contributie.boekjaar DESC");
     return $stmt->fetchAll(\PDO::FETCH_ASSOC);
 }
+
 
 // insert record for a table in database
 function add_record_contributie($dbh, $post_vars)
