@@ -10,9 +10,15 @@ namespace BloodPressureMeasurements
         // The Main method
         static void Main()
         {
+            WriteToConsole(); 
+        }
+
+        // Output to console and keep running if user wants to check more measurements
+        static void WriteToConsole()
+        {
             do
             {
-                string showResult = ShowResult();
+              string showResult = ShowResult();
                 Console.WriteLine(showResult);
             } while (AskToRunAgain());
         }
@@ -28,7 +34,7 @@ namespace BloodPressureMeasurements
             return bloodPressureCategory;
         }
 
-        // Get the user input from the console
+        // Get the user blood pressure measurements from the console input
         static (int systolicPressure, int diastolicPressure) GetUserInput()
         {
             int systolicPressure;
