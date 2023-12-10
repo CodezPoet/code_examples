@@ -1,21 +1,15 @@
-<?php if (!defined('ABSPATH')) die('No direct access allowed'); ?>
-<?php
+<?php if (!defined('ABSPATH')) die('No direct access allowed');
 
 /*
-  Plugin Name: WordPress Common Functions Plugin
+  Plugin Name: Featured Image Shortcode Plugin
   Plugin URI: https://github.com/CodezPoet/code_examples/tree/main/wordpress
-  Description: Customization functions that are used theme inspecific
-  Version: 1.4
+  Description: Code example, show a featured image in content through a shortcode in a plugin
   Author: CodezPoet
-  Author URI: https://github.com/CodezPoet/code_examples/tree/main/wordpress
-  Text Domain: wordpress-common-functions
 
-  //
   // Coding standards
-  //
   See: WordPress Coding Standards
 
-  Copyright (C) 2013 
+  Copyright (C) 2013
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
   the Free Software Foundation, either version 3 of the License, or
@@ -28,15 +22,17 @@
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-// error_reporting(0); // Turn off all error reporting
-
 /*
- * Router 
- */
-add_action('init', 'plugin');
-
-function plugin() {
-    require_once('plugin-router.php');
+* Display a featured image url with a shortcode
+* Shortcode: [featured-image-url]
+* Use the shortocde where you want the featured image url 
+*/
+function featured_image_url_shortcode()
+{
+    if (has_post_thumbnail()) {
+        $thumbnail = esc_url(get_the_post_thumbnail_url());
+        return $thumbnail;
+    }
 }
 
-?>
+add_shortcode('featured-image-url', 'featured_image_url_shortcode');
