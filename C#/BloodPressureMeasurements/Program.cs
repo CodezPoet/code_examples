@@ -2,9 +2,11 @@ using System;
 
 namespace BloodPressureMeasurements
 {
+    /// <summary>
+    /// Console program to determine the blood pressure category based on Systolic and Diastolic blood pressure
+    /// </summary>
     internal class Program
     {
-        
         // The Main method
         static void Main()
         {
@@ -16,7 +18,6 @@ namespace BloodPressureMeasurements
 
             } while (AskToRunAgain());
         }
-        
         // Input and Output to console
         static (int systolicPressure, int diastolicPressure) GetUserInput()
         {
@@ -35,7 +36,6 @@ namespace BloodPressureMeasurements
 
             return (systolicPressure, diastolicPressure);
         }
-
 
         // Categories for bloodpressure to be used to calculate blood pressure category
         static void DisplayBloodPressureCategory(int systolicPressure, int diastolicPressure)
