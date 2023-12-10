@@ -1,5 +1,4 @@
 /* SQL Example 1: Joined query */
-
 SELECT tn.custom_field_2, cf.custom_field_3, group_concat(n.custom_field_4 separator ', '), group_concat(nr.custom_field_5 separator ', ')
 FROM database_1.table_1 n
   LEFT JOIN database_1.table_2 tn ON n.nid = tn.nid
