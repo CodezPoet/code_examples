@@ -50,7 +50,6 @@ namespace BloodPressureMeasurements
             return (systolicPressure, diastolicPressure);
         }
 
-
         // Categories for bloodpressure to be used to calculate blood pressure category
         static string DisplayBloodPressureCategory(int systolicPressure, int diastolicPressure)
         {
