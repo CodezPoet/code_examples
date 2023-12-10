@@ -32,6 +32,10 @@ Examples of SQL like queries
 
 Example of MVC PHP OOP in Symfony framework. The example connects with Google Search API to look for fashion, and displays the result in HTML, using Twig templates.
 
+### WordPress
+
+Under Construction
+
 ## Can you code "X" or "Y"?
 
 If there is a certain type of coding example you would like to see please contact me to discuss the possibilities.
