@@ -8,12 +8,12 @@
     {% for result in results %}
         <div class="search-result-item">
             <div class="title">
-                <h3>{{ result.title }}</h3>
+                <h3>{{ result.title|sanitize_html }}</h3>
             </div>
             <div class="image">
-                <img src="{{ result.image }}">
+                <img src="{{ result.image|sanitize_html }}">
             </div>
-            <a rel="nofollow" href="{{ result.link }}">Check Availability</a>
+            <a rel="nofollow" href="{{ result.link|sanitize_html }}">Check Availability</a>
         </div>
     {% endfor %}
     </div>
