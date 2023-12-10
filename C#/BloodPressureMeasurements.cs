@@ -1,11 +1,11 @@
 using System;
 
-namespace BloodPressureMeasurements
+namespace ConsoleCodeExamples
 {
     /// <summary>
     /// Console program to determine the blood pressure category based on Systolic and Diastolic blood pressure
     /// </summary>
-    internal class Program
+    internal class BloodPressureMeasurements
     {
         // The Main method
         static void Main()
