@@ -24,9 +24,17 @@ Examples of PHP code such as classes, methods,  functions, PDO, queries, loops, 
 
 Screenshots of output where applicable
 
+### SQL
+
+Examples of SQL like database design and queries
+
 ### Symfony
 
 Example of MVC PHP OOP in Symfony framework. The example connects with Google Search API to look for fashion, and displays the result in HTML, using Twig templates.
+
+### WordPress
+
+Code examples for WordPress like custom plugin, shortcode, and correct text in posts.
 
 ## Can you code "X" or "Y"?
 
