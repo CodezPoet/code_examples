@@ -9,7 +9,8 @@ function outputNthRowPascalsTriangle($row_number)
     if (0 <= $row_number && 100 >= $row_number) {
         $row = array(1);
         for ($i = 1; $i <= $row_number; $i++) {
-            $next_in_row = $row[$i - 1] * ($row_number - $i + 1) / $i;
+            echo $row[$i - 1]; die;
+            $next_in_row = ($row[$i - 1] * ($row_number - $i + 1)) / $i;
             $row[] = $next_in_row;
         }
         return implode(' ', $row);
