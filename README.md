@@ -1,13 +1,13 @@
 
 # Code Examples 
 
-> "Skateboarding is an art form, a lifestyle, and a sport." Tony Hawk
-
-
 > "Talk is cheap. Show me the code" Linus Torvalds
 
 
 > "Comedians talk to other comedians the way jazz musicians can talk to each other." David Steinberg
+
+
+> "Skateboarding is an art form, a lifestyle, and a sport." Tony Hawk
 
 In this repository there are code examples for job applications.
 
