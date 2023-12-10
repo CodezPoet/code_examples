@@ -22,7 +22,7 @@ Examples of PHP code such as classes, methods,  functions, PDO, queries, loops, 
 
 ### Screenshots
 
-Screenshots of output where applicable
+Directory for screenshots of images used in README.md to show output for example
 
 ### SQL
 
