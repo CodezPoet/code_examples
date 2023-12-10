@@ -13,7 +13,7 @@ namespace BloodPressureMeasurements
             WriteToConsole(); 
         }
 
-        // Output to console and keep running if user wants to check more measurements
+        // Output to console 
         static void WriteToConsole()
         {
             do
