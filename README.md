@@ -9,7 +9,7 @@ In this repository there are code examples for job applications.
 
 ### PHP
 
-Examples of PHP code such as classes, methods,  functions, PDO, queries, loops, and switches. For OOP MVC please code examples in Laravel en Symfony.
+Examples of PHP code such as classes, methods,  functions, PDO, queries, loops, and switches. For MVC please code examples in Laravel en Symfony.
 
 ### Laravel
 
