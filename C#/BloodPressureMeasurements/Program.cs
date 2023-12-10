@@ -10,11 +10,11 @@ namespace BloodPressureMeasurements
         // The Main method
         static void Main()
         {
-            WriteToConsole(); 
+            ConsoleView(); 
         }
 
-        // Output to console 
-        static void WriteToConsole()
+        //  Console view
+        static void ConsoleView()
         {
             do
             {
