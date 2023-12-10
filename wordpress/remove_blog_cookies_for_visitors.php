@@ -1,3 +1,5 @@
+<?php 
+
 /**
  * remove all blog cookies for non logged in visitors
  */
