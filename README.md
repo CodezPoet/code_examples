@@ -18,7 +18,7 @@ Since WordPress results can contain HTML, a HTML Purifier is used to output safe
 
 ### PHP
 
-Examples of PHP code such as classes, methods,  functions, PDO, queries, loops, and switches. For MVC see please code examples in Laravel en Symfony.
+Examples of PHP code such as classes, methods,  functions, PDO, queries, loops, and switches. For MVC please see code examples in Laravel en Symfony.
 
 ### Screenshots
 
