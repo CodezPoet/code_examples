@@ -13,7 +13,7 @@ C# OOP code example. A console program that shows an user their blood pressure c
 
 ### Laravel
 
-Example of OOP MVC PHP in Laravel framework. The example code connects to the WordPress REST API and displays the resulting posts in HTML, using Blade templates.
+Example of MVC OOP PHP in Laravel framework. The example code connects to the WordPress REST API and displays the resulting posts in HTML, using Blade templates.
 Since WordPress results can contain HTML, a HTML Purifier is used to output safely to the browser.
 
 ### PHP
@@ -26,7 +26,7 @@ Screenshots of output where applicable
 
 ### Symfony
 
-Example of OOP MVC PHP in Symfony framework. The example connects with Google Search API to look for fashion, and displays the result in HTML, using Twig templates.
+Example of MVC OOP PHP in Symfony framework. The example connects with Google Search API to look for fashion, and displays the result in HTML, using Twig templates.
 
 ### WordPress
 
