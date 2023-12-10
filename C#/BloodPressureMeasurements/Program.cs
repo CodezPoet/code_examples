@@ -23,17 +23,6 @@ namespace BloodPressureMeasurements
             } while (AskToRunAgain());
         }
 
-        // Return the result for the blood pressure category based on blood pressure
-        static string ShowResult()
-        {
-            int systolicPressure;
-            int diastolicPressure;
-            string bloodPressureCategory;
-            (systolicPressure, diastolicPressure) = GetUserInput();
-            bloodPressureCategory = DisplayBloodPressureCategory(systolicPressure, diastolicPressure);
-            return bloodPressureCategory;
-        }
-
         // Get the user blood pressure measurements from the console input
         static (int systolicPressure, int diastolicPressure) GetUserInput()
         {
@@ -85,6 +74,17 @@ namespace BloodPressureMeasurements
                 bloodPressureCategory = "Normal";
             }
             return categorySentence + bloodPressureCategory;
+        }
+
+        // Return the result for the blood pressure category based on blood pressure
+        static string ShowResult()
+        {
+            int systolicPressure;
+            int diastolicPressure;
+            string bloodPressureCategory;
+            (systolicPressure, diastolicPressure) = GetUserInput();
+            bloodPressureCategory = DisplayBloodPressureCategory(systolicPressure, diastolicPressure);
+            return bloodPressureCategory;
         }
 
         // Ask to run the application again in case want to enter multiple times without closing console
