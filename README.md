@@ -14,25 +14,26 @@ In this repository there are code examples for job applications.
 
 ## Table of Contents
 
-### C#
+### PHP
 
-Contains C# example
+Examples of PHP code such as classes, methods,  functions, PDO, queries, loops, algorithms, and switches.
+For PHP OOP MVC examples please see the Laravel and Symfony code example folders. I have written PHP OOP MVC framework in school for example, however prefer to work with frameworks such as Symfony for things like this. If you have a custom framework, I have experience with working with custom frameworks. Please feel free to discuss the possibilities.
 
 ### Laravel
 
-Example of Laravel with WordPress API, and OOP MVC
-
-### PHP
-
-Examples of PHP  such as classes, methods, functions, PDO, queries, algorithms, and switches.
+Example of OOP MVC in Laravel framework. The example connects to the WordPress REST API and displays the result in HTML.
 
 ### Symfony
 
-Example of Symfony framework with Google Search API, and OOP MVC
+Example of OOP MVC in Symfony framework. The example connects with Google Search API to look for fashion, and displays the result in HTML.
 
 ### WordPress
 
 WordPress code examples
+
+### C#
+
+C# code example. A console program that shows an user their blood pressure category when they enter their blood pressure.
 
 ### Screenshots
 
