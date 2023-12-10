@@ -9,7 +9,7 @@ In this repository there are code examples for job applications.
 
 ### PHP
 
-Examples of PHP code such as classes, methods,  functions, PDO, queries, loops, algorithms, and switches.
+Examples of PHP code such as classes, methods,  functions, PDO, queries, loops, arrays, variables, if statements, and switches.
 
 ### Laravel
 
