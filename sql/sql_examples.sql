@@ -11,7 +11,7 @@ ORDER BY n.date_created DESC
 /* SQL Example 2: Create a view */
 CREATE VIEW `Makeup View` AS
 SELECT ID,post_title, post_content, post_date 
-FROM wp_66qfw1nv3v_posts
+FROM wp_posts
 WHERE post_content LIKE '%makeup%'
 AND post_status = "publish"
 ORDER BY post_date DESC
