@@ -1,6 +1,9 @@
 <?php 
 
-// remove all blog cookies for non logged in visitors
+/* 
+* Remove all blog cookies for non logged in visitors
+* Can be put in functions.php of the active theme being used
+*/
 add_action('init', 'remove_blog_cookies');
 
 function remove_blog_cookies()
