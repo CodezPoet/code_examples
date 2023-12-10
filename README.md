@@ -30,7 +30,7 @@ Example of MVC PHP OOP in Symfony framework. The example connects with Google Se
 
 ### WordPress
 
-WordPress code examples. The example code unsets the blog cookies for visitors so visitors get less cookies, unless a logged in user #freethecookies
+WordPress code examples. The example code unsets the blog cookies for visitors so visitors get less cookies, unless a logged in user #freethecookie
 
 ## Can you code "X" or "Y"?
 
