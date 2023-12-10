@@ -6,7 +6,7 @@
  */
 function youtube_interpret_xml($api_url_list, $department_choice)
 {
-    if (! empty($api_url_list)) {
+    if (!empty($api_url_list)) {
         $i = 0;
         foreach ($api_url_list as $url) {
             $i ++;
