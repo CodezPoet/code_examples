@@ -13,11 +13,11 @@ Examples of PHP code such as classes, methods,  functions, PDO, queries, loops, 
 
 ### Laravel
 
-Example of OOP MVC in Laravel framework. The example connects to the WordPress REST API and displays the result in HTML.
+Example of OOP MVC PHP in Laravel framework. The example connects to the WordPress REST API and displays the resulting posts in HTML, using Blade templates.
 
 ### Symfony
 
-Example of OOP MVC in Symfony framework. The example connects with Google Search API to look for fashion, and displays the result in HTML.
+Example of OOP MVC PHP in Symfony framework. The example connects with Google Search API to look for fashion, and displays the result in HTML, using Twig templates.
 
 ### WordPress
 
@@ -25,7 +25,7 @@ WordPress code examples
 
 ### C#
 
-C# code example. A console program that shows an user their blood pressure category when they enter their blood pressure.
+C# OOP code example. A console program that shows an user their blood pressure category when they enter their blood pressure.
 
 ### Screenshots
 
