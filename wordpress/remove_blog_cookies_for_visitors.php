@@ -1,9 +1,6 @@
 <?php 
 
-/**
- * remove all blog cookies for non logged in visitors
- */
-
+// remove all blog cookies for non logged in visitors
 add_action('init', 'remove_blog_cookies');
 
 function remove_blog_cookies()
