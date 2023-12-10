@@ -14,12 +14,11 @@ function show_familie_contributies_records($dbh)
         FROM 
             familie 
             JOIN familielid ON familielid.familie_id = familie.id 
-            JOIN contributie ON contributie.soort_lid = familielid.soort_lid 
+            JOIN  contributie ON contributie.soort_lid = familielid.soort_lid 
         ORDER BY 
             contributie.boekjaar DESC");
     return $stmt->fetchAll(\PDO::FETCH_ASSOC);
 }
-
 
 // insert record for a table in database
 function add_record_contributie($dbh, $post_vars)
