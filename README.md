@@ -18,7 +18,26 @@ In this repository there are code examples for job applications.
 
 Contains C# example
 
-###
+### Laravel
+
+Example of Laravel with WordPress API, and OOP MVC
+
+### PHP
+
+Examples of PHP  such as classes, methods, functions, PDO, queries, algorithms, and switches.
+
+### Symfony
+
+Example of Symfony framework with Google Search API, and OOP MVC
+
+### WordPress
+
+WordPress code examples
+
+### Screenshots
+
+Screenshots of output where applicable
+
 ## Can you code "X" or "Y"?
 
 If there is a certain type of coding example you would like to see please contact me to discuss the possibilities.
