@@ -17,7 +17,7 @@ SELECT ID,
     post_title,
     post_content,
     LENGTH(post_content) - LENGTH(REPLACE(post_content, 'and', '')) AS and_count
-FROM wp_66qfw1nv3v_posts
+FROM wp_posts
 WHERE post_type = 'post'
   AND post_status = 'publish'
   AND post_content LIKE '%and%'
