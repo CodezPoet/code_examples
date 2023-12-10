@@ -26,6 +26,7 @@
 * Display a featured image url with a shortcode
 * Shortcode: [featured-image-url]
 * Use the shortocde where you want the featured image url 
+* Use <img src="[featured-image-url]" alt="" width="" height=""> to display the image for example
 */
 function featured_image_url_shortcode()
 {
