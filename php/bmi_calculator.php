@@ -1,7 +1,7 @@
 <?php 
 
 // file with height and weight
-require_once('measurements.php');
+require('measurements.php');
 
 // Function to calculate BMI
 function calculateBMI($weightMetric, $heightMetric)
