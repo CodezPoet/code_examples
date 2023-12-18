@@ -7,7 +7,7 @@ use App\Service\Algorithms\ReplacementMethods;
 /**
  * Run algorhitms and organize words and phrases
  */
-class WordAlgoOrg
+class AlgorithmExamples
 {
     /**
      * Construct dependency injection
