@@ -5,7 +5,7 @@ namespace App\Service\Algorithms;
 use App\Service\Algorithms\ReplacementMethods;
 
 /**
- * Run algorhitms and organize words and phrases
+ * Run algorithms and organize words and phrases
  */
 class AlgorithmExamples
 {
