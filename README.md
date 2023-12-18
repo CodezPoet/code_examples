@@ -1,9 +1,11 @@
 
 # Code Examples 
 
+> "Talk is cheap. Show me the code" Linus Torvalds
+
 In this repository there are code examples for job applications.
 
-> "Talk is cheap. Show me the code" Linus Torvalds
+The most recent code is the Symfony folder. This folder has my most recent experience.
 
 ## Table of Contents
 
