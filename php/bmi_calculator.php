@@ -1,3 +1,5 @@
+<?php
+
 // file with height and weight
 require_once('measurements.php');
  
