@@ -5,8 +5,6 @@
 
 In this repository there are code examples for job applications.
 
-The most recent code is the Symfony folder. This folder has my most recent experience.
-
 ## Table of Contents
 
 ### C#
