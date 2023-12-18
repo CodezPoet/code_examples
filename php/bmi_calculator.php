@@ -8,6 +8,7 @@ function calculateBMI($weightMetric, $heightMetric)
 {
     $bmi = $weightMetric / ($heightMetric * $heightMetric);
     $bmi = number_format($bmi, 2);
+   
     return $bmi;
 }
 
@@ -28,6 +29,7 @@ function bmiCategory($bmi)
             $bmiCategory = 'Obese';
             break;
     }
+    
     return $bmiCategory;
 }
 
@@ -43,6 +45,7 @@ function bmiResultMetric($heightMetric = '', $weightMetric = '')
             'bmi'           => $bmi,
             'bmi_category'  => $bmiCategory,
         );
+       
         return $bmiResult;
     } else {
         return false;
