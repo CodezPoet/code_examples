@@ -1,7 +1,7 @@
 <?php
 
 // database connection such as credentials
-require_once('connection.php');
+require('connection.php');
 
 // show the results for a join on multiple tables
 function show_familie_contributies_records($dbh)
