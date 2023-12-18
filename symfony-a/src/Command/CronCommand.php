@@ -2,26 +2,35 @@
 
 namespace App\Command;
 
-use App\Service\ProcessingPhrases\ProcessAi;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
+use App\Service\ProcessingPhrases\ProcessAi;
+use App\Service\ProcessingPhrases\ProcessTwoWordPhrases;
 
+/**
+ * Command for Cron
+ * 
+ * @todo split up the two execute methods and do this better way
+ * 
+ */
 class CronCommand extends Command
 {
     // set property
     private $processAi;
+    private $processTwoWordPhrases;
 
     /**
      * Constructor
      * 
      * @param ProcessAi $processAi
      */
-    public function __construct(ProcessAi $processAi)
+    public function __construct(ProcessAi $processAi, ProcessTwoWordPhrases $processTwoWordPhrases)
     {
         parent::__construct();
 
         $this->processAi = $processAi;
+        $this->processTwoWordPhrases = $processTwoWordPhrases;
     }
 
     /**
@@ -47,12 +56,11 @@ class CronCommand extends Command
      */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
+        $this->processTwoWordPhrases->saveToDatabase();
         $this->processAi->saveToDatabase();
-    
+
         $output->writeln('Save to database successful.');
-    
+
         return Command::SUCCESS;
     }
-    
-
 }
