@@ -3,6 +3,7 @@
 namespace App\Service\ProcessingPhrases;
 
 use Doctrine\ORM\EntityManagerInterface;
+use App\Entity\WpPhrase;
 use App\Service\Algorithms\WordAlgoOrg;
 use App\Service\ProcessingPhrases\ProcessWpRakeWords;
 
@@ -45,6 +46,32 @@ class ProcessTwoWordPhrases
         $dataToStore = $this->wordAlgoOrg->phrasedbDecider($answerList);
 
         return $dataToStore;
+    }
+
+    /**
+     * Save to database if phrases does not exist in database
+     * 
+     * @todo adjust code and move to Repository instead here
+     * 
+     * @return void
+     */
+    public function saveToDatabase()
+    {
+        $dataToStore = $this->prepareForDb();
+        if (!empty($dataToStore)) {
+            foreach ($dataToStore as $data) {
+                $existingEntity = $this->entityManager
+                    ->getRepository(WpPhrase::class)
+                    ->findOneBy(['phrase' => $data]);
+                if (!$existingEntity) {
+                    $yourEntity = new WpPhrase();
+                    $yourEntity->setPhrase($data);
+                    $this->entityManager->persist($yourEntity);
+                }
+            }
+        }
+
+        $this->entityManager->flush();
     }
 
     /**
