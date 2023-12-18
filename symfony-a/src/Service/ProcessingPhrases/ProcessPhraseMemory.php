@@ -39,7 +39,7 @@ class ProcessPhraseMemory
    /**
      * Prepare for storing  in database
      * 
-     * @return array
+     * @return void
      */
     function prepareStorePhrase()
     {
@@ -71,3 +71,4 @@ class ProcessPhraseMemory
 
         return $phrases;
     }
+}
