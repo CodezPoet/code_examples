@@ -36,11 +36,6 @@ class ProcessPhraseMemory
     ) {
     }
 
-    /* workflow: 
-   * wp_content writes to wp_phrase,
-* wp_phrase checks ai_asked, and if not asked already 
-then writes to ai_to_ask, the answer is written in ai_answer
-
    /**
      * Prepare for storing  in database
      * 
