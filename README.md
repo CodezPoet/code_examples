@@ -30,7 +30,7 @@ Examples of SQL like database design and queries
 
 ### Symfony
 
-Example of MVC PHP OOP in Symfony framework. The example connects with Google Search API to look for fashion items with custom parameters such as store, color, type of fashion, and images. The result is then sanitized and displayed using custom Twig templates to build the HTML.
+Example of MVC PHP OOP in Symfony framework, Machine Learning, and AI. The code takes titles from WordPress posts and does analys using algorhytms for logical phrases with AI. For reading and storing data a database is used. A cron Command is used to run it on regular intervals. 
 
 ### WordPress
 
