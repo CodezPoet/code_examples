@@ -17,6 +17,7 @@ function show_familie_contributies_records($dbh)
             JOIN  contributie ON contributie.soort_lid = familielid.soort_lid 
         ORDER BY 
             contributie.boekjaar DESC");
+    
     return $stmt->fetchAll(\PDO::FETCH_ASSOC);
 }
 
