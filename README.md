@@ -1,9 +1,9 @@
 
 # Code Examples 
 
-> "Talk is cheap. Show me the code" Linus Torvalds
-
 In this repository there are code examples for job applications.
+
+> "Talk is cheap. Show me the code" Linus Torvalds
 
 ## Table of Contents
 
