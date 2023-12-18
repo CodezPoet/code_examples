@@ -71,22 +71,3 @@ class ProcessPhraseMemory
 
         return $phrases;
     }
-
-    // 
-   /**
-    * @return User[] Returns an array of User objects
-    */
-  // public function findByCriteres($reqsearch = null)
-  // {
- //      $qb = $this->createQueryBuilder('u');
-//
-       //Create subquery
-      // $sub = $this->createQueryBuilder('z');
-    //   $sub = $sub->innerJoin('z.actions', 'act')
-  //                ->where('z.id = u.id');
-//
-  //      $qb->andWhere($qb->expr()->not($qb->expr()->exists($sub->getDQL())));
-//
-  //      return $qb->getQuery()->getResult();
-//   }
-}
