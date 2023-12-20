@@ -11,11 +11,6 @@ In this repository there are code examples for job applications.
 
 C# OOP code example. A console program that shows an user their blood pressure category when they enter their blood pressure.
 
-### Laravel
-
-Example of MVC PHP OOP in Laravel framework. The example code connects to the WordPress REST API and displays the resulting posts in HTML, using custom Blade templates.
-Since WordPress results can contain HTML a HTML Purifier is used to output safely to the browser.
-
 ### PHP
 
 Examples of PHP code such as classes, methods,  functions, PDO, queries, loops, and switches. For MVC please see code examples in Laravel en Symfony.
