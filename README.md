@@ -5,13 +5,17 @@ In this repository there are code examples for job applications.
 
 ## Table of Contents
 
+### .NET Core
+
+Examples of OOP MVC apps in .NET Core, C#, SQL, and Razor. First example shows a simple website with jokes database, user registration and login, CRUD and search operations. 
+
 ### C#
 
 C# OOP code example. A console program that shows an user their blood pressure category when they enter their blood pressure.
 
 ### PHP
 
-Examples of PHP code such as classes, methods,  functions, PDO, queries, loops, and switches. For MVC please see code examples in Laravel en Symfony.
+Examples of PHP code such as classes, methods,  functions, PDO, queries, loops, and switches. For PHP MVC please see code examples in Symfony.
 
 ### Screenshots
 
