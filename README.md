@@ -7,7 +7,7 @@ In this repository there are code examples for job applications.
 
 ### .NET Core
 
-Examples of OOP MVC apps in .NET Core, C#, SQL, and Razor. First example shows a simple website with jokes database, user registration and login, CRUD and search operations. 
+Examples of OOP MVC apps in .NET Core, C#, and SQL. First example shows a simple website with jokes database, user registration and login, CRUD and search operations. 
 
 ### C#
 
