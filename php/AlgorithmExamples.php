@@ -55,9 +55,7 @@ class AlgorithmExamples
         foreach ($answerList as $string) {
             $string = trim($string);
             if (3 <= strlen($string) && 50 >= strlen($string) && 2 === str_word_count($string)) {
-                if (substr($string, 0, 6) !== "makeup") {
-                    $results[] = $string;
-                }
+                $results[] = $string;
             }
         }
 
@@ -65,13 +63,13 @@ class AlgorithmExamples
     }
 
     /**
-     * Find keywords
+     * Make keywords from phrase
      *
      * @param array $words
      * 
      * @return array
      */
-    public function makekeyWords($words)
+    public function makeKeyWords($words)
     {
         $result = [];
         $count_words = count($words);
