@@ -9,7 +9,7 @@ use App\Service\Algorithms\ReplacementMethods;
  */
 class AlgorithmExamples
 {
-    /**
+  /**
      * Construct dependency injection
      * 
      * @param  private
@@ -42,7 +42,7 @@ class AlgorithmExamples
 
     /**
      * 
-     * Prepare for checking if phrase occurs in database already
+     * Prepare for checking if two word phrase occurs in database already
      * before checking with AI
      *
      * @param array $answerList
@@ -53,9 +53,8 @@ class AlgorithmExamples
     {
         $results = [];
         foreach ($answerList as $string) {
-            $string = trim($string);
             if (3 <= strlen($string) && 50 >= strlen($string) && 2 === str_word_count($string)) {
-                $results[] = $string;
+                $results[] = trim($string);
             }
         }
 
