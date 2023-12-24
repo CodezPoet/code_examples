@@ -9,7 +9,7 @@ use App\Service\Algorithms\ReplacementMethods;
  */
 class AlgorithmExamples
 {
-  /**
+    /**
      * Construct dependency injection
      * 
      * @param  private
