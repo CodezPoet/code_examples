@@ -34,7 +34,7 @@ class WpPhraseRepository extends ServiceEntityRepository
      * 
      * @return void
      */
-    public function saveFromArray(array $data)
+    public function saveFromArray(array $data): void
     {
         foreach ($data as $item) {
             $existingEntity = $this->findOneBy(['phrase' => $item]);
