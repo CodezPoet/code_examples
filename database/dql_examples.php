@@ -23,7 +23,7 @@ class RecordsTransactionRepository extends ServiceEntityRepository
 
     /**
      * Show results from the records table 
-     * and additional fields needed from joined tables
+     * and additional fields from joined tables
      * 
      * @return array
      */
