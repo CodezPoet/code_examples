@@ -8,6 +8,5 @@ A simple OOP MVC web app in C# en .NET Core that has a database of jokes. It has
 
 ![screenshot of JokeWebApp example login form](https://github.com/CodezPoet/code_examples/blob/main/screenshots/jokewebapp_login.png)
 
-## 2. Under Construction
 
 
