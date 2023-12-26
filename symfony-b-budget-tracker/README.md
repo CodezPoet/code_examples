@@ -10,7 +10,5 @@ Screenshots of various views made with Twig templates
 ![screenshot of Symfony code example](https://github.com/CodezPoet/code_examples/blob/main/screenshots/symfony_budget_tracker_code_example_screenshot.png)
 ## View: Create a new records for the records table
 ![screenshot of Symfony code example](https://github.com/CodezPoet/code_examples/blob/main/screenshots/symfony_budget_tracker_code_example__record_form_screenshot.png)
-## View: Show details of a record
-![screenshot of Symfony code example](https://github.com/CodezPoet/code_examples/blob/main/screenshots/symfony_budget_tracker_code_example__record_form_screenshot.png)
 ## View: Login form for application
 ![screenshot of Symfony code example](https://github.com/CodezPoet/code_examples/blob/main/screenshots/symfony_budget_tracker_code_example__login_form_screenshot.png)
