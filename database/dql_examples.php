@@ -7,7 +7,7 @@ use Doctrine\Persistence\ManagerRegistry;
 use App\Entity\RecordsTransaction;
 
 /**
- * DQL Query Examples
+ * Doctrine DQL Query Examples
  */
 class RecordsTransactionRepository extends ServiceEntityRepository
 {
