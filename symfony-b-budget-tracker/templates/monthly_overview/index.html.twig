@@ -1,0 +1,58 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello MonthlyOverviewController!
+{% endblock %}
+
+{% block body %}
+	<div class="example-wrapper">
+		<h2>{{ selectedMonth }}
+			Monthly Overview</h2>
+		<div id="sidebar">
+			<nav class="navbar navbar-nav navbar-dark bg-light">
+				<h3>Months</h3>
+				<div id="monthLinks">
+					{{ knp_menu_render(monthMenu) }}
+				</div>
+			</nav>
+		</div>
+		<div id="main-overview-content" class="m-2">
+			<h3>Transactions in {{ selectedMonth }}</h3>
+			<table class="table">
+				<thead>
+					<tr>
+						<th>Name Transaction</th>
+						<th>Payee Name</th>
+						<th>Payment Day</th>
+						<th>Amount</th>
+					</tr>
+				</thead>
+				<tbody>
+					{% set totalAmount = 0 %}
+					{% for result in results %}
+
+						<tr>
+							<td>{{ result.nameTransaction }}</td>
+							<td>{{ result.payee_name }}</td>
+							<td>{{ result.payment_day }}</td>
+							<td>{{ result.bedrag }}</td>
+							{% set totalAmount = totalAmount + result.bedrag %}
+						</tr>
+					{% else %}
+						<tr>
+							<td colspan="3">no records found</td>
+						</tr>
+					{% endfor %}
+					<tr>
+						<td colspan="3">
+							<strong>Total for
+								{{ selectedMonth }}:</strong>
+						</td>
+						<td>
+							<strong>{{ totalAmount }}</strong>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+{% endblock %}

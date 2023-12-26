@@ -1,0 +1,32 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Category List
+{% endblock %}
+
+{% block body %}
+	<h2>Category List</h2>
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Category Name</th>
+				<th>Actions</th>
+			</tr>
+		</thead>
+		<tbody>
+			{% for category_transaction in category_transactions %}
+				<tr>
+					<td>{{ category_transaction.categoryName }}</td>
+					<td>
+						<a href="{{ path('app_category_transaction_show', {'id': category_transaction.id}) }}">Show</a>
+						<a href="{{ path('app_category_transaction_edit', {'id': category_transaction.id}) }}">Edit</a>
+					</td>
+				</tr>
+			{% else %}
+				<tr>
+					<td colspan="2">no records found</td>
+				</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+	<a class="btn btn-primary m-2" href="{{ path('app_category_transaction_new') }}">Create New</a>
+{% endblock %}

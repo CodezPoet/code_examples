@@ -1,0 +1,32 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Payee List
+{% endblock %}
+
+{% block body %}
+	<h2>Payee List</h2>
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Payee Name</th>
+				<th>Actions</th>
+			</tr>
+		</thead>
+		<tbody>
+			{% for payee_transaction in payee_transactions %}
+				<tr>
+					<td>{{ payee_transaction.payeeName }}</td>
+					<td>
+						<a href="{{ path('app_payee_transaction_show', {'id': payee_transaction.id}) }}">Show</a>
+						<a href="{{ path('app_payee_transaction_edit', {'id': payee_transaction.id}) }}">Edit</a>
+					</td>
+				</tr>
+			{% else %}
+				<tr>
+					<td colspan="2">no records found</td>
+				</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+	<a class="btn btn-primary m-2" href="{{ path('app_payee_transaction_new') }}">Create New</a>
+{% endblock %}

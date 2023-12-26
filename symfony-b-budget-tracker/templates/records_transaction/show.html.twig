@@ -1,0 +1,35 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Show Records
+{% endblock %}
+
+{% block body %}
+	<h2>Show Records</h2>
+	<table class="table">
+		<tbody>
+			<tr>
+				<th>Name Transaction</th>
+				<td>{{ records_transaction.nameTransaction }}</td>
+			</tr>
+			<tr>
+				<th>Bedrag</th>
+				<td>{{ records_transaction.bedrag }}</td>
+			</tr>
+			<th>Periods</th>
+			<td>
+				{% for period in records_transaction.getPeriodName() %}
+					{{ period.getPeriodName() }}
+					{% if not loop.last %},
+					{% endif %}
+				{% endfor %}
+			</td>
+			<tr>
+				<th>Payment Day</th>
+				<td>{{ records_transaction.paymentDay}}</td>
+			</tr>
+		</tbody>
+	</table>
+	<a class="btn btn-primary m-2" href="{{ path('app_records_transaction_index') }}">Back to List</a>
+	<a h class="btn btn-primary m-2" ref="{{ path('app_records_transaction_edit', {'id': records_transaction.id}) }}">Edit</a>
+	{{ include('records_transaction/_delete_form.html.twig') }}
+{% endblock %}
