@@ -49,11 +49,11 @@ class WpPhraseRepository extends ServiceEntityRepository
     }
 
     /**
-     * Get the top x (20) records that haven't been asked before
+     * Get the x (20) records that haven't been asked before
      * 
      * @return array
      */
-    public function findTopXPhrasesNotAsked(): array
+    public function findXPhrasesNotAsked(): array
     {
         return $this->createQueryBuilder('wp_phrase')
             ->select('wp_phrase.phrase')
