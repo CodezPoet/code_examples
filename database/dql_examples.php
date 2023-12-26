@@ -6,13 +6,27 @@ use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 use App\Entity\RecordsTransaction;
 
+/**
+ * DQL Query Examples
+ */
 class RecordsTransactionRepository extends ServiceEntityRepository
 {
+    /**
+     * Construct
+     * 
+     * @param ManagerRegistry $registry
+     */
     public function __construct(ManagerRegistry $registry)
     {
         parent::__construct($registry, RecordsTransaction::class);
     }
 
+    /**
+     * Show results from the records table 
+     * and additional fields needed from joined tables
+     * 
+     * @return array
+     */
     public function findCustomData(): array
     {
         $query = $this->getEntityManager()->createQuery('
@@ -32,6 +46,16 @@ class RecordsTransactionRepository extends ServiceEntityRepository
         return $query->getResult(\Doctrine\ORM\Query::HYDRATE_ARRAY);
     }
 
+    /**
+     * Show results from the records table and other tables 
+     * based on the Period name chosen e.g. month name
+     * Join several tables to get all the data needed
+     * Use parameter functionality for protection and security 
+     * 
+     * @param string $periodName
+     * 
+     * @return array
+     */
     public function findByPeriodName(string $periodName): array
     {
         $query = $this->getEntityManager()->createQuery('
