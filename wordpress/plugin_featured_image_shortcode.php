@@ -23,7 +23,7 @@
  */
 
 /*
-* Example of a simple plugin
+* Example of a simple plugin and custom shortcode
 *
 * Display a featured image url with a shortcode
 * Shortcode: [featured-image-url]
