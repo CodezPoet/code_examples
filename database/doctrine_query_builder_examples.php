@@ -49,7 +49,7 @@ class WpPhraseRepository extends ServiceEntityRepository
     }
 
     /**
-     * Get the x (20) records that haven't been asked before
+     * Get the x records that haven't been asked before
      * 
      * @return array
      */
