@@ -73,7 +73,6 @@ class RecordsTransactionRepository extends ServiceEntityRepository
             ORDER BY r.id ASC
         ');
         $query->setParameter('periodName', $periodName);
-
         $records = $query->getResult(\Doctrine\ORM\Query::HYDRATE_ARRAY);
 
         return $records;
