@@ -33,7 +33,7 @@ class RecordsTransactionRepository extends ServiceEntityRepository
             SELECT 
                 r.id,
                 r.nameTransaction,
-                r.bedrag,
+                r.amount,
                 r.payment_day,
                 p.payee_name,
                 q.period_name
@@ -62,7 +62,7 @@ class RecordsTransactionRepository extends ServiceEntityRepository
             SELECT 
             r.id,
             r.nameTransaction,
-            r.bedrag,
+            r.amount,
             r.payment_day,
             q.payee_name,
             p.period_name
