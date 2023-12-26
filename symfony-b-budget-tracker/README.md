@@ -8,10 +8,11 @@ Example of MVC PHP OOP in Symfony framework, Machine Learning, and AI. The code 
 
 Screenshots of various views made with Twig templates
 
+## Montly overview
 ![screenshot of Symfony code example](https://github.com/CodezPoet/code_examples/blob/main/screenshots/symfony_budget_tracker_code_example_screenshot.png)
-
+## Create a new records for the records table
 ![screenshot of Symfony code example](https://github.com/CodezPoet/code_examples/blob/main/screenshots/symfony_budget_tracker_code_example__record_form_screenshot.png)
-
+## Show details of a record
 ![screenshot of Symfony code example](https://github.com/CodezPoet/code_examples/blob/main/screenshots/symfony_budget_tracker_code_example__record_form_screenshot.png)
-
+## Login form for application
 ![screenshot of Symfony code example](https://github.com/CodezPoet/code_examples/blob/main/screenshots/symfony_budget_tracker_code_example__login_form_screenshot.png)
