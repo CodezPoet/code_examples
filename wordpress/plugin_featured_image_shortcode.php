@@ -23,6 +23,8 @@
  */
 
 /*
+* Example of a simple plugin
+*
 * Display a featured image url with a shortcode
 * Shortcode: [featured-image-url]
 * Use the shortocde where you want the featured image url 
