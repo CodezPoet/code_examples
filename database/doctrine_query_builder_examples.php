@@ -53,7 +53,7 @@ class WpPhraseRepository extends ServiceEntityRepository
      * 
      * @return array
      */
-    public function findTop20PhrasesNotAsked(): array
+    public function findTopXPhrasesNotAsked(): array
     {
         return $this->createQueryBuilder('wp_phrase')
             ->select('wp_phrase.phrase')
