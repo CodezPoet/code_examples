@@ -7,7 +7,7 @@ There are code examples for things such as classes, methods, functions,  algorit
 
 ## PHP PDO
 
-For things like database queries using PDO, please see the database folder code examples: https://github.com/CodezPoet/code_examples/tree/main/database
+For things like database queries using PDO, [please see the database folder code examples],(https://github.com/CodezPoet/code_examples/tree/main/database)
 
 ## PHP MVC 
 
