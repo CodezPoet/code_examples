@@ -3,7 +3,7 @@
 
 In this directory there are code examples for PHP.
 
-There are code examples for things such as classes, methods, functions, PDO, queries, algorithms, and switches. 
+There are code examples for things such as classes, methods, functions,  algorithms, and switches. 
 
 ## PHP PDO
 
