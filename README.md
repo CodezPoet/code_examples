@@ -3,6 +3,20 @@
 
 In this repository there are code examples for job applications.
 
+Code Review Guidelines
+
+"Good fences make good neighbors" Robert Frost
+
+
+1.    Constructive criticism and feedback is always welcome. I love to learn
+ 2.   If you see a bug or mistake, please be so kind to report it, I am happy to fix it. I go through code examples with a fine tooth comb, but I make mistakes, and I still learn everyday
+ 3.   I know where I am good at coding, and where I need to learn and improve. I am happy to do so, and looking to help each other improve, and where that is encouraged.
+4.    If after code review you see issues, or where I can learn, if not too much, let me know, I love to improve, and it helps me.
+5.    It is appreciated if I can see code examples of the developer reviewing my code. I like to know what level a developer is at that is judging my code for a company.
+6.    I expect a profesional demeanor, and to treat each other as professionals. 
+7.    Just because something isn't in the code example doesn't mean I don't know it, or that I can't learn it. It is hard to decide what code to add, and what not. I have tried to make an overview of what code level I am at. At the same time I have other obligations, and there is a limit to what I can do. Sometimes I get a feeling of "never good enough". Basically: just ask, and happy to look for you and discuss together the possibilities.
+8 Just because I do something different than you doesn't mean it is wrong or lesser than the way you code, and vice versa. In coding, like PHP for example, there can be different ways to do things, all can be valid, more or less. I adhere to coding standards like PSR and W3C. If the job has certain requirements or a certain way of doing things, I am happy to discuss, why a certain way was chosen, versus the way you work for example. Doesn't mean I am not willing to learn or adjust, just maybe that projects I worked on had a certain way of doing things.
+  
 ## Table of Contents
 
 ### .NET Core
