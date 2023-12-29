@@ -15,7 +15,7 @@ In this repository there are code examples for job applications.
 5.    I expect a profesional demeanor, and to treat each other as professionals. 
 6.    Just because something isn't in the code example doesn't mean I don't know it, or that I can't learn it. It is hard to decide what code to add, and what not. At the same time I have other obligations, and there is a limit to what I can do, timewise for example.
 7. Just because I do something different than you doesn't mean it is wrong or lesser than the way you code, and vice versa. In coding, like PHP for example, there can be different ways to do things, all can be valid, more or less. I adhere to coding standards like PSR and W3C. If the job has certain requirements or a certain way of doing things, I am happy to discuss, why a certain way was chosen, versus the way you work for example. Doesn't mean I am not willing to learn or adjust, just maybe that projects I worked on had a certain way of doing things.
-8. "Never good enough", or expect me know everything without investing in me learning. I am happy to learn on the job. You forget when I work for you I invest my time in your company too. Let's not waste each other's time then.
+8. "Never good enough", or expect me know everything without investing in me learning: I am not interested, let's not waste each other's time then. I am happy to learn on a job, within reason. 
   
 ## Table of Contents
 
