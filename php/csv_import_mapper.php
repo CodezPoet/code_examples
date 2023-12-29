@@ -65,7 +65,7 @@ $dataImportList = convertToDesiredFormat($recordsData, $columnMapping);
  * 
  * @return array
  */
-function processCsVData(mixed $fileHandle, string $delimiter): array
+function processCsvData(mixed $fileHandle, string $delimiter): array
 {
     $countRow = 0;
     $records = [];
