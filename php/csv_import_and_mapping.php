@@ -1,6 +1,6 @@
 <?php
 
-/**
+**
  * CSV to Database Mapping
  *
  *  This code example imports and converts a specific CSV to a custom mapping for a Database
@@ -8,6 +8,11 @@
  *  It selects only the columns chosen, and array values are given column names for the keys
  *  It checks the data if it is safe to import, and if not it can log an error for that record, 
  *  does not add that record, and proceeds to evaluate the next record
+ * 
+ * There are different ways to make this, like OOP for example, for the sake of
+ * the code example and simplicty putting it in one file was chosen. I do plan
+ * to implement this in Symfony or .Net Core, and will put a link of that code example
+ * with this then
  */
 
 // require sanitizer to check data is safe for import
