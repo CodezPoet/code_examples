@@ -3,7 +3,7 @@
 
 In this repository there are code examples for job applications.
 
-Code Review Guidelines
+## Code Review Guidelines
 
 "Good fences make good neighbors" Robert Frost
 
