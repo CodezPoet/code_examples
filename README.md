@@ -15,9 +15,10 @@ I go through code examples with a fine tooth comb, but I make mistakes, and I st
 3. It is appreciated if I can see code examples of the developer reviewing my code. I like to know what level a developer is at that is judging my code for a company.
 4. I expect a profesional demeanor, and to treat each other as  professionals. Go fanboy and feel superior somewhere else. Period, end of discussion.
 5. Just because something isn't in the code example doesn't mean I don't know it, or that I can't learn it. It is hard to decide what code to add, and what not. 
-I have tried to make an overview of what code level I am at. At the same time I have other obligations, and there is a limit to what I can do.
+I have tried to make an overview of what code level I am at. At the same time I have other obligations, and there is a limit to what I can do. Sometimes I get
+a feeling of "never good enough", and I am not okay with that feeling. 
 Basically: just ask, and happy to look for you and discuss together the possibilities.
-6. Just because I do something different than you doesn't mean it is wrong or lesser than the way you code, and vice versa.
+7. Just because I do something different than you doesn't mean it is wrong or lesser than the way you code, and vice versa.
 In coding, like PHP for example, there can be different ways to do things, all can be valid, more or less. 
 I adhere to coding standards like PSR and W3C. If the job has certain requirements I am happy to discuss. 
 
