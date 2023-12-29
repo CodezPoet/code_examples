@@ -3,7 +3,7 @@
 
 In this repository there are code examples for job applications.
 
-## Some Code Review Rules
+## Code Review Guidelines
 
 1. Constructive criticism and feedback is always welcome. I love to learn
 2. If you see a bug or mistake, please be so kind to report it, I am happy to fix it. 
