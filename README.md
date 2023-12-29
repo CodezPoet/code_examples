@@ -10,7 +10,7 @@ In this repository there are code examples for job applications.
 I go through code examples with a fine tooth comb, but I make mistakes, and I still learn everyday
 3. I know where I am good at coding, and where I need to learn and improve. I am happy to do so, and looking to help each other improve, and where that is encouraged.
 4. If after code review you see issues, or where I can learn, if not too much, let me know, I love to improve, and it helps me, thank you.
-3. It is appreciated if I can see code examples of the developer reviewing my code ( I respect a competent developer, unfortunately the definition of competent varies)...
+3. It is appreciated if I can see code examples of the developer reviewing my code. I like to know what level a developer is at that is judging my code (for a company).
 4. I expect a profesional demeanor, and to treat each other as  professionals. Go fanboy and feel superior somewhere else. Period, end of discussion.
 5. Just because something isn't in the code example doesn't mean I don't know it, or that I can't learn it. It is hard to decide what code to add, and what not. 
 I have tried to make an overview of what code level I am at. At the same time I have other obligations, and there is a limit to what I can do.
