@@ -7,7 +7,7 @@ In this repository there are code examples for job applications.
 
 1. Constructive criticism and feedback is always welcome. I love to learn
 2. If you see a bug or mistake, please be so kind to report it, I am happy to fix it. 
-I go through code with a fine tooth comb, but I make mistakes, and I still learn everyday
+I go through code examples with a fine tooth comb, but I make mistakes, and I still learn everyday
 3. I know where I am good at coding, and where I need to learn and improve. I am happy to do so, and looking to help each other improve, and where that is encouraged.
 4. If after code review you see issues, or where I can learn, if not too much, let me know, I love to improve, and it helps me, thank you.
 3. It is appreciated if I can see code examples of the developer reviewing my code ( I respect a competent developer, unfortunately the definition of competent varies)...
@@ -15,12 +15,9 @@ I go through code with a fine tooth comb, but I make mistakes, and I still learn
 5. Just because something isn't in the code example doesn't mean I don't know it, or that I can't learn it. It is hard to decide what code to add, and what not. 
 I have tried to make an overview of what code level I am at. At the same time I have other obligations, and there is a limit to what I can do.
 Basically: just ask, and happy to look for you and discuss together the possibilities.
-6. Just because I do something different than you doesn't mean it is wrong or lesser than the way you code, and vice versa
+6. Just because I do something different than you doesn't mean it is wrong or lesser than the way you code, and vice versa.
 In coding, like PHP for example, there can be different ways to do things, all can be valid, more or less. 
 I adhere to coding standards like PSR and W3C. If the job has certain requirements I am happy to discuss. 
-8. Open Source developers are used to being scrappy, crappy documentation, and "scratching our own itch", we in general take pride in quality of code, are eager, etc. 
-We have made Open Source one of the most succesful software on the planet. Just because someone doesn't have a "classical IT" education doesn't mean they can't be a good coder or whatever. 
-If you look down on Open Source developers then why do you even want to hire them?
 
 ## Table of Contents
 
