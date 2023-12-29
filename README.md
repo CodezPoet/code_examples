@@ -7,6 +7,8 @@ In this repository there are code examples for job applications.
 
 After some bad experiences adding some code review rules, if that makes me look negative, so be it,
 you don't know some of the crap I have to deal with, and I am fed up with it. 
+If these rules means you want to hire someone else: go hire someone else. 
+I have a lot of positive experiences but I am sick of some of the crap in this sector. 
 
 1. It is appreciated if I can see code examples of the developer reviewing my code, so that I can see what level they are at, and if their critcism is valid
 2. Constructive criticism and feedback is always welcome. I love to learn
@@ -29,8 +31,6 @@ I am looking for an employer willing to bring me up to speed, and willing to inv
 Just because someone doesn't have a "classical IT" education doesn't mean they can't be a good coder or whatever. If you look 
 down on Open Source developers then why do you even want to hire them? 
 
-If these rules means you want to hire someone else: go hire someone else. 
-I have a lot of positive experiences but I am sick of some of the crap in this sector. 
 
 ## Table of Contents
 
