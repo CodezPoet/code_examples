@@ -5,11 +5,6 @@ In this repository there are code examples for job applications.
 
 ## Some Code Review Rules
 
-While having a lot of positive experiences unfortunately having too many negative experiences, and adding some code review rules.
-I have been coding for years, a degree in coding, a multitude of succesful projects and collaborations, participated in Open Source communities for decades, 
-yet get treated like an absolute noob garbage sometimes by some 2 year Laravel developer that doesn't know code from his ars, and thinks he is hot sh*t for example. 
-So, since you don't have some simple manners, some rules:
-
 1. Constructive criticism and feedback is always welcome. I love to learn
 2. If you see a bug or mistake, please be so kind to report it, I am happy to fix it. 
 I go through code with a fine tooth comb, but I make mistakes, and I still learn everyday
