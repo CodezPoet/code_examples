@@ -12,6 +12,15 @@ Different frameworks, cms, and projects can use different coding conventions. So
 - [WordPress Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/)
 - [PHP PSR Coding Standards](https://www.php-fig.org/psr/)
 - [W3C Coding Standards](https://www.w3.org/)
+
+## Versions Code Examples were made
+
+- PHP: 8.*
+- Symfony: 6.* LTS
+- WordPress: 6.*
+- Laravel: 10.*
+- .NET Core: 8.*
+- C#: 12.*
   
 ## Table of Contents Code Examples
 
