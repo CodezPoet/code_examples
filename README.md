@@ -1,7 +1,7 @@
 #  Table of Contents Code Examples
 
 - [Coding Convention](#coding-convention)
-- [Design Principles]
+- [Design Principles and Patterns](#design-principles-patterns)
 - [Versions Code Examples were made](#versions-code-examples-were-made) 
 - [Code Examples](#code-examples)
 - [Can you code "X" or "Y"?](#can-you-code-x-or-y)
