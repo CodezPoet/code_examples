@@ -10,7 +10,7 @@ Different frameworks, cms, and projects can use different coding conventions. So
 - [Symfony Coding Standards](https://symfony.com/doc/current/contributing/code/standards.html)
 - [Laravel Coding Standards](https://laravel.com/docs/10.x/contributions#coding-style) 
 - [WordPress Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/)
-- [PSR Coding Standards](https://www.php-fig.org/psr/)
+- [PHP PSR Coding Standards](https://www.php-fig.org/psr/)
 - [W3C Coding Standards](https://www.w3.org/)
   
 ## Table of Contents Code Examples
