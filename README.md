@@ -15,6 +15,7 @@ Different frameworks, cms, and projects can use different coding conventions. So
 - [WordPress Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/)
 - [PHP PSR Coding Standards](https://www.php-fig.org/psr/)
 - [W3C Coding Standards](https://www.w3.org/)
+- [.Net C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)
 
 ## Versions Code Examples were made
 
