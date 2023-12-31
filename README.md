@@ -11,6 +11,17 @@ While these conventions are applied here, I am adaptable in style if a certain p
   
 ## Table of Contents
 
+- [.NET Core](#net-core)
+- [C#](#c)
+- [PHP](#php)
+- [Screenshots](#screenshots)
+- [Database](#database)
+- [Laravel](#laravel)
+- [Symfony](#symfony)
+- [WordPress](#wordpress)
+- [Can you code "X" or "Y"?](#can-you-code-x-or-y)
+- [Bugs/ Errors/Feedback](#bugs-errors-feedback)
+
 ### .NET Core
 
 Examples of OOP MVC apps in .NET Core, C#, and SQL. First example shows a simple website with jokes database, user registration and login, CRUD and search operations. 
