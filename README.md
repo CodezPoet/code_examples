@@ -22,18 +22,7 @@ Different frameworks, cms, and projects can use different coding conventions. So
 - .NET Core: 8
 - C#: 12
   
-## Table of Contents Code Examples
-
-- [.NET Core](#net-core)
-- [C#](#c)
-- [PHP](#php)
-- [Screenshots](#screenshots)
-- [Database](#database)
-- [Laravel](#laravel)
-- [Symfony](#symfony)
-- [WordPress](#wordpress)
-- [Can you code "X" or "Y"?](#can-you-code-x-or-y)
-- [Bugs/ Errors/Feedback](#bugs-errors-feedback)
+## Code Examples
 
 ### .NET Core
 
