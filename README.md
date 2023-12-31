@@ -28,11 +28,21 @@ Different frameworks, cms, and projects can use different coding conventions. So
   
 ## Code Examples
 
-### .NET Core
+### Database
+
+Examples of SQL, PDO, Doctrine (DQL and Query Builder), and database design
+
+### Laravel
+
+The code in this folder is a basic Laravel code example for interacting with the WordPress REST API. This to create a Headless WordPress where the frontend can be designed in Laravel, while the backend keeps using WordPress. The output is in HTML with Blade templates.
+
+### Microsoft
+
+#### .NET Core
 
 Examples of OOP MVC apps in .NET Core, C#, and SQL. First example shows a simple website with jokes database, user registration and login, CRUD and search operations. 
 
-### C#
+#### C#
 
 C# OOP code example. A console program that shows an user their blood pressure category when they enter their blood pressure.
 
@@ -43,14 +53,6 @@ Examples of PHP code such as classes, methods,  functions, loops, and switches. 
 ### Screenshots
 
 Directory for screenshots of images used in README.md to show output for example
-
-### Database
-
-Examples of SQL, PDO, Doctrine (DQL and Query Builder), and database design
-
-### Laravel
-
-The code in this folder is a basic Laravel code example for interacting with the WordPress REST API. This to create a Headless WordPress where the frontend can be designed in Laravel, while the backend keeps using WordPress. The output is in HTML with Blade templates.
 
 ### Symfony
 
