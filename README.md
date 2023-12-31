@@ -78,7 +78,7 @@ Code examples for WordPress like custom plugin, shortcode, and correct text in p
 If there is a certain type of coding example you would like to see please contact me to discuss the possibilities.
 May well be that I know how, or that I can learn it. I like to learn things such as code and frameworks, and to keep developing myself.
 
-## Bugs/ Errors/Feedback
+## Bugs/ Errors/ Feedback
 
 While I do my best to present code examples, if there is a bug or error it are appreciated if you let me know. 
 Constructive criticism and feedback is welcome. 
