@@ -3,9 +3,11 @@
 
 In this repository there are code examples for job applications. 
 
-## Coding Convention 
+## Coding Convention/ Style 
 
 Different frameworks, cms, and projects can use different coding conventions. Some examples may use different coding conventions, however within each example a consistent coding style was chosen.   
+
+While these conventions are applied here, I am adaptable in style if a certain project prefers a different style. Consistency within a project is crucial, and I am committed to adhering to the established conventions.
   
 ## Table of Contents
 
@@ -53,6 +55,10 @@ Code examples for WordPress like custom plugin, shortcode, and correct text in p
 If there is a certain type of coding example you would like to see please contact me to discuss the possibilities.
 May well be that I know how, or that I can learn it. I like to learn things such as code and frameworks, and to keep developing myself.
 
+## Bugs/ Errors/Feedback
+
+While I do my best to present code examples, if there is a bug or error it is appreciated if you let me know. 
+Constructive criticism and feedback is welcome. 
 
 
 
