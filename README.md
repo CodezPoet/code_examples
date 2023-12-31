@@ -20,6 +20,8 @@ Different frameworks, cms, and projects can use different coding conventions. So
 
 ## Design Methodology
 
+The below I have experience with or in the process of learning
+
 - [PHP Design Patterns](https://refactoring.guru/design-patterns/php)
 - [SOLID](https://en.wikipedia.org/wiki/SOLID)
 - [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming)
