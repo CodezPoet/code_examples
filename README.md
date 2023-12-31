@@ -10,12 +10,12 @@
 
 Different frameworks, cms, and projects can use different coding conventions. Some examples may use different coding conventions, however within each example a consistent coding style was chosen. Currently in the process of updating some examples. In general the following coding conventions are used in the code examples:
 
+- [PHP PSR Coding Standards](https://www.php-fig.org/psr/)
+- [.NET C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)
+- [W3C Coding Standards](https://www.w3.org/)
 - [Symfony Coding Standards](https://symfony.com/doc/current/contributing/code/standards.html)
 - [Laravel Coding Standards](https://laravel.com/docs/10.x/contributions#coding-style) 
 - [WordPress Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/)
-- [PHP PSR Coding Standards](https://www.php-fig.org/psr/)
-- [W3C Coding Standards](https://www.w3.org/)
-- [.NET C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)
 
 ## Versions Code Examples were made
 
