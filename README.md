@@ -14,7 +14,7 @@ Different frameworks, cms, and projects can use different coding conventions. So
 - [.NET C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)
 - [W3C Coding Standards](https://www.w3.org/)
 - [Symfony Coding Standards](https://symfony.com/doc/current/contributing/code/standards.html)
-- [Laravel Coding Standards](https://laravel.com/docs/10.x/contributions#coding-style) 
+- [Laravel Coding Style](https://laravel.com/docs/10.x/contributions#coding-style) 
 - [WordPress Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/)
 
 ## Versions Code Examples were made
