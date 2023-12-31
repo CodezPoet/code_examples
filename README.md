@@ -31,6 +31,15 @@ The below I have experience with or in the process of learning
 - [Database Design Basics](https://support.microsoft.com/en-us/office/database-design-basics-eb2159cf-1e30-401a-8084-bd4f9c9ca1f5)
 - [Database Design Principles](https://www.oreilly.com/library/view/access-database-design/0596002734/ch04.html)
 
+## Development Environment
+
+- IDE: Visual Studio Code, Visual Studio 2022
+- Server: Apache2, Lightspeed, IIS
+- OS: Windows 10 with Linux on Windows: Ubuntu 22 LTS WSL
+- Database: MySQL/MariaDB, phpMyAdmin, SQl Server, Azure Data Studio, SQL Server Management Studio, 
+- MS Office programming: Word, Excel, Access (using Visual Studio)
+- Other Tools: Git, Composer, Microsoft Office, Terminal, SSH, Cpanel, ChatGPT, various plugins for IDE and frameworks (e.g. Entity, Doctrine), various Connectors for database interconnectivity (e.g. MySql .Net Class Library by Oracle)
+  
 ## Versions Code Examples were made
 
 - PHP: 8
@@ -39,16 +48,7 @@ The below I have experience with or in the process of learning
 - Laravel: 10
 - .NET Core: 8
 - C#: 12
-- 
-## Development Environment
-
-- IDE: Visual Studio Code, Visual Studio 2022
-- Server: Apache2, Lightspeed, IIS
-- OS: Windows 10 using Ubuntu 22 LTS WSL
-- Database: MySQL/MariaDB, SQl Server, Azure Data Studio, SQL Server Management Studio, PhPMyAdmin
-- MS Office programming: Word, Excel, Access (using Visual Studio)
-- Other Tools: Git, Composer, Microsoft Office, Terminal, SSH, Cpanel, ChatGPT, various plugins for IDE and frameworks (e.g. Entity, Doctrine), various Connectors for database interconnectivity (e.g. MySql .Net Class Library by Oracle)
-  
+    
 ## Code Examples
 
 ### Database
