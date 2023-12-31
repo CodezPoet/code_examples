@@ -8,10 +8,10 @@ In this repository there are code examples for job applications.
 Different frameworks, cms, and projects can use different coding conventions. Some examples may use different coding conventions, however within each example a consistent coding style was chosen. In general for frameworks like Symfony the Symfony Coding Convention is used.
 
 - [Symfony Coding Standards] (https://symfony.com/doc/current/contributing/code/standards.html)
--[Laravel Coding Standards] (https://laravel.com/docs/10.x/contributions#coding-style) 
--[WordPress Coding Standards] (https://developer.wordpress.org/coding-standards/wordpress-coding-standards/)
--[PSR Coding Standards] (https://www.php-fig.org/psr/)
--[W3C Coding Standards] (https://www.w3.org/)
+- [Laravel Coding Standards] (https://laravel.com/docs/10.x/contributions#coding-style) 
+- [WordPress Coding Standards] (https://developer.wordpress.org/coding-standards/wordpress-coding-standards/)
+- [PSR Coding Standards] (https://www.php-fig.org/psr/)
+- [W3C Coding Standards] (https://www.w3.org/)
 
 While these conventions are applied here, I am adaptable in style if a certain project prefers a different style. Consistency within a project is crucial, and I am committed to adhering to the established conventions.
   
