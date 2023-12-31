@@ -1,7 +1,7 @@
 #  Table of Contents Code Examples
 
 - [Coding Convention](#coding-convention)
-- [Design Principles and Patterns](#design-principles-patterns)
+- [Design Methodology](#design-methodology)
 - [Versions Code Examples were made](#versions-code-examples-were-made) 
 - [Code Examples](#code-examples)
 - [Can you code "X" or "Y"?](#can-you-code-x-or-y)
@@ -18,7 +18,7 @@ Different frameworks, cms, and projects can use different coding conventions. So
 - [Laravel Coding Style](https://laravel.com/docs/10.x/contributions#coding-style) 
 - [WordPress Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/)
 
-## Design Principles and Patterns
+## Design Methodology
 
 - [PHP Design Patterns](https://refactoring.guru/design-patterns/php)
 - [SOLID](https://en.wikipedia.org/wiki/SOLID)
