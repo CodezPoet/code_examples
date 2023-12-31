@@ -51,7 +51,7 @@ Examples of PHP code such as classes, methods,  functions, loops, and switches. 
 
 Directory for screenshots of images used in README.md to show output for example
 
-### Databae
+### Database
 
 Examples of SQL, PDO, Doctrine (DQL and Query Builder), and database design
 
