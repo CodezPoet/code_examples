@@ -17,6 +17,15 @@ Different frameworks, cms, and projects can use different coding conventions. So
 - [Laravel Coding Style](https://laravel.com/docs/10.x/contributions#coding-style) 
 - [WordPress Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/)
 
+## Design Principles and Patterns
+
+- [PHP Design Patterns](https://refactoring.guru/design-patterns/php)
+- [SOLID](https://en.wikipedia.org/wiki/SOLID)
+- [OOP{(https://en.wikipedia.org/wiki/Object-oriented_programming)
+- [MVC](https://nl.wikipedia.org/wiki/Model-view-controller-model)
+- [Agile](https://leansixsigmagroep.nl/en/lean-agile-and-six-sigma/what-is-agile/)
+-- [Scrum](https://www.scrum.org/resources/what-scrum-module)
+  
 ## Versions Code Examples were made
 
 - PHP: 8
