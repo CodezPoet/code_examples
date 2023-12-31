@@ -18,7 +18,7 @@ Different frameworks, cms, and projects can use different coding conventions. So
 - [Laravel Coding Style](https://laravel.com/docs/10.x/contributions#coding-style) 
 - [WordPress Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/)
 
-## Design Principles
+## Design Principles and Patterns
 
 - [PHP Design Patterns](https://refactoring.guru/design-patterns/php)
 - [SOLID](https://en.wikipedia.org/wiki/SOLID)
