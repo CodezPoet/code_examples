@@ -15,7 +15,7 @@ C# OOP code example. A console program that shows an user their blood pressure c
 
 ### PHP
 
-Examples of PHP code such as classes, methods,  functions, PDO, queries, loops, and switches. For PHP MVC please see code examples in Symfony.
+Examples of PHP code such as classes, methods,  functions, loops, and switches. For PHP MVC please see code examples in Laravel and Symfony.
 
 ### Screenshots
 
