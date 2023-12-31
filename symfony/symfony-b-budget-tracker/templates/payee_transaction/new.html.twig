@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New PayeeTransaction
+{% endblock %}
+
+{% block body %}
+	<h2>Create New Payee</h2>
+	{{ include('payee_transaction/_form.html.twig') }}
+	<a class="btn btn-primary m-2" href="{{ path('app_payee_transaction_index') }}">Back to List</a>
+{% endblock %}

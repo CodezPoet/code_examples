@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Edit Payee
+{% endblock %}
+
+{% block body %}
+	<h2>Edit Payee</h2>
+	{{ include('payee_transaction/_form.html.twig', {'button_label': 'Update'}) }}
+	<a class="btn btn-primary m-2" href="{{ path('app_payee_transaction_index') }}">Back to List</a>
+	{{ include('payee_transaction/_delete_form.html.twig') }}
+{% endblock %}

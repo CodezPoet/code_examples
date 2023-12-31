@@ -1,0 +1,32 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Year List
+{% endblock %}
+
+{% block body %}
+	<h2>Year List</h2>
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Year</th>
+				<th>Actions</th>
+			</tr>
+		</thead>
+		<tbody>
+			{% for year_transaction in year_transactions %}
+				<tr>
+					<td>{{ year_transaction.year }}</td>
+					<td>
+						<a href="{{ path('app_year_transaction_show', {'id': year_transaction.id}) }}">Show</a>
+						<a href="{{ path('app_year_transaction_edit', {'id': year_transaction.id}) }}">Edit</a>
+					</td>
+				</tr>
+			{% else %}
+				<tr>
+					<td colspan="2">no records found</td>
+				</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+	<a class="btn btn-primary m-2" href="{{ path('app_year_transaction_new') }}">Create New</a>
+{% endblock %}

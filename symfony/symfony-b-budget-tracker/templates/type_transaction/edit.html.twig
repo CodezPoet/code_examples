@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Edit Type
+{% endblock %}
+
+{% block body %}
+	<h2>Edit Type
+	</h2>
+	{{ include('type_transaction/_form.html.twig', {'button_label': 'Update'}) }}
+	<a class="btn btn-primary m-2" href="{{ path('app_type_transaction_index') }}">Back to List</a>
+	{{ include('type_transaction/_delete_form.html.twig') }}
+{% endblock %}

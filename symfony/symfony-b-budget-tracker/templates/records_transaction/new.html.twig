@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New RecordsTransaction
+{% endblock %}
+
+{% block body %}
+	<h2>Create New Records</h2>
+	{{ include('records_transaction/_form.html.twig') }}
+	<a class="btn btn-primary m-2" href="{{ path('app_records_transaction_index') }}">Back to List</a>
+{% endblock %}

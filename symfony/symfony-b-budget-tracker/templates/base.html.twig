@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>
+			{% block title %}Budget Tracker
+			{% endblock %}
+		</title>
+		<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>">
+		{% block stylesheets %}
+			{{ encore_entry_link_tags('app') }}
+			{{ ux_controller_link_tags() }}
+		{% endblock %}
+
+		{% block javascripts %}
+			{{ encore_entry_script_tags('app') }}
+			{% block importmap %}
+				{{ importmap('app') }}
+			{% endblock %}
+		{% endblock %}
+	</head>
+
+	<body>
+		<div id="content-wrapper" class="m-4">
+			<h1>Budget Tracker</h1>
+
+			{% if is_granted('IS_AUTHENTICATED_FULLY') %}
+				<nav class="navbar navbar-inline m-2 navbar-dark bg-light">
+					{{ knp_menu_render('main') }}
+				</nav>
+				<div class="body-block-wrapper m-4">
+					<p>
+						<strong>Date Today:</strong>
+						{{ "now"|date("F d, Y") }}
+					</p>
+				{% endif %}
+				{% block body %}{% endblock %}
+			</div>
+		</div>
+	</body>
+
+</html>

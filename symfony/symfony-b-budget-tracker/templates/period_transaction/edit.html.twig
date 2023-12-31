@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Edit Period{% endblock %}
+
+{% block body %}
+    <h2>Edit Period</h2>
+    {{ include('period_transaction/_form.html.twig', {'button_label': 'Update'}) }}
+    <a class="btn btn-primary m-2"  href="{{ path('app_period_transaction_index') }}">Back to List</a>
+    {{ include('period_transaction/_delete_form.html.twig') }}
+{% endblock %}
