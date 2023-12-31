@@ -1,7 +1,5 @@
 #  Table of Contents Code Examples
 
-In this repository there are code examples for job applications. 
-
 - [Coding Convention](#coding-convention)
 - [Versions Code Examples were made](#versions-code-examples-were-made) 
 - [Code Examples](#code-examples)
