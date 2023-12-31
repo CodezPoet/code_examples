@@ -37,7 +37,7 @@ The below I have experience with or in the process of learning
 - IDE: Visual Studio Code, Visual Studio 2022
 - Server: Apache2, Lightspeed, IIS
 - OS: Windows 10 with Linux on Windows: Ubuntu 22 LTS WSL
-- Database: MySQL/MariaDB, phpMyAdmin, SQl Server, Azure Data Studio, SQL Server Management Studio, 
+- Database: MySQL/MariaDB, phpMyAdmin, Microsoft SQl Server, Azure Data Studio, SQL Server Management Studio, 
 - MS Office programming: Word, Excel, Access (using Visual Studio)
 - Other Tools: Git, Composer, Microsoft Office, Terminal, SSH, Cpanel, ChatGPT, various plugins for IDE and frameworks (e.g. Entity, Doctrine), various Connectors for database interconnectivity (e.g. MySql .Net Class Library by Oracle)
   
