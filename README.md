@@ -25,7 +25,8 @@ Different frameworks, cms, and projects can use different coding conventions. So
 - [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming)
 - [MVC](https://nl.wikipedia.org/wiki/Model-view-controller-model)
 - [Agile](https://leansixsigmagroep.nl/en/lean-agile-and-six-sigma/what-is-agile/)
-  
+- [Software Development Philosophies](https://en.wikipedia.org/wiki/List_of_software_development_philosophies)
+- 
 ## Versions Code Examples were made
 
 - PHP: 8
