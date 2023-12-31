@@ -5,7 +5,7 @@ In this repository there are code examples for job applications.
 
 - [Coding Convention](#coding-convention)
 - [Versions Code Examples were made](#versions-code-examples-were-made) 
-- [Code Example](#code-examples)
+- [Code Examples](#code-examples)
 - [Can you code "X" or "Y"?](#can-you-code-x-or-y)
 - [Bugs/ Errors/Feedback](#bugs-errors-feedback)
 
