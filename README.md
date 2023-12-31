@@ -79,7 +79,7 @@ Code examples for WordPress like custom plugin, shortcode, and correct text in p
 - OS: Windows 10 with Linux on Windows: Ubuntu 22 LTS WSL
 - Database: SQL (MySQL, MariaDB, MS SQL), MySQL Server, phpMyAdmin, Microsoft SQL Server, Microsoft Azure Data Studio, Microsoft SQL Server Management Studio
 - MS Office programming: Word, Excel, Access (using Visual Studio)
-- Other Tools: Git, Composer, Terminal, Nano, SSH, cPanel, ChatGPT, various plugins for IDE and frameworks (e.g. Entity, Doctrine), various Connectors for database interconnectivity (e.g. MySql .Net Class Library by Oracle)
+- Other Tools: Trac, Git, Composer, Terminal, Nano, SSH, cPanel, ChatGPT, various plugins for IDE and frameworks (e.g. Entity, Doctrine), various Connectors for database interconnectivity (e.g. MySql .Net Class Library by Oracle)
 
 ## Design Methodology
 
