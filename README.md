@@ -22,7 +22,7 @@ While these conventions are applied here, I am adaptable in style if a certain p
 
 ### Coding Convention
 
-Different frameworks, cms, and projects can use different coding conventions. Some examples may use different coding conventions, however within each example a consistent coding style was chosen. In general for frameworks like Symfony the Symfony Coding Convention is used.
+Different frameworks, cms, and projects can use different coding conventions. Some examples may use different coding conventions, however within each example a consistent coding style was chosen. In general the following coding conventions are used in the code examples:
 
 - [Symfony Coding Standards](https://symfony.com/doc/current/contributing/code/standards.html)
 - [Laravel Coding Standards](https://laravel.com/docs/10.x/contributions#coding-style) 
