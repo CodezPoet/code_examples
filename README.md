@@ -1,5 +1,7 @@
 #  Table of Contents Code Examples
 
+Examples of code for job applications 
+
 - [Coding Convention](#coding-convention)
 - [Code Examples](#code-examples)
 - [Versions Code Examples were made](#versions-code-examples-were-made)
