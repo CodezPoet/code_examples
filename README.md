@@ -2,7 +2,7 @@
 
 - [Coding Convention](#coding-convention)
 - [Design Methodology](#design-methodology)
-- [Design Methodology](#development-environment)
+- [Development Environment](#development-environment)
 - [Versions Code Examples were made](#versions-code-examples-were-made) 
 - [Code Examples](#code-examples)
 - [Can you code "X" or "Y"?](#can-you-code-x-or-y)
