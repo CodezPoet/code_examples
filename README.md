@@ -71,7 +71,7 @@ May well be that I know how, or that I can learn it. I like to learn things such
 
 ## Bugs/ Errors/Feedback
 
-While I do my best to present code examples, if there is a bug or error it is appreciated if you let me know. 
+While I do my best to present code examples, if there is a bug or error it are appreciated if you let me know. 
 Constructive criticism and feedback is welcome. 
 
 
