@@ -1,10 +1,10 @@
 #  Table of Contents Code Examples
 
 - [Coding Convention](#coding-convention)
-- [Design Methodology](#design-methodology)
 - [Code Examples](#code-examples)
 - [Versions Code Examples were made](#versions-code-examples-were-made)
 - [Development Environment](#development-environment)
+-  [Design Methodology](#design-methodology)
 - [Can you code "X" or "Y"?](#can-you-code-x-or-y)
 - [Bugs/ Errors/Feedback](#bugs-errors-or-feedback)
 
@@ -18,19 +18,6 @@ Different frameworks, cms, and projects can use different coding conventions. So
 - [Symfony Coding Standards](https://symfony.com/doc/current/contributing/code/standards.html)
 - [Laravel Coding Style](https://laravel.com/docs/10.x/contributions#coding-style) 
 - [WordPress Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/)
-
-## Design Methodology
-
-The below I have experience with or in the process of learning
-
-- [Design Patterns](https://refactoring.guru/design-patterns/php)
-- [SOLID](https://en.wikipedia.org/wiki/SOLID)
-- [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming)
-- [MVC](https://nl.wikipedia.org/wiki/Model-view-controller-model)
-- [Agile (e.g. Scrum, Kanban)](https://leansixsigmagroep.nl/en/lean-agile-and-six-sigma/what-is-agile/)
-- [Software Development Philosophies](https://en.wikipedia.org/wiki/List_of_software_development_philosophies)
-- [Database Design Basics](https://support.microsoft.com/en-us/office/database-design-basics-eb2159cf-1e30-401a-8084-bd4f9c9ca1f5)
-- [Database Design Principles](https://www.oreilly.com/library/view/access-database-design/0596002734/ch04.html)
   
 ## Code Examples
 
@@ -91,6 +78,19 @@ Code examples for WordPress like custom plugin, shortcode, and correct text in p
 - Database: SQL (MySQL, MariaDB, MS SQL), MySQL Server, phpMyAdmin, Microsoft SQL Server, Microsoft Azure Data Studio, Microsoft SQL Server Management Studio
 - MS Office programming: Word, Excel, Access (using Visual Studio)
 - Other Tools: Git, Composer, Terminal, Nano, SSH, cPanel, ChatGPT, various plugins for IDE and frameworks (e.g. Entity, Doctrine), various Connectors for database interconnectivity (e.g. MySql .Net Class Library by Oracle)
+
+## Design Methodology
+
+The below I have experience with or in the process of learning
+
+- [Design Patterns](https://refactoring.guru/design-patterns/php)
+- [SOLID](https://en.wikipedia.org/wiki/SOLID)
+- [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming)
+- [MVC](https://nl.wikipedia.org/wiki/Model-view-controller-model)
+- [Agile (e.g. Scrum, Kanban)](https://leansixsigmagroep.nl/en/lean-agile-and-six-sigma/what-is-agile/)
+- [Software Development Philosophies](https://en.wikipedia.org/wiki/List_of_software_development_philosophies)
+- [Database Design Basics](https://support.microsoft.com/en-us/office/database-design-basics-eb2159cf-1e30-401a-8084-bd4f9c9ca1f5)
+- [Database Design Principles](https://www.oreilly.com/library/view/access-database-design/0596002734/ch04.html)
 - 
 ## Can you code "X" or "Y"?
 
