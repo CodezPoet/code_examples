@@ -2,9 +2,9 @@
 
 - [Coding Convention](#coding-convention)
 - [Design Methodology](#design-methodology)
-- [Development Environment](#development-environment)
-- [Versions Code Examples were made](#versions-code-examples-were-made) 
 - [Code Examples](#code-examples)
+- [Versions Code Examples were made](#versions-code-examples-were-made)
+- [Development Environment](#development-environment)
 - [Can you code "X" or "Y"?](#can-you-code-x-or-y)
 - [Bugs/ Errors/Feedback](#bugs-errors-or-feedback)
 
@@ -31,25 +31,7 @@ The below I have experience with or in the process of learning
 - [Software Development Philosophies](https://en.wikipedia.org/wiki/List_of_software_development_philosophies)
 - [Database Design Basics](https://support.microsoft.com/en-us/office/database-design-basics-eb2159cf-1e30-401a-8084-bd4f9c9ca1f5)
 - [Database Design Principles](https://www.oreilly.com/library/view/access-database-design/0596002734/ch04.html)
-
-## Development Environment
-
-- IDE: Visual Studio Code, Visual Studio 2022
-- Server: Apache2, Lightspeed, IIS
-- OS: Windows 10 with Linux on Windows: Ubuntu 22 LTS WSL
-- Database: SQL (MySQL, MariaDB, MS SQL), MySQL Server, phpMyAdmin, Microsoft SQL Server, Microsoft Azure Data Studio, Microsoft SQL Server Management Studio
-- MS Office programming: Word, Excel, Access (using Visual Studio)
-- Other Tools: Git, Composer, Terminal, Nano, SSH, cPanel, ChatGPT, various plugins for IDE and frameworks (e.g. Entity, Doctrine), various Connectors for database interconnectivity (e.g. MySql .Net Class Library by Oracle)
   
-## Versions Code Examples were made
-
-- PHP: 8
-- Symfony: 6 LTS
-- WordPress: 6
-- Laravel: 10
-- .NET Core: 8
-- C#: 12
-    
 ## Code Examples
 
 ### Database
@@ -92,6 +74,24 @@ A Budget tracker application made with Symfony and using Bootstrap framework for
 
 Code examples for WordPress like custom plugin, shortcode, and correct text in posts.
 
+## Versions Code Examples were made
+
+- PHP: 8
+- Symfony: 6 LTS
+- WordPress: 6
+- Laravel: 10
+- .NET Core: 8
+- C#: 12
+
+## Development Environment
+
+- IDE: Visual Studio Code, Visual Studio 2022
+- Server: Apache2, Lightspeed, IIS
+- OS: Windows 10 with Linux on Windows: Ubuntu 22 LTS WSL
+- Database: SQL (MySQL, MariaDB, MS SQL), MySQL Server, phpMyAdmin, Microsoft SQL Server, Microsoft Azure Data Studio, Microsoft SQL Server Management Studio
+- MS Office programming: Word, Excel, Access (using Visual Studio)
+- Other Tools: Git, Composer, Terminal, Nano, SSH, cPanel, ChatGPT, various plugins for IDE and frameworks (e.g. Entity, Doctrine), various Connectors for database interconnectivity (e.g. MySql .Net Class Library by Oracle)
+- 
 ## Can you code "X" or "Y"?
 
 If there is a certain type of example for Database, PHP, C#, Symfony, Laravel, or WordPress you would like to see please contact me to discuss the possibilities. May well be that I know how, or that I can learn it. I like to learn things such as code and frameworks, and to keep developing myself.
