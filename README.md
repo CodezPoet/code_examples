@@ -1,7 +1,13 @@
 
-# Code Examples 
+# Code Examples Table of Contents
 
 In this repository there are code examples for job applications. 
+
+- [Coding Convention](#coding-convention)
+- [Versions Code Examples were made](#versions-code-examples-were-made) 
+- [Code Example](#code-examples)
+- [Can you code "X" or "Y"?](#can-you-code-x-or-y)
+- [Bugs/ Errors/Feedback](#bugs-errors-feedback)
 
 ## Coding Convention
 
@@ -67,10 +73,10 @@ Code examples for WordPress like custom plugin, shortcode, and correct text in p
 If there is a certain type of coding example you would like to see please contact me to discuss the possibilities.
 May well be that I know how, or that I can learn it. I like to learn things such as code and frameworks, and to keep developing myself.
 
-## Bugs/ Errors/ Feedback
+## Bugs, Errors or Feedback
 
-While I do my best to present code examples, if there is a bug or error it is appreciated if you let me know. 
-Constructive criticism and feedback is welcome. 
+While I do my best to present code examples, when there is a bug or error it is appreciated if you let me know. 
+Constructive criticism and feedback is welcome after code review. I love to learn and improve.
 
 
 
