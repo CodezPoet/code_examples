@@ -15,12 +15,12 @@ Different frameworks, cms, and projects can use different coding conventions. So
 
 ## Versions Code Examples were made
 
-- PHP: 8.*
-- Symfony: 6.* LTS
-- WordPress: 6.*
-- Laravel: 10.*
-- .NET Core: 8.*
-- C#: 12.*
+- PHP: 8
+- Symfony: 6 LTS
+- WordPress: 6
+- Laravel: 10
+- .NET Core: 8
+- C#: 12
   
 ## Table of Contents Code Examples
 
