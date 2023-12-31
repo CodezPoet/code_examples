@@ -1,7 +1,7 @@
 
 # Code Examples 
 
-In this repository there are code examples for job applications.
+In this repository there are code examples for job applications. 
   
 ## Table of Contents
 
@@ -21,9 +21,13 @@ Examples of PHP code such as classes, methods,  functions, PDO, queries, loops, 
 
 Directory for screenshots of images used in README.md to show output for example
 
-### SQL
+### Databae
 
-Examples of SQL like database design and queries
+Examples of SQL, PDO, Doctrine (DQL and Query Builder), and database design
+
+### Laravel
+
+The code in this folder is a basic Laravel code example for interacting with the WordPress REST API. This to create a Headless WordPress where the frontend can be designed in Laravel, while the backend keeps using WordPress. The output is in HTML with Blade templates.
 
 ### Symfony
 
