@@ -24,7 +24,7 @@ Different frameworks, cms, and projects can use different coding conventions. So
 - [SOLID](https://en.wikipedia.org/wiki/SOLID)
 - [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming)
 - [MVC](https://nl.wikipedia.org/wiki/Model-view-controller-model)
-- [Agile](https://leansixsigmagroep.nl/en/lean-agile-and-six-sigma/what-is-agile/)
+- [Agile (e.g. Scrum, Kanban)](https://leansixsigmagroep.nl/en/lean-agile-and-six-sigma/what-is-agile/)
 - [Software Development Philosophies](https://en.wikipedia.org/wiki/List_of_software_development_philosophies)
 - [Database Design Basics](https://support.microsoft.com/en-us/office/database-design-basics-eb2159cf-1e30-401a-8084-bd4f9c9ca1f5)
 - [Database Design Principles](https://www.oreilly.com/library/view/access-database-design/0596002734/ch04.html)
