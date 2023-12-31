@@ -5,7 +5,7 @@
 - [Versions Code Examples were made](#versions-code-examples-were-made) 
 - [Code Examples](#code-examples)
 - [Can you code "X" or "Y"?](#can-you-code-x-or-y)
-- [Bugs/ Errors/Feedback](#bugs-errors-feedback)
+- [Bugs/ Errors/Feedback](#bugs-errors-or-feedback)
 
 ## Coding Convention
 
