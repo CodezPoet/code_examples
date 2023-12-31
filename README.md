@@ -6,7 +6,7 @@ Examples of code for job applications
 - [Code Examples](#code-examples)
 - [Versions Code Examples were made](#versions-code-examples-were-made)
 - [Development Environment](#development-environment)
--  [Design Methodology](#design-methodology)
+- [Design Methodology](#design-methodology)
 - [Can you code "X" or "Y"?](#can-you-code-x-or-y)
 - [Bugs/ Errors/Feedback](#bugs-errors-or-feedback)
 
@@ -53,7 +53,7 @@ Directory for screenshots of images used in README.md to show output for example
 
 #### Symfony A. A.I. Content Analysis
 
-  Example of MVC PHP OOP in Symfony framework. The code takes content from a WordPress blog (with about 17000 posts)     and does analysis using algorithms for logical phrases with AI. The next step is for the AI answers to be processed to select the most logical phrases for humans. These results can then be used to automatically classify content on a blog for example. For reading and storing data multiple tables in a database are used using Doctrine and Entity. A cron Command is used to run on regular intervals. 
+Example of MVC PHP OOP in Symfony framework. The code takes content from a WordPress blog (with about 17000 posts)     and does analysis using algorithms for logical phrases with AI. The next step is for the AI answers to be processed to select the most logical phrases for humans. These results can then be used to automatically classify content on a blog for example. For reading and storing data multiple tables in a database are used using Doctrine and Entity. A cron Command is used to run on regular intervals. 
 
 #### Symfony B. Budget Tracker
 
@@ -93,7 +93,7 @@ The below I have experience with or in the process of learning
 - [Software Development Philosophies](https://en.wikipedia.org/wiki/List_of_software_development_philosophies)
 - [Database Design Basics](https://support.microsoft.com/en-us/office/database-design-basics-eb2159cf-1e30-401a-8084-bd4f9c9ca1f5)
 - [Database Design Principles](https://www.oreilly.com/library/view/access-database-design/0596002734/ch04.html)
-- 
+  
 ## Can you code "X" or "Y"?
 
 If there is a certain type of example for Database, PHP, C#, Symfony, Laravel, or WordPress you would like to see please contact me to discuss the possibilities. May well be that I know how, or that I can learn it. I like to learn things such as code and frameworks, and to keep developing myself.
