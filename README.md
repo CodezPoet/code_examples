@@ -1,7 +1,7 @@
 
 # Code Examples 
 
-In this repository there are code examples for job applications. 
+In this repository there are code examples for job applications. Different frameworks, cms, and projects can use different coding conventions. Some examples may use different coding conventions, however within each example a consistent coding style was chosen. The same goes for comments.  
   
 ## Table of Contents
 
