@@ -25,7 +25,7 @@ Different frameworks, cms, and projects can use different coding conventions. So
 
 ### Database
 
-Examples of SQL, PDO, Doctrine (DQL and Query Builder), and database design
+Examples of SQL, PDO, Doctrine (DQL and Query Builder), MongoDB, and database design
 
 ### Laravel
 
