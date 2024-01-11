@@ -25,7 +25,7 @@ Different frameworks, cms, and projects can use different coding conventions. So
 
 ### Database
 
-Examples of SQL (e.g. MySQL, MariaDB, or MS SQL), MongoDB, PDO, Doctrine (DQL and Query Builder), and database design
+Examples of SQL (e.g. MySQL, MariaDB, or MS SQL), PDO, Doctrine (DQL and Query Builder), NoSQL MongoDB, and database design
 
 ### Laravel
 
