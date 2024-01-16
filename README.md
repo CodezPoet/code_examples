@@ -29,7 +29,7 @@ Examples of SQL (e.g. MySQL, MariaDB, or MS SQL), PDO, Doctrine (DQL and Query B
 
 ### Design Patterns in C# and PHP
 
-Various Design Patterns in C# or PHP
+Various Design Patterns in C# or PHP. For  [C# Design Patterns please see here](https://github.com/CodezPoet/code_examples/tree/main/microsoft/design_patterns), and [for PHP Design Patterns please see here](https://github.com/CodezPoet/code_examples/tree/main/php) 
 
 ### Laravel
 
