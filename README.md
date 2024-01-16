@@ -6,7 +6,7 @@ Examples of code for job applications
 - [Introduction](#introduction)
 - [Developer Level: Medior](#developer-level-medior)
 - [Coding Convention](#coding-convention)
-- [Code Examples](#code-examples)
+- [Code Examples (Database, Design Patterns(C#, PHP), Frameworks. CMS](#code-examples)
 - [Versions Code Examples were made](#versions-code-examples-were-made)
 - [Development Environment](#development-environment)
 - [Design Methodology](#design-methodology)
