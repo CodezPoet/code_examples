@@ -1,12 +1,11 @@
 # Introduction
 
 This Code Examples repository was started around November 2023. It is meant as a showcase
-of examples, for examples issues a developer may run into on a daily basis. The intention is not to put entire code bases or projects here. Instead of sending a code example file around, I decide to do this on Github, but it 
+of examples, for examples issues a developer may run into on a daily basis. The intention is not to put entire code bases or projects here. Often I am not allowed to discuss code of projects publicly, so I have to write code examples from scratch. Which entails figuring out which examples a developer could like to see, writing the code, testing it, commenting it, revisions, etc. There is quite a lot that goes in to it, besides other obligations I have. 
+
+Instead of sending a code example file around, I decided to do this on Github, but it 
 has been something of a mixed feeling, because people have certain expectations, en keep asking more and more examples. 
-To an extent I am fine with this, at the same time, I do appreciate asking me what you are looking for, before judging
-me on something just because it isn't in the repository, which doesn't sit well, and feels unreasonable. If there is some example of code you would like to see, please contact me first before assuming I don't know how, or to judge me. It is complicated to know what a developer is looking for in a  code example, and I am more than happy to write an example, at the same time, I could spend
-months writing code, that has no use other than code examples, and that is a bit much too. 
-Hopefully can find each other in a middle ground. 
+To an extent I am fine with this, at the same time, I do appreciate asking me what you are looking for first, before judgingme on something just because it isn't in the repository, which doesn't sit well, and feels unreasonable. If there is some example of code you would like to see, please contact me first before assuming I don't know how, or to judge me. It is complicated to know what a developer is looking for in a  code example, and I am more than happy to write an example, at the same time, I could spend months writing code, that has no use other than code examples, and that is a bit much too. Hopefully can find each other in a middle ground. 
 
 #  Table of Contents Code Examples
 
