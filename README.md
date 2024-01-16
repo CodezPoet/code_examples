@@ -27,6 +27,10 @@ Different frameworks, cms, and projects can use different coding conventions. So
 
 Examples of SQL (e.g. MySQL, MariaDB, or MS SQL), PDO, Doctrine (DQL and Query Builder), NoSQL MongoDB, and database design
 
+### Design Patterns C# PHP
+
+Various Design Patterns in C# or PHP
+
 ### Laravel
 
 The code in this folder is a basic Laravel code example for interacting with the WordPress REST API. This to create a Headless WordPress where the frontend can be designed in Laravel, while the backend keeps using WordPress. The output is in HTML with Blade templates.
