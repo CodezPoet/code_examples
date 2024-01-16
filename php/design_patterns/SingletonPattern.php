@@ -9,7 +9,6 @@ namespace DesignPatterns;
  */
 class SingletonPattern
 {
-
     /**
      * @var SingletonPattern|null The single instance of the class.
      */
