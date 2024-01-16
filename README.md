@@ -27,7 +27,7 @@ Different frameworks, cms, and projects can use different coding conventions. So
 
 Examples of SQL (e.g. MySQL, MariaDB, or MS SQL), PDO, Doctrine (DQL and Query Builder), NoSQL MongoDB, and database design
 
-### Design Patterns C# PHP
+### Design Patterns C# and PHP
 
 Various Design Patterns in C# or PHP
 
