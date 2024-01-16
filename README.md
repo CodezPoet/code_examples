@@ -6,7 +6,7 @@ Examples of code for job applications
 - [Introduction](#introduction)
 - [Developer Level: Medior](#developer-level-medior)
 - [Coding Convention](#coding-convention)
-- [Code Examples (Database, Design Patterns(C#, PHP), Frameworks. CMS)](#code-examples)
+- [Code Examples (Database, Design Patterns(C#, PHP), Languages, Frameworks, CMS)](#code-examples)
 - [Versions Code Examples were made](#versions-code-examples-were-made)
 - [Development Environment](#development-environment)
 - [Design Methodology](#design-methodology)
@@ -41,7 +41,7 @@ Different frameworks, cms, and projects can use different coding conventions. So
 - [Laravel Coding Style](https://laravel.com/docs/10.x/contributions#coding-style) 
 - [WordPress Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/)
   
-## Code Examples
+## Code Examples (Database, Design Patterns(C#, PHP), Languages, Frameworks, CMS)
 
 ### Database
 
