@@ -1,7 +1,7 @@
 # Introduction
 
 This Code Examples repository was started around November 2023. It is meant as a showcase
-of some stuff. The intention is not to put entire code bases or projects here. 
+of my abilities. The intention is not to put entire code bases or projects here. 
 If there is some example of code you would like to see, please contact me first before assuming
 I don't know how, or to judge me. It is complicated to know what a developer is looking for in a 
 code example, and I am more than happy to write an example, at the same time, I could spend
