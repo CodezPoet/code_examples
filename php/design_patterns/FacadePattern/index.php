@@ -1,6 +1,5 @@
 <?php
 
-// Example.php
 namespace FacadePattern;
 
 use FacadePattern\Hashing\Md5Hasher;
