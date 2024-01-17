@@ -18,9 +18,7 @@ Examples of code for job applications
 This Code Examples repository was started around November 2023. It is meant as a showcase
 of examples, for examples issues a developer may run into on a daily basis. The intention is not to put entire code bases or projects here. Often I am not allowed to discuss code of projects publicly, so I have to write code examples from scratch. Which entails figuring out which examples a developer could like to see, writing the code, testing it, commenting it, revisions, etc. There is quite a lot that goes in to it, besides other obligations I have. 
 
-Instead of sending a code example file around, I decided to do this on Github, but it 
-has been something of a mixed feeling, because people have certain expectations, en keep asking more and more examples. 
-To an extent I am fine with this, at the same time, I do appreciate asking me what you are looking for first, before judgingme on something just because it isn't in the repository, which feels unreasonable in a way. Then I almost regret posting any code, because why bother? If the focus is on stuff I didn't add, especially in such a short timeframe then. If there is some example of code you would like to see, please contact me first before assuming I don't know how, or to judge me. It is complicated to know what a developer is looking for in a  code example, and I am more than happy to write an example, at the same time, I could spend months writing code, that has no use other than code examples, and that is a bit much too. I am writing this because have noticed this a few times now. Hopefully can find each other in a middle ground. 
+If there is some example of code you would like to see, please contact me first before assuming I don't know how, or to judge me. It is complicated to know what a developer is looking for in a  code example, and I am more than happy to write an example, at the same time, I could spend months writing code, that has no use other than code examples, and that is a bit much too. I am writing this because have noticed this a few times now. Hopefully can find each other in a middle ground. 
 
 ## Developer Level: Medior
 
@@ -118,10 +116,6 @@ The below I have experience with or in the process of learning
 - [Software Development Philosophies](https://en.wikipedia.org/wiki/List_of_software_development_philosophies)
 - [Database Design Basics](https://support.microsoft.com/en-us/office/database-design-basics-eb2159cf-1e30-401a-8084-bd4f9c9ca1f5)
 - [Database Design Principles](https://www.oreilly.com/library/view/access-database-design/0596002734/ch04.html)
-  
-## Can you code "X" or "Y"?
-
-If there is a certain type of example for Database, PHP, C#, Symfony, Laravel, or WordPress you would like to see please contact me to discuss the possibilities. May well be that I know how, or that I can learn it. I like to learn things such as code and frameworks, and to keep developing myself.
 
 ## Bugs, Errors, or Feedback
 
