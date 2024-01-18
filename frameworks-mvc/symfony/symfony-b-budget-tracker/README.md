@@ -1,6 +1,6 @@
 # Symfony Code Example
 
-Summary Under construction
+A Budget tracker application made with Symfony and using Twig Templates with Bootstrap framework for styling.
 
 ## Screenshots
 Screenshots of various views made with Twig templates and using Bootstrap. Please note for the code example using a very basic layout styling wise, a frontend designer could make this look pretty.
