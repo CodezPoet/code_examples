@@ -41,49 +41,50 @@ Different frameworks, cms, and projects can use different coding conventions. So
   
 ## Code Examples (Database, Design Patterns(C#, PHP), Languages, Frameworks, CMS)
 
+### Algorithms and Calculations
+
+Various code examples of C# and PHP, with algorithms and calculations, for example Blood Pressure or BMI, using things such as classes, methods, arrays, functions, loops, and switches. 
+
+### CMS
+
+#### WordPress
+
+Code examples for WordPress like custom plugin, shortcode, and correct text in posts.
+
+### Conversions
+
+Examples how to write from a Excel file to a database for example 
+
 ### Database
 
 Examples of SQL (e.g. MySQL, MariaDB, or MS SQL), PDO, Doctrine (DQL and Query Builder), NoSQL MongoDB, and database design
 
 ### Design Patterns in C# and PHP
 
-Various Design Patterns in C# or PHP. For  [C# Design Patterns please see here](https://github.com/CodezPoet/code_examples/tree/main/microsoft/design_patterns), and [for PHP Design Patterns please see here](https://github.com/CodezPoet/code_examples/tree/main/php/design_patterns) 
+Various Design Patterns in C# or PHP such as Singleton and Factory
 
-### Laravel
+### Frameworks MVC
+
+#### Laravel
 
 The code in this folder is a basic Laravel code example for interacting with the WordPress REST API. This to create a Headless WordPress where the frontend can be designed in Laravel, while the backend keeps using WordPress. The output is in HTML with Blade templates.
 
-### Microsoft
-
-#### .NET Core
+#### Microsoft .NET Core
 
 Examples of OOP MVC apps in .NET Core, C#, and SQL. First example shows a simple website with jokes database, user registration and login, CRUD and search operations. 
 
-#### C#
+#### Symfony
 
-C# OOP code example. A console program that shows an user their blood pressure category when they enter their blood pressure.
+##### Symfony A. A.I. Content Analysis and Budget Track
 
-### PHP
+a. Example of MVC PHP OOP in Symfony framework. The code takes content from a WordPress blog (with about 17000 posts) and does analysis using algorithms for logical phrases with AI. The next step is for the AI answers to be processed to select the most logical phrases for humans. These results can then be used to automatically classify content on a blog for example. For reading and storing data multiple tables in a database are used using Doctrine and Entity. A cron Command is used to run on regular intervals. 
 
-Examples of PHP code such as classes, methods,  functions, loops, and switches. For PHP MVC please see code examples in Laravel and Symfony.
+b. A Budget tracker application made with Symfony and using Bootstrap framework for styling.
 
 ### Screenshots
 
 Directory for screenshots of images used in README.md to show output for example
 
-### Symfony
-
-#### Symfony A. A.I. Content Analysis
-
-Example of MVC PHP OOP in Symfony framework. The code takes content from a WordPress blog (with about 17000 posts)     and does analysis using algorithms for logical phrases with AI. The next step is for the AI answers to be processed to select the most logical phrases for humans. These results can then be used to automatically classify content on a blog for example. For reading and storing data multiple tables in a database are used using Doctrine and Entity. A cron Command is used to run on regular intervals. 
-
-#### Symfony B. Budget Tracker
-
-A Budget tracker application made with Symfony and using Bootstrap framework for styling.
-
-### WordPress
-
-Code examples for WordPress like custom plugin, shortcode, and correct text in posts.
 
 ## Versions Code Examples were made
 
