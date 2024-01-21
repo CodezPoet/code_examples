@@ -20,7 +20,7 @@ namespace DesignPatterns
        public int AddEntry(string text)
         {
             entries.Add($"{++count}: {text}");
-            return count; // Memento
+            return count; 
         }
 
        public void RemoveEntry(int index)
