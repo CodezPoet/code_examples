@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * Important: These code examples are not for production use
  * and meant as demos to show understanding of design principles, 
