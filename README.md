@@ -20,7 +20,7 @@ of examples, for examples issues a developer may run into on a daily basis. The 
 
 If there is some example of code you would like to see, please contact me first before assuming I don't know how, or to judge me. It is complicated to know what a developer is looking for in a  code example, and I am more than happy to write an example, at the same time, I could spend months writing code, that has no use other than code examples, and that is a bit much too. I am writing this because have noticed this a few times now. Hopefully can find each other in a middle ground. 
 
-## Developer Level: Medior
+## Backend Developer Level: Medior
 
 I have noticed sometimes recruiters or job ads (not mentioning names) are unclear about Developer Level, or pass on the wrong information to a Developer reviewing code, e.g. calling me Senior, when I haven't called myself that, which leads to confusion between a Developer and myself.
 
