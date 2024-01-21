@@ -9,8 +9,8 @@ use App\Calculator;
 /**
  * Test Class for Calculator Classs
  */
-class CalculatorTest extends \PHPUnit\Framework\TestCase {
-  
+class CalculatorTest extends \PHPUnit\Framework\TestCase 
+{  
     /**
      * Test the Add method in the Calculator
      * 
