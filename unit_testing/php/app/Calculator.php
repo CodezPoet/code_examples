@@ -1,21 +1,25 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App;
 
 /**
  * Calculator Class
  */
 class Calculator
-{    
+{
+
     /**
      * Calculator Add method
      * 
      * @param float $num1
      * @param float $num2
      * 
-     * @return int
+     * @return float
      */
-    public function add(float $num1, float $num2): float {
+    public function add(float $num1, float $num2): float
+    {
         return $num1 + $num2;
     }
 
@@ -25,9 +29,10 @@ class Calculator
      * @param float $num1
      * @param float $num2
      * 
-     * @return int
+     * @return float
      */
-    public function subtract(float $num1, float $num2): float {
+    public function subtract(float $num1, float $num2): float
+    {
         return $num1 - $num2;
     }
 
@@ -37,9 +42,10 @@ class Calculator
      * @param float $num1
      * @param float $num2
      * 
-     * @return int
+     * @return float
      */
-    public function multiply(float $num1, float $num2): float {
+    public function multiply(float $num1, float $num2): float
+    {
         return $num1 * $num2;
     }
 
@@ -49,9 +55,10 @@ class Calculator
      * @param float $num1
      * @param float $num2
      * 
-     * @return int
+     * @return float
      */
-    public function divide(float $num1, float $num2): float {
+    public function divide(float $num1, float $num2): float
+    {
         return $num1 / $num2;
     }
 }
