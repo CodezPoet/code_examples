@@ -98,7 +98,7 @@ Directory for screenshots of images used in README.md to show output for example
 
 - IDE: Visual Studio Code, Visual Studio 2022
 - Server: Apache2, Lightspeed, IIS
-- OS: Windows 10 with Linux on Windows: Ubuntu 22 LTS WSL
+- OS: Windows 10 with Linux on Windows: Ubuntu 22 LTS WSL, Ubuntu 22 LTS Server (things like Docker, MongoDB can have issues running on Windows WSL, that's why Ubuntu Server then for example)
 - Database: SQL (MySQL, MariaDB, MS SQL), MySQL Server, phpMyAdmin, Microsoft SQL Server, Microsoft Azure Data Studio, Microsoft SQL Server Management Studio
 - MS Office programming: Word, Excel, Access (using Visual Studio)
 - Other Tools: Trac, Git, Composer, Terminal, Nano, SSH, cPanel, ChatGPT, various plugins for IDE and frameworks (e.g. Entity, Doctrine), various Connectors for database interconnectivity (e.g. MySql .Net Class Library by Oracle)
