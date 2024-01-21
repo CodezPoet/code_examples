@@ -6,8 +6,7 @@ namespace App;
  * Calculator Class
  */
 class Calculator
-{
-    
+{    
     /**
      * Calculator Add method
      * 
