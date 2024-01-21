@@ -1,21 +1,37 @@
 <?php
 
-class CalculatorTest extends \PHPUnit\Framework\TestCase {
-    public function testAdd() {
+declare(strict_types=1);
 
-        $calculator = new App\Calculator;
+namespace Tests;
+
+use App\Calculator;
+
+/**
+ * Test Class for Calculator Classs
+ */
+class CalculatorTest extends \PHPUnit\Framework\TestCase {
+  
+    /**
+     * Test the Add method in the Calculator
+     * 
+     * @return void
+     */
+    public function testAdd(): void {
+        $calculator = new Calculator;
         $result = $calculator->add(20,5);
 
         $this->assertEquals(25, $result);
-
     }
 
-    public function testSubtract() {
-
-        $calculator = new App\Calculator;
+    /**
+     * Test the Add method in the Calculator
+     * 
+     * @return void
+     */
+    public function testSubtract(): void {
+        $calculator = new Calculator;
         $result = $calculator->subtract(20,5);
 
         $this->assertEquals(15, $result);
-
     }
 }
