@@ -62,6 +62,10 @@ Examples of SQL (e.g. MySQL, MariaDB, or MS SQL), PDO, Doctrine (DQL and Query B
 
 Various Design Patterns in C# or PHP such as Singleton and Factory
 
+### Design Principles Solid in C# and PHP
+
+Various SOLID Design Principles in C# or PHP such as Single Responsibility
+
 ### Frameworks MVC
 
 #### Laravel
@@ -84,6 +88,9 @@ b. A Budget tracker application made with Symfony and using Bootstrap framework 
 
 Directory for screenshots of images used in README.md to show output for example
 
+### Unit Testing
+
+Examples of Unit Testing such as PHPUnit for PHP
 
 ## Versions Code Examples were made
 
