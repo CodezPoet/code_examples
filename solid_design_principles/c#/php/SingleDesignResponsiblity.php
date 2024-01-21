@@ -41,7 +41,6 @@ class Journal
         return self::$count;
     }
 
-
     /**
      * Removes an entry from the journal based on the provided index
      * 
@@ -66,7 +65,6 @@ class Journal
         return implode(PHP_EOL, $this->entries);
     }
 }
-
 
 /**
  * The demo code class
