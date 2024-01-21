@@ -50,7 +50,7 @@ namespace DesignPatterns
         static void Main(string[] args)
         {
             var j = new Journal();
-            j.AddEntry("I crushed a bug");
+            j.AddEntry("I squashed a bug");
             j.AddEntry("I had a cookie today");
             WriteLine(j);
       
