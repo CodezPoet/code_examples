@@ -25,8 +25,7 @@ If there is some example of code you would like to see, please contact me first 
 I have noticed sometimes recruiters or job ads (not mentioning names) are unclear about Developer Level, or pass on the wrong information to a Developer reviewing code, e.g. calling me Senior, when I haven't called myself that, which leads to confusion between a Developer and myself.
 
 Other developers and myself put me on Medior Level at this time, with intent to grow to Senior. 
-It depends a bit on the language or framework for example, some things more Junior others more Senior:
-overall a solid Medior. 
+It depends a bit on the language or framework for example, some things more Junior others more Senior.
 
 ## Coding Convention
 
