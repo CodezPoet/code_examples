@@ -2,11 +2,6 @@ using System;
 using System.Collections.Generic;
 using static System.Console;
 
-// Important: These code examples are not for production use
-// and meant as demo showcase to show understanding of design principles, 
-// They may include things such as use of public fields (which is not recommended for production use), and
-// the principle example is shown in a single file, for things like ease of readibility
-
 namespace DesignPatterns
 {
     public enum Color
