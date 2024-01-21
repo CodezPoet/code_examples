@@ -17,7 +17,7 @@ abstract class MasterPlan
      *
      * @var array
      */
-    protected array $features = [];
+    private array $features = [];
 
     /**
      * Get the rate for the Master Plan. This method must be implemented by concrete plan classes.
