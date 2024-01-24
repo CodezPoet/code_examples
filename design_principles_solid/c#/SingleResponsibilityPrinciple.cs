@@ -8,6 +8,8 @@ using static System.Console;
 // and meant as demo showcase to show understanding of design principles, 
 // They may include things such as use of public fields (which is not recommended for production use), and
 // the principle example is shown in a single file, for things like ease of readibility
+// Code example is worked out homework fromm the course: Design Patterns in C# en .Net,
+// Link course: https://www.udemy.com/course/design-patterns-csharp-dotnet/
 
 namespace DesignPatterns
 {
