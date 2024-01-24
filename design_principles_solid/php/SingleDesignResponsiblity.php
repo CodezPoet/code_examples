@@ -8,6 +8,10 @@ declare(strict_types=1);
  * These examples may not include things such as sanitation, and error logging, because a demo and focusing on the principles, for brevity reasons
  * The principles are shown in single files, not MVC folder structure, for ease of reading for example
  * For MVC or sanitation please see my other code examples
+ *
+ * Code examples have been translated from C# to PHP by me, as a way to improve my Design Patterns and PHP skills,
+ * based on the homework from the course Design Patterns in C# en .Net, 
+ * @link course: https://www.udemy.com/course/design-patterns-csharp-dotnet/
  */
 
 /**
@@ -123,7 +127,7 @@ class Persistence
      */
     public function saveToFile(string $dataToStore = '', string $fileName = ''): void
     {
-       $allowedDirectory = $this->allowedDirectory;
+        $allowedDirectory = $this->allowedDirectory;
         if (empty($dataToStore) || empty($fileName) || empty($allowedDirectory)) {
             return;
         }
