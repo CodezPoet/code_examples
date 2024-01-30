@@ -32,6 +32,7 @@ class Md5Hasher
     public function hashValue(): string
     {
         $valueToHash = $this->getValueToHash();
+        
         return md5($valueToHash);
     }
 }
