@@ -5,11 +5,12 @@ declare(strict_types=1);
 namespace Tests;
 
 use App\Calculator;
+use PHPUnit\Framework\TestCase;
 
 /**
  * Test Class for Calculator Classs
  */
-class CalculatorTest extends \PHPUnit\Framework\TestCase 
+class CalculatorTest extends TestCase 
 {  
     /**
      * Test the Add method in the Calculator
