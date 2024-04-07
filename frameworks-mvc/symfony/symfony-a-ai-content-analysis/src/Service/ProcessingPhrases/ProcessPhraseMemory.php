@@ -36,11 +36,6 @@ class ProcessPhraseMemory
     ) {
     }
 
-    /* workflow: 
-   * wp_content writes to wp_phrase,
-* wp_phrase checks ai_asked, and if not asked already 
-then writes to ai_to_ask, the answer is written in ai_answer
-
    /**
      * Prepare for storing  in database
      * 
@@ -76,22 +71,4 @@ then writes to ai_to_ask, the answer is written in ai_answer
 
         return $phrases;
     }
-
-    // 
-   /**
-    * @return User[] Returns an array of User objects
-    */
-  // public function findByCriteres($reqsearch = null)
-  // {
- //      $qb = $this->createQueryBuilder('u');
-//
-       //Create subquery
-      // $sub = $this->createQueryBuilder('z');
-    //   $sub = $sub->innerJoin('z.actions', 'act')
-  //                ->where('z.id = u.id');
-//
-  //      $qb->andWhere($qb->expr()->not($qb->expr()->exists($sub->getDQL())));
-//
-  //      return $qb->getQuery()->getResult();
-//   }
 }
