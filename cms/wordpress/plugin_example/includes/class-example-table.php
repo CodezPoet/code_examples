@@ -27,27 +27,27 @@ class Example_Table
    */
   public static function create_example_table(): void
   {
-    global $wpdb;
-    $charset_collate = $wpdb->get_charset_collate();
-    $table_name      = $wpdb->prefix . self::$table_name;
-    $sql             = "CREATE TABLE $table_name (
-		id mediumint(9) NOT NULL AUTO_INCREMENT,
-		created_at datetime DEFAULT CURRENT_TIMESTAMP NOT NULL,
-		name tinytext NOT NULL,
-		description text NOT NULL,
-    post_type varchar(55) NOT NULL,
-    acf_field_example text NOT NULL,
-		url varchar(55) DEFAULT '' NOT NULL,
-		PRIMARY KEY  (id),
-    INDEX created_at_index (created_at),
-    INDEX name_index (name),
-    INDEX post_type_index (post_type),  
-    FULLTEXT INDEX description_search (description)
-	)
-   $charset_collate;";
-    require_once ABSPATH . 'wp-admin/includes/upgrade.php';
-    dbDelta( $sql );
-    add_option( 'example_plugin_db_version', self::$example_table_version );
+      global $wpdb;
+      $charset_collate = $wpdb->get_charset_collate();
+      $table_name      = $wpdb->prefix . self::$table_name;
+      $sql             = "CREATE TABLE $table_name (
+          id mediumint(9) NOT NULL AUTO_INCREMENT,
+          created_at datetime DEFAULT CURRENT_TIMESTAMP NOT NULL,
+          name tinytext NOT NULL,
+          description text NOT NULL,
+          post_type varchar(55) NOT NULL,
+          acf_field_example text NOT NULL,
+          url varchar(55) DEFAULT '' NOT NULL,
+          PRIMARY KEY  (id),
+          INDEX created_at_index (created_at),
+          INDEX name_index (name),
+          INDEX post_type_index (post_type),  
+          FULLTEXT INDEX description_search (description)
+          )
+          $charset_collate;";
+      require_once ABSPATH . 'wp-admin/includes/upgrade.php';
+      dbDelta( $sql );
+      add_option( 'example_plugin_db_version', self::$example_table_version );
   }
 
   /**
@@ -133,7 +133,6 @@ class Example_Table
         'url'               => $example_url,
         'acf_field_example' => $example_acf_field,
         'post_type'         => $example_post_type,
-
       ]
     );
   }
