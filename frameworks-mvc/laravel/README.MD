@@ -1,7 +1,6 @@
 # Laravel Code Examples
 
-## Version
-**Laravel:** 10
+**Version:** Laravel 10
 
 ## A. Laravel and Headless WordPress using REST API
 
