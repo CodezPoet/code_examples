@@ -2,10 +2,8 @@ under construction
 
 # Laravel Code Examples
 
-## Versions
+## Version
 **Laravel:** 10
-
-**WordPress:** 6.4.1
 
 ## A. Laravel and Headless WordPress using REST API
 
@@ -17,30 +15,9 @@ Since HTML output from WordPress can contain HTML, and Laravel does not have a w
 
 This code is a proof of concept which intended use is as a code example. It is not an opinion on whether one should use Laravel as frontend for WordPress.
 
-#### Screenshot Result in Browser
+## B. Task List App
 
-![screenshot of Laravel code example](https://github.com/CodezPoet/code_examples/blob/main/screenshots/screenshot_result.png)
+### Summary
 
-#### .env
-
-.env needs the following information: 
-
-```
-WP_SITE=location WordPress Blog
-```
-
-#### Composer for Mews HTML Purifier
-
-```
-:~$ composer require mews/purifier
-```
-
-#### Build CSS
-
-To compile and build the CSS with Vite run:
-
-```
-nvm run build
-```
-
-
+An app that allows the creation, editing, and deleting of tasks. As well as marking it as complete or still to complete.
+It uses a custom table in Laravel and MySQL to store the tasks, and a factory to populate it with dummy data. 
