@@ -35,8 +35,7 @@ class BookController extends Controller
                 3600,
                 fn() => $books->get()
             );
-
-
+        
         return view('books.index', ['books' => $books]);
     }
 
