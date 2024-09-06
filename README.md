@@ -8,7 +8,6 @@ Examples of code for job applications
 - [Code Examples](#code-examples)
 - [Versions Code Examples were made](#versions-code-examples-were-made)
 - [Design Methodology](#design-methodology)
-- [Can you code "X" or "Y"?](#can-you-code-x-or-y)
 - [Bugs/ Errors/Feedback](#bugs-errors-or-feedback)
 
 ## Introduction
