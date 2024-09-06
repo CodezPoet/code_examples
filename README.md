@@ -36,6 +36,10 @@ Different frameworks, cms, and projects can use different coding conventions. So
 
 Various code examples of C# and PHP, with algorithms and calculations, for example Blood Pressure or BMI, using things such as classes, methods, arrays, functions, loops, and switches. 
 
+### Api
+
+Example of an API
+
 ### CMS
 
 #### WordPress
@@ -76,7 +80,7 @@ A books review portal. A list of books where individual have a review rating. It
 
 d. Events Management
 
-Building a REST API for events management. Uses database and JSON when processing user created events and attendees. Data can be created, updated, and deleted. Authentication with Sanctum, authorization with Policies (or Gates optionally instead), (JWT) Tokens (setting, revoking), ques, route protection and rate limiting. Reminders of events are sent at a schedule to attendees using a custom Artisan Command and cron. Used Postman to test and browse Api. Uses Blade for templates and Tailwind for styling.
+Building a REST API for events management. Uses database and JSON when processing user created events and attendees. Data can be created, updated, and deleted. Authentication with Sanctum, authorization with Policies (or Gates optionally instead), Tokens (setting, revoking), ques, route protection and rate limiting. Reminders of events are sent at a schedule to attendees using a custom Artisan Command and cron. Used Postman to test and browse Api. Uses Blade for templates and Tailwind for styling.
 
 e. Lifewire Polls
 
