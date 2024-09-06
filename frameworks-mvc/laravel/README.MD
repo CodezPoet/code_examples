@@ -27,12 +27,16 @@ On a book page all the reviews can be seen. Books can be searched by title.
 
 ### Summary
 
-An app that allows the creation, editing, and deleting of tasks. As well as marking it as complete or still to complete.
-It uses a custom table in Laravel and MySQL to store the tasks, and a factory to populate it with dummy data. 
+Building a REST API for events management. Uses database and JSON when processing user created events and attendees. Data can be created, updated, and deleted. Authentication with Sanctum, authorization with Policies (or Gates optionally instead), (JWT) Tokens (setting, revoking), ques, route protection and rate limiting. Reminders of events are sent at a schedule to attendees using a custom Artisan Command and cron. Used Postman to test and browse Api. 
 
 ## D. Lifewire Polls
 
 ### Summary
 
-An app that allows the creation, editing, and deleting of tasks. As well as marking it as complete or still to complete.
-It uses a custom table in Laravel and MySQL to store the tasks, and a factory to populate it with dummy data. 
+Using Lifewire to create dynamic auto reloaded frontend website for Polls. Polls and options can be created and voted upon. 
+
+## D. Job Boards
+
+### Summary
+
+Under construction
