@@ -7,7 +7,6 @@ Examples of code for job applications
 - [Coding Convention](#coding-convention)
 - [Code Examples](#code-examples)
 - [Versions Code Examples were made](#versions-code-examples-were-made)
-- [Development Environment](#development-environment)
 - [Design Methodology](#design-methodology)
 - [Can you code "X" or "Y"?](#can-you-code-x-or-y)
 - [Bugs/ Errors/Feedback](#bugs-errors-or-feedback)
@@ -114,15 +113,6 @@ Examples of Unit Testing such as PHPUnit for PHP
 - Laravel: 10/11
 - .NET Core: 8
 - C#: 12
-
-## Development Environment
-
-- IDE: Visual Studio Code, Visual Studio 2022
-- Server: Apache2, Lightspeed, IIS
-- OS: Windows 10 with Linux on Windows: Ubuntu 22 LTS WSL, Ubuntu 22 LTS Server (things like Docker, MongoDB can have issues running on Windows WSL, that's why Ubuntu Server then for example)
-- Database: SQL (MySQL, MariaDB, MS SQL), MySQL Server, phpMyAdmin, Microsoft SQL Server, Microsoft Azure Data Studio, Microsoft SQL Server Management Studio
-- MS Office programming: Word, Excel, Access (using Visual Studio)
-- Other Tools: Trac, Git, Composer, Terminal, Nano, SSH, cPanel, ChatGPT, various plugins for IDE and frameworks (e.g. Entity, Doctrine), various Connectors for database interconnectivity (e.g. MySql .Net Class Library by Oracle)
 
 ## Design Methodology
 
