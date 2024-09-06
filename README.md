@@ -4,7 +4,6 @@
 Examples of code for job applications 
 
 - [Introduction](#introduction)
-- [Developer Level: Medior](#developer-level-medior)
 - [Coding Convention](#coding-convention)
 - [Code Examples](#code-examples)
 - [Versions Code Examples were made](#versions-code-examples-were-made)
@@ -19,13 +18,6 @@ This Code Examples repository was started around November 2023. It is meant as a
 of examples, for examples issues a developer may run into on a daily basis. The intention is not to put entire code bases or projects here. Often I am not allowed to discuss code of projects publicly, so I have to write code examples from scratch. Which entails figuring out which examples a developer could like to see, writing the code, testing it, commenting it, revisions, etc. There is quite a lot that goes in to it, besides other obligations I have. 
 
 If there is some example of code you would like to see, please contact me first before assuming I don't know how, or to judge me. It is complicated to know what a developer is looking for in a  code example, and I am more than happy to write an example, at the same time, I could spend months writing code, that has no use other than code examples, and that is a bit much too. I am writing this because have noticed this a few times now. Hopefully can find each other in a middle ground. 
-
-## Backend Developer Level: Medior
-
-I have noticed sometimes recruiters or job ads (not mentioning names) are unclear about Developer Level, or pass on the wrong information to a Developer reviewing code, e.g. calling me Senior, when I haven't called myself that, which leads to confusion between a Developer and myself.
-
-Other developers and myself put me on Medior Level at this time, with intent to grow to Senior. 
-It depends a bit on the language or framework for example, some things more Junior others more Senior.
 
 ## Coding Convention
 
@@ -78,6 +70,18 @@ b. Task List App
 
 An app that allows the creation, editing, and deleting of tasks. As well as marking it as complete or still to complete. It uses a custom table in Laravel and MySQL to store the tasks, and a factory to populate it with dummy data.
 
+c. Book reviews
+
+A books review portal. A list of books where individual have a review rating. It is possible to leave a review. Books can be listed by latest, popular (last month, last 6 months), and highest rated (last month, last 6 months). On a book page all the reviews can be seen. Books can be searched by title. Uses Blade for templates and Tailwind for styling.
+
+d. Events Management
+
+Building a REST API for events management. Uses database and JSON when processing user created events and attendees. Data can be created, updated, and deleted. Authentication with Sanctum, authorization with Policies (or Gates optionally instead), (JWT) Tokens (setting, revoking), ques, route protection and rate limiting. Reminders of events are sent at a schedule to attendees using a custom Artisan Command and cron. Used Postman to test and browse Api. Uses Blade for templates and Tailwind for styling.
+
+e. Lifewire Polls
+
+Using Lifewire and Laravel to create dynamic frontend website for Polls. Using Livewire it instantly updates forms and voting. Polls and options can be created and voted upon. Uses Blade for templates and Tailwind for styling.
+
 #### Microsoft .NET Core
 
 Examples of OOP MVC apps in .NET Core, C#, and SQL. First example shows a simple website with jokes database, user registration and login, CRUD and search operations. 
@@ -103,7 +107,7 @@ Examples of Unit Testing such as PHPUnit for PHP
 - PHP: 8
 - Symfony: 6 LTS
 - WordPress: 6
-- Laravel: 10
+- Laravel: 10/11
 - .NET Core: 8
 - C#: 12
 
