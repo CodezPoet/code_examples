@@ -30,14 +30,15 @@ On a book page all the reviews can be seen. Books can be searched by title. Uses
 Building a REST API for events management. Uses database and JSON when processing user created events and attendees. Data can be created, updated, and deleted. Authentication with Sanctum, authorization with Policies (or Gates optionally instead), (JWT) Tokens (setting, revoking), ques, route protection and rate limiting. Reminders of events are sent at a schedule to attendees using a custom Artisan Command and cron. Used Postman to test and browse Api. 
 Uses Blade for templates and Tailwind for styling.
 
-## D. Lifewire Polls
+## E. Lifewire Polls
 
 ### Summary
 
 Using Lifewire and Laravel to create dynamic frontend website for Polls. Using Livewire it instantly updates forms and voting. Polls and options can be created and voted upon. Uses Blade for templates and Tailwind for styling.
 
-## D. Job Boards
+## F. Job Boards
 
 ### Summary
 
-Under construction
+A job board where applicants and employers can log in. Applicants can apply to jobs. Employers can create, edit, and delete job postings. Jobs have a title, description, salary indication, location, and various categories such as which sector and what level.Jobs are searchable and filterable. Uses Tailwind and Vite. 
+
