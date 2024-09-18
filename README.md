@@ -7,7 +7,6 @@ Examples of code for job applications
 - [Coding Convention](#coding-convention)
 - [Code Examples](#code-examples)
 - [Versions Code Examples were made](#versions-code-examples-were-made)
-- [Design Methodology](#design-methodology)
 - [Bugs/ Errors/Feedback](#bugs-errors-or-feedback)
 
 ## Introduction
@@ -84,6 +83,10 @@ e. Lifewire Polls
 
 Using Lifewire and Laravel to create dynamic frontend website for Polls. Using Livewire it instantly updates forms and voting. Polls and options can be created and voted upon. Uses Blade for templates and Tailwind for styling.
 
+f. Job Board
+
+A job board where applicants and employers can log in. Applicants can apply to jobs. Employers can create, edit, and delete job postings. Jobs have a title, description, salary indication, location, and various categories such as which sector and what level.Jobs are searchable and filterable. Uses Tailwind and Vite.
+
 #### Microsoft .NET Core
 
 Examples of OOP MVC apps in .NET Core, C#, and SQL. First example shows a simple website with jokes database, user registration and login, CRUD and search operations. 
@@ -112,20 +115,6 @@ Examples of Unit Testing such as PHPUnit for PHP
 - Laravel: 10/11
 - .NET Core: 8
 - C#: 12
-
-## Design Methodology
-
-The below I have experience with or in the process of learning
-
-- [Design Patterns](https://refactoring.guru/design-patterns/php)
-- [SOLID](https://en.wikipedia.org/wiki/SOLID)
-- [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming)
-- [MVC](https://nl.wikipedia.org/wiki/Model-view-controller-model)
-- [Agile (e.g. Scrum, Kanban)](https://leansixsigmagroep.nl/en/lean-agile-and-six-sigma/what-is-agile/)
-- [Agile vs. Waterfall vs. Kanban vs. Scrum: What’s the Difference?](https://www.lucidchart.com/blog/agile-vs-waterfall-vs-kanban-vs-scrum)
-- [Software Development Philosophies](https://en.wikipedia.org/wiki/List_of_software_development_philosophies)
-- [Database Design Basics](https://support.microsoft.com/en-us/office/database-design-basics-eb2159cf-1e30-401a-8084-bd4f9c9ca1f5)
-- [Database Design Principles](https://www.oreilly.com/library/view/access-database-design/0596002734/ch04.html)
 
 ## Bugs, Errors, or Feedback
 
