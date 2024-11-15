@@ -67,7 +67,7 @@ Different frameworks, cms, and projects can use different coding conventions. So
 ## Bugs, Errors, or Feedback
 
 While I do my best to present code examples, when there is a bug or error it is appreciated if you let me know. 
-Constructive criticism and feedback is after code review. It helps me to learn and improve. 
+Constructive criticism and feedback is welcome. It helps me to learn and improve, thank you.
 
 
 
