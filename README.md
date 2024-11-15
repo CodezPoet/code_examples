@@ -23,7 +23,7 @@ If there is some example of code you would like to see, please contact me first 
 - Algorhithms & Calculations
 - Basics
 - Design: e.g. Patterns, Principles, Solid
-- .NET Core MVC
+- .NET Core Apps
 
 ### Database
 
@@ -36,7 +36,7 @@ For example Database design examples, Doctrine, MongoDb, PDO PHP, Eloquent Larav
 - CMS: WordPress
 - Conversions
 - Design: e.g. Patterns, Principles, Solid
-- Frameworks MVC: Laravel, Symfony
+- Frameworks: Laravel, Symfony
 - Unit Testing
 
 ### Screenshots
