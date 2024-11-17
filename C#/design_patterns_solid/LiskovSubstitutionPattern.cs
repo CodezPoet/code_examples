@@ -55,6 +55,7 @@ namespace DesignPatterns
             }
          
         }
+        
         public class Demo
         {
             static public int Area(Rectangle r) => r.Width * r.Height;
