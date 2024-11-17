@@ -13,6 +13,7 @@ public class ExcerciseA
 
         double salary = Convert.ToDouble(input);
         double tax;
+        
         if (salary <= 8350)
         {
             tax = 8350 * .10;
