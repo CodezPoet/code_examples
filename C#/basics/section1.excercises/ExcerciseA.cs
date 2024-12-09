@@ -1,4 +1,4 @@
-namespace c_course_1.section1.excercises;
+namespace c_course_cont.section1.excercises;
 
 /*
  * Review question: Calculate the tax to be
@@ -9,7 +9,8 @@ public class ExcerciseA
     public static void MainExample()
     {
         Console.WriteLine("Please enter salary");
-        string input = Console.ReadLine();
+        
+        string? input = Console.ReadLine();
 
         double salary = Convert.ToDouble(input);
         double tax;
