@@ -30,6 +30,10 @@ public class RunExamples
         // section3.examples.example1.TestBox.MainExample();
         //  section3.examples.example2.TestEmployee.MainExample();
         // section3.examples.example4.TestOffice.MainExample();
-        section3.examples.example5.TestArea.MainExample();
+        // section3.examples.example5.TestArea.MainExample();
+        //section4.examples.example1.TestStatic.MainExample();
+        // section4.examples.example2.ExampleList.MainExample();
+       // section4.examples.example3.ExampleHash.MainExample();
+        section4.examples.exampleproject.XYZCompany.MainExample();
     }
 }
