@@ -33,7 +33,15 @@ public class RunExamples
         // section3.examples.example5.TestArea.MainExample();
         //section4.examples.example1.TestStatic.MainExample();
         // section4.examples.example2.ExampleList.MainExample();
-       // section4.examples.example3.ExampleHash.MainExample();
-        section4.examples.exampleproject.XYZCompany.MainExample();
+        // section4.examples.example3.ExampleHash.MainExample();
+        //  section4.examples.exampleproject.XYZCompany.MainExample();
+        // section4.examples.example4.ExampleException.MainExample();
+        // section4.examples.example5.TeamB.MainExample();
+        // section4.examples.example6.VarExample.MainExample();
+        //section5.examples.example1.LinqExample.MainExample();
+        // section5.examples.example2.LinqJoinDemo.MainExample();
+        // section6.examples.example1.TestEmployee.MainExample();
+        // section6.examples.example2.TestDelegate.MainExample();
+        section6.examples.example3.LambdaEx.MainExample();
     }
 }
