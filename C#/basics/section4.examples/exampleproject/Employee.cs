@@ -10,7 +10,7 @@ public class Employee
         this.empName = empName;
         this.empGrade = empGrade;
     }
-   
+
     public override string ToString()
     {
         string temp = empName + "(" + empGrade + ")";

@@ -9,7 +9,7 @@ public class RefOutDemo
 
         // result: i = 10;
         Console.WriteLine(" i = " + i);
-        
+
         // Pass by value. Simply passing the value
         // So after this, when you call i again, it will still be 10
         // (ur not calling the output from the method ( a = a * a), but what i is after running the method
@@ -33,6 +33,5 @@ public class RefOutDemo
         double f;
         i = obj.GetParts(10.125, out f);
         Console.WriteLine("f = " + f);
-     
     }
 }

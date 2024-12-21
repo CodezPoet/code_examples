@@ -6,10 +6,10 @@ public class TestBox
     public static void MainExample()
     {
         Box fedEx = new Box();
-        fedEx.calculateArea(4, 5 );
+        fedEx.calculateArea(4, 5);
 
         BigBox ups = new BigBox();
-        ups.calculateArea(3, 4 );
+        ups.calculateArea(3, 4);
         ups.CalculateVolume(3, 4, 5);
     }
 }

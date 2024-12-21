@@ -1,4 +1,4 @@
-namespace c_course_1.section2.examples.example2;
+namespace c_course_cont.section2.examples.example2;
 
 public class Box
 {

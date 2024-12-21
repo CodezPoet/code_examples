@@ -39,15 +39,15 @@ public class LambdaEx
         };
 
         Console.WriteLine(calc(10, 20));
-        
+
         // If no return present like void return type than cannot use func, need to use Action
         // Action does not have return type, it only has passing parameters
-        Action<string> act = (x) => { Console.WriteLine("Hello "+ x); };
+        Action<string> act = (x) => { Console.WriteLine("Hello " + x); };
         act("Alex");
-        
+
         // Predicate always returns boolean value
         // A lot of people don't use Predicate, but Func with boolean return type instead
-        Predicate<int> p = (x) => x > 0; 
+        Predicate<int> p = (x) => x > 0;
         Console.WriteLine(p(20));
     }
 }

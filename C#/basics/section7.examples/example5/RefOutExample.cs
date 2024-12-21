@@ -17,7 +17,7 @@ public class RefOutExample
         // so a (i) is 100
         a = a * a;
     }
-    
+
     public int GetParts(double n, out double frac)
     {
         int whole;

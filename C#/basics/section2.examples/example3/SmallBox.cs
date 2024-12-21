@@ -1,9 +1,9 @@
-namespace c_course_1.section2.examples.example3;
+namespace c_course_cont.section2.examples.example3;
 
 public class SmallBox
 {
     public int length;
-    public int width; 
+    public int width;
 
     /*
      * Constructor:
@@ -23,7 +23,7 @@ public class SmallBox
         this.length = length;
         this.width = width;
     }
-    
+
     public void CalculateArea()
     {
         Console.WriteLine("Area = " + (length * width));

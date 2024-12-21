@@ -10,8 +10,8 @@ public class Department
 
     public void AddEmployee(Employee obj)
     {
-      //  emps[counter] = obj;
-      emps.Add(obj);
+        //  emps[counter] = obj;
+        emps.Add(obj);
         counter++;
         if (obj.empGrade > 5)
         {

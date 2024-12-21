@@ -1,4 +1,4 @@
-namespace c_course_1.section1.examples;
+namespace c_course_cont.section1.examples;
 
 public class ExampleArray
 {
@@ -10,9 +10,9 @@ public class ExampleArray
         Console.WriteLine(a[3]);
         a[4] = 55;
         Console.WriteLine(a[4]);
-        
+
         Console.WriteLine("-------------------");
-        
+
         // loop using for
         for (int i = 0; i < a.Length; i++)
         {
@@ -20,15 +20,15 @@ public class ExampleArray
         }
 
         Console.WriteLine("-------------------");
-        
+
         // loop using foreach
         foreach (int tempvar in a)
         {
             Console.WriteLine(tempvar);
         }
-        
+
         Console.WriteLine("-------------------");
-        
+
         // initialize array and then assign values
         int[] x = new int[6];
         x[0] = 10;
@@ -37,6 +37,5 @@ public class ExampleArray
         {
             Console.WriteLine(z);
         }
-
     }
 }

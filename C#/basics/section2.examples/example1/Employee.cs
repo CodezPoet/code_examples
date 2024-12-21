@@ -1,4 +1,4 @@
-namespace c_course_1.section2.examples.example1;
+namespace c_course_cont.section2.examples.example1;
 
 public class Employee
 {

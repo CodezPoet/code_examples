@@ -1,4 +1,4 @@
-namespace c_course_1.section1.examples;
+namespace c_course_cont.section1.examples;
 
 public class ExampleString
 {
@@ -12,23 +12,23 @@ public class ExampleString
         Console.WriteLine(x.Substring(4, 5)); // d Bec
         Console.WriteLine(x.IndexOf("v")); // 2
         Console.WriteLine(x[1]); //a
-        
+
         Console.WriteLine("-------------------");
 
-        string[] y = {"one" , "two", "three"};
+        string[] y = { "one", "two", "three" };
         foreach (string z in y)
         {
             Console.WriteLine(z);
         }
 
         Console.WriteLine("-------------------");
-        
+
         string age = "34";
         string sal = "97456.71";
 
         int g = Convert.ToInt32(age);
-        Console.WriteLine(g/ 2);
-       
+        Console.WriteLine(g / 2);
+
         Console.WriteLine(Convert.ToDouble(sal) * .02);
     }
 }

@@ -19,6 +19,7 @@ public class ReadFile
                 // Read the nex line
                 line = sr.ReadLine();
             }
+
             // Close the file
             sr.Close();
         }

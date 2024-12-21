@@ -1,4 +1,4 @@
-namespace c_course_1.section1.examples;
+namespace c_course_cont.section1.examples;
 
 public class ExampleFor
 {

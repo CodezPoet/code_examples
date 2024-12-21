@@ -1,7 +1,7 @@
 using System.Text;
 using System.Threading.Tasks;
 
-namespace c_course_1.section1.examples;
+namespace c_course_cont.section1.examples;
 
 // My first program
 public class ExampleOne

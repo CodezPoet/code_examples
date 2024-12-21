@@ -19,7 +19,7 @@ public class Calculate
 
     // You can use Generics not only as passing arguments, but also as return type
     // Example 2
-     public T IsEqual<T>(T var1, T var2)
+    public T IsEqual<T>(T var1, T var2)
     {
         //  if (var1 == var2)
         // when using <> in the method need to use Equals instead of == for comparison
@@ -34,6 +34,7 @@ public class Calculate
 
         return var1;
     }
+
     // You are not restricted to using one type, you can use multiple (<T,Y> e.g.)
     // Example 3
     public S IsEqual<T, S>(T var1, T var2, S var3)
@@ -44,7 +45,7 @@ public class Calculate
         Console.WriteLine("the type of S is" + type2);
         return var3;
     }
-    
+
     // We can restrict to Object
     // Can also use inherited subclasses
     // Example 4

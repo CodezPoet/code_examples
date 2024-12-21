@@ -26,6 +26,6 @@ public class DelegateClass
 
     public decimal MethodA(int a, int b, Calculate z)
     {
-       return z(a, b);
+        return z(a, b);
     }
 }

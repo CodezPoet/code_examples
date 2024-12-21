@@ -6,13 +6,11 @@ public class TestDelegate
 {
     public static void MainExample()
     {
-
-
         int x = 10;
         Calculate calc = DelegateClass.Add;
 
         Console.WriteLine(calc(10, 20));
-        
+
         Console.WriteLine("-------------------");
 
         x = 20;
@@ -20,21 +18,21 @@ public class TestDelegate
         Console.WriteLine(calc(10, 20));
 
         Console.WriteLine("-------------------");
-        
+
         DelegateClass obj = new DelegateClass();
         calc = obj.Divide;
         Console.WriteLine(calc(20, 5));
 
         Console.WriteLine("-------------------");
-        
+
         calc = DelegateClass.Subtract;
         Console.WriteLine(obj.MethodA(200, 5, calc));
 
         Console.WriteLine("-------------------");
-        
+
         // Anonymous methods. Anonymous methods doesn't belong to any class en doesn't have a name.
         x = 30;
-   
+
         // or Calculate calc 
         calc = delegate(int a, int b)
         {
@@ -42,8 +40,8 @@ public class TestDelegate
             return a + b + 5;
         };
         Console.WriteLine(calc(20, 5));
-        Console.WriteLine(obj.MethodA(200, 5 , calc));
-        
+        Console.WriteLine(obj.MethodA(200, 5, calc));
+
         Console.WriteLine("-------------------");
     }
 }

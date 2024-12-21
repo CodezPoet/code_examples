@@ -9,12 +9,12 @@ public class ExcerciseA
     public static void MainExample()
     {
         Console.WriteLine("Please enter salary");
-        
+
         string? input = Console.ReadLine();
 
         double salary = Convert.ToDouble(input);
         double tax;
-        
+
         if (salary <= 8350)
         {
             tax = 8350 * .10;

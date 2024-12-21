@@ -17,7 +17,7 @@ public class ExampleHash
         ht.Add("employee", alex);
         ht["car"] = "4 door";
         ht.Remove("Two");
-        
+
         Console.WriteLine(ht["employee"]);
         Console.WriteLine(ht["------------"]);
 
@@ -26,21 +26,21 @@ public class ExampleHash
         {
             Console.WriteLine(o.ToString() + " : " + ht[o]);
         }
-        
+
         Console.WriteLine("------------------------");
-        
+
         // Dictionary Example 
         Dictionary<string, double> d1 = new Dictionary<string, double>();
         d1.Add("Alex", 100000);
         d1.Add("Linda", 110000);
         d1.Add("John", 120000);
-        
+
         // get the keys
         Console.WriteLine(d1["Linda"]);
         Console.WriteLine("-----------------------------");
         foreach (string x in d1.Keys)
         {
-            Console.WriteLine(" For employee {0} the salary is {1}" , x, d1[x]);
+            Console.WriteLine(" For employee {0} the salary is {1}", x, d1[x]);
         }
     }
 }

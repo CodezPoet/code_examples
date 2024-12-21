@@ -1,4 +1,4 @@
-namespace c_course_1.section2.examples.example4;
+namespace c_course_cont.section2.examples.example4;
 
 public class Employee
 {
@@ -9,10 +9,10 @@ public class Employee
     // {
     //     return bonus;
     // }
-    
+
     public void SetSalary(double salary)
     {
-        if (salary < 40000  || salary > 150000)
+        if (salary < 40000 || salary > 150000)
         {
             Console.WriteLine("Please check salary");
             this.salary = 0;
@@ -24,6 +24,7 @@ public class Employee
             this.bonus = salary * .20;
         }
     }
+
     public void CalculateTotalPay()
     {
         double totalPay = salary + bonus;

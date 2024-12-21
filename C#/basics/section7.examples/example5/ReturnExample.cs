@@ -10,5 +10,5 @@ public class ReturnExample
         list.Add(34.5);
         list.Add(true);
         return list;
-    } 
+    }
 }

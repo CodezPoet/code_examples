@@ -1,4 +1,4 @@
-namespace c_course_1.section3.exampleproject;
+namespace c_course_cont.section3.exampleproject;
 
 public class XYZCompany
 {

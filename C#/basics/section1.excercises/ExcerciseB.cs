@@ -1,4 +1,4 @@
-namespace c_course_1.section1.excercises;
+namespace c_course_cont.section1.excercises;
 
 /*
  * Review question 2:

@@ -8,10 +8,10 @@ public class TestEmployee
         Employee alex = new Employee();
         alex.CalculateTax(120000);
         alex.CalculateVacation(7);
-        
+
         Console.WriteLine("--------------------");
-        
-        PartTimeEmployees lynda  = new PartTimeEmployees();
+
+        PartTimeEmployees lynda = new PartTimeEmployees();
         lynda.CalculateTax(120000);
         lynda.CalculateVacation(7);
         lynda.PrintContractDetails();

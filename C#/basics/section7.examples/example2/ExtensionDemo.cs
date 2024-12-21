@@ -6,7 +6,7 @@ public class ExtensionDemo
     {
         double a = 10;
         Console.WriteLine(a.divide(2));
-        
+
         string str = "World";
         Console.WriteLine(str.ReverseText());
     }

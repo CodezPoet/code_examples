@@ -8,7 +8,7 @@ public static class ExtensionExample
     {
         return a / b;
     }
-    
+
     public static string ReverseText(this string str) // extend string
     {
         StringBuilder sb = new StringBuilder();
@@ -16,6 +16,7 @@ public static class ExtensionExample
         {
             sb.Append(str[i]);
         }
+
         return sb.ToString();
     }
 }

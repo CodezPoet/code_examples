@@ -1,10 +1,10 @@
-namespace c_course_1.section2.examples.example3;
+namespace c_course_cont.section2.examples.example3;
 
 public class TestSmallBox
 {
     public static void MainExample()
     {
-        SmallBox fedEx1 = new SmallBox(3,4);
+        SmallBox fedEx1 = new SmallBox(3, 4);
         //  fedEx1.length = 6;
         //  fedEx1.width = 5;
         fedEx1.CalculateArea();

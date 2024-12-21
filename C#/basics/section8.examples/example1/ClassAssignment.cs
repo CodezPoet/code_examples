@@ -1,6 +1,6 @@
 namespace c_course_cont.section8.examples.example1;
 
-public class MyClass 
+public class MyClass
 {
     public int x;
 }
