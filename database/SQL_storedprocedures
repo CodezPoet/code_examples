@@ -1,0 +1,14 @@
+/* Example 1 */
+
+CREATE PROCEDURE ExampleAppSchema.spUsers_Get
+/* EXEX ExampleAppSchame.spUsers_Get*/
+AS
+BEGIN
+    SELECT  [Users].[UserId],
+            [Users].[FirstName],
+            [Users].[LastName],
+            [Users].[Email],
+            [Users].[Gender],
+            [Users].[Active]
+    FROM TutorialAppSchema.Users AS Users
+END
