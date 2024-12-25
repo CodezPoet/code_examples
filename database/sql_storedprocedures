@@ -1,14 +1,38 @@
 /* Example 1 */
 
-CREATE PROCEDURE ExampleAppSchema.spUsers_Get
-/* EXEX ExampleAppSchame.spUsers_Get*/
-AS
-BEGIN
-    SELECT  [Users].[UserId],
-            [Users].[FirstName],
-            [Users].[LastName],
-            [Users].[Email],
-            [Users].[Gender],
-            [Users].[Active]
-    FROM TutorialAppSchema.Users AS Users
-END
+ CREATE PROC usp_UpdateCompany
+	                @CompanyId int,
+                    @Name varchar(MAX),
+	                @Address  varchar(MAX),
+	                @City varchar(MAX),
+	                @State varchar(MAX),
+	                @PostalCode varchar(MAX)
+                AS
+                BEGIN 
+                    UPDATE Companies  
+	                SET 
+		                Name = @Name, 
+		                Address = @Address,
+		                City=@City, 
+		                State=@State, 
+		                PostalCode=@PostalCode
+	                WHERE CompanyId=@CompanyId;
+	                SELECT @CompanyId = SCOPE_IDENTITY();
+                END
+                GO
+
+/* Example 2 */ 
+
+ CREATE PROC usp_AddCompany
+                    @CompanyId int OUTPUT,
+                    @Name varchar(MAX),
+	                @Address varchar(MAX),
+	                @City varchar(MAX),
+	                @State varchar(MAX),
+	                @PostalCode varchar(MAX)
+                AS
+                BEGIN 
+                    INSERT INTO Companies (Name, Address, City, State, PostalCode) VALUES(@Name, @Address, @City, @State, @PostalCode);
+	                SELECT @CompanyId = SCOPE_IDENTITY();
+                END
+                GO
