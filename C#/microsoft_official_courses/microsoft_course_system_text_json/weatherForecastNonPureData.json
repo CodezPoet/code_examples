@@ -1,0 +1,7 @@
+{
+    "Date": "2019-08-01T00:00:00-07:00", /* Today? */
+    "TemperatureCelsius": "30", // Fahrenheid 77
+    "Summary": "Hot",
+    // Comments on 
+    /* seperate lines */
+}
