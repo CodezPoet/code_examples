@@ -1,5 +1,5 @@
- ###
- GET http://localhost:5248/todos
+###
+GET http://localhost:5248/todos
 
 ###
 POST http://localhost:5248/todos
