@@ -19,18 +19,18 @@ namespace CourseExcercises.Projects.VariablesCommentsConventionsProject
             // This is a code comment
 
             /*
-              string firstName = "Bob";
-              int widgetsPurchased = 7;
-              Console.WriteLine($"{firstName} sold {widgetsPurchased}  widgets.");
+                string firstName = "Bob";
+                int widgetsPurchased = 7;
+                Console.WriteLine($"{firstName} sold {widgetsPurchased}  widgets.");
             */
 
             /* 
-              The following code creates five random OrderIDs
-              to test the fraud detection process. OrderIDs
-              consist of a letter from A to E, and a three
-              digit numer. Ex A123.
+                The following code creates five random OrderIDs
+                to test the fraud detection process. OrderIDs
+                consist of a letter from A to E, and a three
+                digit numer. Ex A123.
              */
-            Random random = new Random();
+            Random random = new();
             string[] orderIDs = new string[5];
 
             for (int i = 0; i < orderIDs.Length; i++)
@@ -69,7 +69,7 @@ namespace CourseExcercises.Projects.VariablesCommentsConventionsProject
     {
         public static void MainExample()
         {
-            Random dice = new Random();
+            Random dice = new();
 
             int roll1 = dice.Next(1, 7);
             int roll2 = dice.Next(1, 7);
@@ -97,9 +97,9 @@ namespace CourseExcercises.Projects.VariablesCommentsConventionsProject
     public class CodeReadibilityChallenge
     {
         /* 
-          This coe reverses a message, counts the number of times
-          a particalur character appears, then prints the results
-          to the console window
+            This code reverses a message, counts the number of times
+            a particalur character appears, then prints the results
+            to the console window
         */
         public static void MainExample()
         {
